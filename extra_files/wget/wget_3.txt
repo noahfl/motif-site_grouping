@@ -1,0 +1,875 @@
+execve("/usr/bin/wget", ["wget", "en.wikipedia.org/wiki/South_Afri"...], [/* 45 vars */]) = 0
+brk(0)                                  = 0x1099000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80c000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbc1a7f0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc1a38e000
+mprotect(0x7fbc1a3e2000, 2097152, PROT_NONE) = 0
+mmap(0x7fbc1a5e2000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fbc1a5e2000
+mmap(0x7fbc1a5eb000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a5eb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc19fb4000
+mprotect(0x7fbc1a165000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc1a364000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7fbc1a364000
+mmap(0x7fbc1a38a000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a38a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a7ef000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc19d9b000
+mprotect(0x7fbc19db3000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc19fb2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fbc19fb2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc19b68000
+mprotect(0x7fbc19b99000, 2097152, PROT_NONE) = 0
+mmap(0x7fbc19d99000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fbc19d99000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc19963000
+mprotect(0x7fbc19967000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc19b66000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fbc19b66000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a7ee000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc1959d000
+mprotect(0x7fbc19759000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc19958000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fbc19958000
+mmap(0x7fbc1995e000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbc1995e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc19399000
+mprotect(0x7fbc1939c000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc1959b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fbc1959b000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a7ed000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a7eb000
+arch_prctl(ARCH_SET_FS, 0x7fbc1a7eb780) = 0
+mprotect(0x7fbc19958000, 16384, PROT_READ) = 0
+mprotect(0x7fbc1959b000, 4096, PROT_READ) = 0
+mprotect(0x7fbc19b66000, 4096, PROT_READ) = 0
+mprotect(0x7fbc19d99000, 4096, PROT_READ) = 0
+mprotect(0x7fbc19fb2000, 4096, PROT_READ) = 0
+mprotect(0x7fbc1a364000, 110592, PROT_READ) = 0
+mprotect(0x7fbc1a5e2000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7fbc1a80e000, 4096, PROT_READ) = 0
+munmap(0x7fbc1a7f0000, 111089)          = 0
+brk(0)                                  = 0x1099000
+brk(0x10ba000)                          = 0x10ba000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbc190d0000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fffb2d710f0) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fbc195d3ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7fbc195d3ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fbc195d3ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7fbc195d3ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fbc195d3ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7fbc195d3ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=50508544, f_bavail=47491738, f_files=15065088, f_ffree=14838359, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("South_African_labour_law", 0x7fffb2d70cd0) = -1 ENOENT (No such file or directory)
+stat("South_African_labour_law", 0x7fffb2d70d70) = -1 ENOENT (No such file or directory)
+statfs(".", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=50508543, f_bavail=47491737, f_files=15065088, f_ffree=14838359, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("South_African_labour_law", 0x7fffb2d70cd0) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+write(2, "--2014-06-27 13:32:03--  http://"..., 79) = 79
+stat("/home/bearface/.netrc", 0x7fffb2d707d0) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving en.wikipedia.org (en.w"..., 49) = 49
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+getpid()                                = 19766
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbc1a7f0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc18ec4000
+mprotect(0x7fbc18ecf000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc190ce000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fbc190ce000
+close(3)                                = 0
+mprotect(0x7fbc190ce000, 4096, PROT_READ) = 0
+munmap(0x7fbc1a7f0000, 111089)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbc1a7f0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc18cc1000
+mprotect(0x7fbc18cc3000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc18ec2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fbc18ec2000
+close(3)                                = 0
+mprotect(0x7fbc18ec2000, 4096, PROT_READ) = 0
+munmap(0x7fbc1a7f0000, 111089)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fbc1a7f0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc18abb000
+mprotect(0x7fbc18ac0000, 2093056, PROT_NONE) = 0
+mmap(0x7fbc18cbf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fbc18cbf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fbc188a0000
+mprotect(0x7fbc188b7000, 2097152, PROT_NONE) = 0
+mmap(0x7fbc18ab7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fbc18ab7000
+mmap(0x7fbc18ab9000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fbc18ab9000
+close(3)                                = 0
+mprotect(0x7fbc18ab7000, 4096, PROT_READ) = 0
+mprotect(0x7fbc18cbf000, 4096, PROT_READ) = 0
+munmap(0x7fbc1a7f0000, 111089)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"A\177\1\0\0\1\0\0\0\0\0\0\2en\twikipedia\3org\0\0\1"..., 34}], msg_controllen=0, msg_flags=0}, 34}, {{msg_name(0)=NULL, msg_iov(1)=[{"\\N\1\0\0\1\0\0\0\0\0\0\2en\twikipedia\3org\0\0\34"..., 34}], msg_controllen=0, msg_flags=0}, 34}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [217])               = 0
+recvfrom(3, "A\177\201\200\0\1\0\3\0\3\0\3\2en\twikipedia\3org\0\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 217
+poll([{fd=3, events=POLLIN}], 1, 4997)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [229])               = 0
+recvfrom(3, "\\N\201\200\0\1\0\3\0\3\0\3\2en\twikipedia\3org\0\0\34"..., 1831, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 229
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a80b000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fbc1a80b000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=19766, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3\223\252\255S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0\223\252\255S6M\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 308
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\223\252\255S6M\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 256
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\223\252\255S6M\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("208.80.154.224")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(40692), sin_addr=inet_addr("10.203.102.13")}, [16]) = 0
+close(3)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2620:0:861:ed1a::1", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(3)                                = 0
+write(2, "208.80.154.224", 14)          = 14
+write(2, ", ", 2)                       = 2
+write(2, "2620:0:861:ed1a::1", 18)      = 18
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to en.wikipedia.org ("..., 72) = 72
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("208.80.154.224")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET /wiki/South_African_labour_l"..., 143) = 143
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 974257})
+recvfrom(3, "HTTP/1.1 200 OK\r\nServer: Apache\r"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nServer: Apache\r"..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "ust-revalidate\r\nSet-Cookie: GeoI"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "ust-revalidate\r\nSet-Cookie: GeoI"..., 105) = 105
+write(2, "200 OK\n", 7)                 = 7
+stat("South_African_labour_law", 0x7fffb2d707b0) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+open("South_African_labour_law", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230South_African_labo"..., 42) = 42
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7fbc1a805000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "008000\r\n<!DOCTYPE html>\n<html la"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "<!DOCTYPE html>\n<html lang=\"en\" "..., 8192) = 4848
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fbc1a804000
+write(4, "<!DOCTYPE html>\n<html lang=\"en\" "..., 4096) = 4096
+write(4, "dules\":{\"toolbar\":true,\"dialogs\""..., 752) = 752
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "elpGuiderUrl\":\"Help:Guided tours"..., 8192) = 8192
+write(4, "elpGuiderUrl\":\"Help:Guided tours"..., 4096) = 4096
+write(4, "earchNs3\":false,\"searchNs4\":fals"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "_law&amp;action=", 8192)       = 16
+write(4, "_law&amp;action=", 16)        = 16
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 927385})
+read(3, "edit\">improve this article</a> i"..., 8192) = 4104
+write(4, "edit\">improve this article</a> i"..., 4096) = 4096
+write(4, ">too man", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943101})
+read(3, "y section headers dividing up it"..., 8192) = 8192
+write(4, "y section headers dividing up it"..., 4096) = 4096
+write(4, "ceipt_into_service\"><span class="..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "oclevel-2 tocsection-48\"><a href"..., 7416) = 4120
+write(4, "oclevel-2 tocsection-48\"><a href"..., 4096) = 4096
+write(4, "ion-73\"><a href=\"#Enforc", 24) = 24
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949208})
+read(3, "ement\"><span class=\"tocnumber\">6"..., 3296) = 3296
+write(4, "ement\"><span class=\"tocnumber\">6"..., 3296) = 3296
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\n an automatically unfa"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\n an automatically unfair"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, " an automatically unfair dismiss"..., 8192) = 7638
+write(4, " an automatically unfair dismiss"..., 4096) = 4096
+write(4, "level-3 tocsection-113\"><a href="..., 3542) = 3542
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 929228})
+read(3, "umber\">7.6</span> <span class=\"t"..., 8192) = 1368
+write(4, "umber\">7.6</span> <span class=\"t"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948377})
+read(3, "ext\">Assessment and evaluation b"..., 8192) = 8192
+write(4, "ext\">Assessment and evaluation b"..., 4096) = 4096
+write(4, "><a href=\"#Consultation_process_"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "oclevel-3 tocsection-182\"><a hre"..., 8192) = 8192
+write(4, "oclevel-3 tocsection-182\"><a hre"..., 4096) = 4096
+write(4, "octext\">Freedom not to associate"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "nisational_rights\"><span class=\""..., 7378) = 5504
+write(4, "nisational_rights\"><span class=\""..., 4096) = 4096
+write(4, "n-254\"><a href=\"#Matters_for_joi"..., 1408) = 1408
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948757})
+read(3, "d lock-outs in terms of section "..., 1874) = 1874
+write(4, "d lock-outs in terms of section "..., 1874) = 1874
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n008000\r\n\">History of South Afr"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\n\">History of South Afric"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\">History of South African labou"..., 8192) = 8192
+write(4, "\">History of South African labou"..., 4096) = 4096
+write(4, "=\"Skills Development Act\" class="..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " courts are enjoined, when apply"..., 8192) = 8192
+write(4, " courts are enjoined, when apply"..., 4096) = 4096
+write(4, "o conductio operarum (page does "..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "he definition of an \"employee,\" "..., 8192) = 2252
+write(4, "he definition of an \"employee,\" "..., 2252) = 2252
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 934538})
+read(3, "ntrol, as once they did, but rec"..., 8192) = 1368
+write(4, "ntrol, as once they did, but rec"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ction=edit&amp;redlink=1\" class="..., 8192) = 5472
+write(4, "ction=edit&amp;redlink=1\" class="..., 4096) = 4096
+write(4, "i>\n<li>He agrees, expressly or i"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "rence\"><a href=\"#cite_note-8\"><s"..., 7292) = 4104
+write(4, "rence\"><a href=\"#cite_note-8\"><s"..., 4096) = 4096
+write(4, "ss=\"mw-e", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ditsection-bracket\">]</span></sp"..., 3188) = 1368
+write(4, "ditsection-bracket\">]</span></sp"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949371})
+read(3, "enzie (page does not exist)\">SA "..., 1820) = 1368
+write(4, "enzie (page does not exist)\">SA "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949173})
+read(3, " the contract of work terminates"..., 452) = 452
+write(4, " the contract of work terminates"..., 452) = 452
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\n<span class=\"mw-editse"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\n<span class=\"mw-editsect"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "<span class=\"mw-editsection-brac"..., 8192) = 5010
+write(4, "<span class=\"mw-editsection-brac"..., 4096) = 4096
+write(4, " of the Basic Conditions of Empl"..., 914) = 914
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949751})
+read(3, "party (the employee) works for a"..., 8192) = 1368
+write(4, "party (the employee) works for a"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\"/w/index.php?title=South_Africa"..., 8192) = 2736
+write(4, "\"/w/index.php?title=South_Africa"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, ";action=edit&amp;section=18\" tit"..., 8192) = 1368
+write(4, ";action=edit&amp;section=18\" tit"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947857})
+read(3, "ciprocal contract. This means th"..., 8192) = 8192
+write(4, "ciprocal contract. This means th"..., 4096) = 4096
+write(4, "s or salespersons working on com"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "span><a href=\"/w/index.php?title"..., 8192) = 8192
+write(4, "span><a href=\"/w/index.php?title"..., 4096) = 4096
+write(4, "?title=South_African_labour_law&"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "an></h6>\n<p>Any misconduct that ", 5902) = 32
+write(4, "an></h6>\n<p>Any misconduct that ", 32) = 32
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948222})
+read(3, "renders the continuation of the "..., 5870) = 5870
+write(4, "renders the continuation of the "..., 4096) = 4096
+write(4, "n class=\"mw-editsection-bracket\""..., 1774) = 1774
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\nection\"><span class=\"m"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\nection\"><span class=\"mw-"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ection\"><span class=\"mw-editsect"..., 8192) = 8192
+write(4, "ection\"><span class=\"mw-editsect"..., 4096) = 4096
+write(4, ">\n<p>In the past, the concept of"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "the constitutional right is just"..., 8192) = 6448
+write(4, "the constitutional right is just"..., 4096) = 4096
+write(4, " car at his disposal; these were"..., 2352) = 2352
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948748})
+read(3, "committee.</p>\n<h5><span class=\""..., 8192) = 8192
+write(4, "committee.</p>\n<h5><span class=\""..., 4096) = 4096
+write(4, " more important in the future.</"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "on=59\" title=\"Edit section: Fail"..., 8192) = 2752
+write(4, "on=59\" title=\"Edit section: Fail"..., 2752) = 2752
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 940605})
+read(3, "ged;</li>\n<li>\"unfair discrimina"..., 7184) = 1368
+write(4, "ged;</li>\n<li>\"unfair discrimina"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949811})
+read(3, "er. The employee found himself c"..., 5816) = 2736
+write(4, "er. The employee found himself c"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "here are three mechanisms design"..., 3080) = 3080
+write(4, "here are three mechanisms design"..., 3080) = 3080
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n008000\r\nthe workplace.</p>\n<p>"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\nthe workplace.</p>\n<p>Th"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "the workplace.</p>\n<p>This is th"..., 8192) = 3750
+write(4, "the workplace.</p>\n<p>This is th"..., 3750) = 3750
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949616})
+read(3, "ent</a>:</p>\n<ol>\n<li>physical c"..., 8192) = 1368
+write(4, "ent</a>:</p>\n<ol>\n<li>physical c"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946907})
+read(3, "ictim experienced the situation "..., 8192) = 8192
+write(4, "ictim experienced the situation "..., 4096) = 4096
+write(4, "an><span class=\"mw-editsection\">"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ch testing is prohibited unless "..., 8192) = 8192
+write(4, "ch testing is prohibited unless "..., 4096) = 4096
+write(4, "ifts to the employer to prove th"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "h_African_labour_law&amp;action="..., 8192) = 8192
+write(4, "h_African_labour_law&amp;action="..., 4096) = 4096
+write(4, " id=\"Administrative_procedures\">"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ion that there existed equal bar"..., 3074) = 48
+write(4, "ion that there existed equal bar"..., 48) = 48
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949930})
+read(3, "tween employer and employee.</p>"..., 3026) = 1368
+write(4, "tween employer and employee.</p>"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949627})
+read(3, "idation of co-workers.</p>\n<p>Ca"..., 1658) = 1368
+write(4, "idation of co-workers.</p>\n<p>Ca"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "lexibility required for the free"..., 290) = 290
+write(4, "lexibility required for the free"..., 290) = 290
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n008000\r\nn needed</span></a></i"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\nn needed</span></a></i>]"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "n needed</span></a></i>]</sup> O"..., 8192) = 8192
+write(4, "n needed</span></a></i>]</sup> O"..., 4096) = 4096
+write(4, "erence\"><a href=\"#cite_note-53\">"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "to contractual claims; it does n"..., 8192) = 2452
+write(4, "to contractual claims; it does n"..., 2452) = 2452
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " purposive interpretation of the"..., 8192) = 5472
+write(4, " purposive interpretation of the"..., 4096) = 4096
+write(4, "</i>,<sup id=\"cite_ref-65\" class"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ns relating to pregnancy</span><"..., 8192) = 5472
+write(4, "ns relating to pregnancy</span><"..., 4096) = 4096
+write(4, "tely. He is not automatically di"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " period of time? This depends on"..., 8192) = 6840
+write(4, " period of time? This depends on"..., 4096) = 4096
+write(4, "ted that victims of automaticall"..., 2744) = 2744
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "t (assault, for example, or inti"..., 4340) = 2736
+write(4, "t (assault, for example, or inti"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949523})
+read(3, "v SACWU &amp; Others (page does "..., 1604) = 1368
+write(4, "v SACWU &amp; Others (page does "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "ends to get rid of the workers p"..., 236) = 236
+write(4, "ends to get rid of the workers p"..., 236) = 236
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n008000\r\nd&amp;action=edit&amp;"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\nd&amp;action=edit&amp;re"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "d&amp;action=edit&amp;redlink=1\""..., 8192) = 8192
+write(4, "d&amp;action=edit&amp;redlink=1\""..., 4096) = 4096
+write(4, "impermissible the dismissal of a"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "igin in common law as an implied"..., 8192) = 2506
+write(4, "igin in common law as an implied"..., 2506) = 2506
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946877})
+read(3, "plinary action against employees"..., 8192) = 8192
+write(4, "plinary action against employees"..., 4096) = 4096
+write(4, "propensity\" on the part of the e"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "or standard.</li>\n</ul>\n</li>\n</"..., 8192) = 8192
+write(4, "or standard.</li>\n</ul>\n</li>\n</"..., 4096) = 4096
+write(4, "ressed is whether or not the emp"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "th workers;</li>\n<li>written bri"..., 5686) = 5504
+write(4, "th workers;</li>\n<li>written bri"..., 4096) = 4096
+write(4, "h the workers in order to steal "..., 1408) = 1408
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947221})
+read(3, "he circumstances surrounding the"..., 182) = 182
+write(4, "he circumstances surrounding the"..., 182) = 182
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\n>\n<li>the position the"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\n>\n<li>the position the e"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, ">\n<li>the position the employer "..., 8192) = 5280
+write(4, ">\n<li>the position the employer "..., 4096) = 4096
+write(4, " class=\"mw-editsection\"><span cl"..., 1184) = 1184
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ually prescribes the procedure t"..., 8192) = 4104
+write(4, "ually prescribes the procedure t"..., 4096) = 4096
+write(4, " respons", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "e</span><span class=\"mw-editsect"..., 8192) = 1368
+write(4, "e</span><span class=\"mw-editsect"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949187})
+read(3, "at the director is also an emplo"..., 8192) = 4104
+write(4, "at the director is also an emplo"..., 4096) = 4096
+write(4, " fresh c", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "onsideration of the appropriate "..., 8192) = 4104
+write(4, "onsideration of the appropriate "..., 4096) = 4096
+write(4, "tion. Th", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944097})
+read(3, "e Code distinguishes between emp"..., 8192) = 8192
+write(4, "e Code distinguishes between emp"..., 4096) = 4096
+write(4, "fected after the completion of t"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "and review process had identifie"..., 5616) = 5616
+write(4, "and review process had identifie"..., 4096) = 4096
+write(4, "ibility</span><span class=\"mw-ed"..., 1520) = 1520
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n008000\r\nserious threat: for ex"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "008000\r\nserious threat: for exam"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "serious threat: for example, tha"..., 8192) = 8192
+write(4, "serious threat: for example, tha"..., 4096) = 4096
+write(4, "orary or permanent is also an im"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "tors in the economy at large). U"..., 8192) = 8192
+write(4, "tors in the economy at large). U"..., 4096) = 4096
+write(4, "n this proposal was rejected by "..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ietary_Mines_v_UPUSA&amp;action="..., 8192) = 5366
+write(4, "ietary_Mines_v_UPUSA&amp;action="..., 4096) = 4096
+write(4, " a sound economic rationale, and"..., 1270) = 1270
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, ">\n<p>In terms of s189A(1)(b), a "..., 8192) = 8192
+write(4, ">\n<p>In terms of s189A(1)(b), a "..., 4096) = 4096
+write(4, "riteria were fair and objective&"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "rocess\">edit</a><span class=\"mw-"..., 2826) = 2826
+write(4, "rocess\">edit</a><span class=\"mw-"..., 2826) = 2826
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\ned to keep an open min"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "008000\r\ned to keep an open mind "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ed to keep an open mind with reg"..., 8192) = 5388
+write(4, "ed to keep an open mind with reg"..., 4096) = 4096
+write(4, "le the employer may prefer the d"..., 1292) = 1292
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942571})
+read(3, "e excluding its successors. The "..., 8192) = 8192
+write(4, "e excluding its successors. The "..., 4096) = 4096
+write(4, "ass=\"mw-headline\" id=\"Selection_"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "it</a><span class=\"mw-editsectio"..., 8192) = 8192
+write(4, "it</a><span class=\"mw-editsectio"..., 4096) = 4096
+write(4, "yer must make this request when "..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "blem has a close practical conne"..., 8192) = 8192
+write(4, "blem has a close practical conne"..., 4096) = 4096
+write(4, "onsideration may take some other"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "n class=\"mw-editsection\"><span c"..., 2804) = 2804
+write(4, "n class=\"mw-editsection\"><span c"..., 2804) = 2804
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\n/p>\n<p>If the new empl"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "008000\r\n/p>\n<p>If the new employ"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "/p>\n<p>If the new employer decid"..., 8192) = 8192
+write(4, "/p>\n<p>If the new employer decid"..., 4096) = 4096
+write(4, "air if the retrenchment is based"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "itsection\"><span class=\"mw-edits"..., 8192) = 8192
+write(4, "itsection\"><span class=\"mw-edits"..., 4096) = 4096
+write(4, " employers in an employers' orga"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "t exist)\">Industrial Conciliatio"..., 8192) = 8192
+write(4, "t exist)\">Industrial Conciliatio"..., 4096) = 4096
+write(4, "rant workers could now join trad"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ere entrusted with the task of d"..., 8192) = 6858
+write(4, "ere entrusted with the task of d"..., 4096) = 4096
+write(4, "reference\"><a href=\"#cite_note-1"..., 2762) = 2762
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948579})
+read(3, "ut in section 95.</p>\n<p>Exclude"..., 1334) = 1334
+write(4, "ut in section 95.</p>\n<p>Exclude"..., 1334) = 1334
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\nef-111\" class=\"referen"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "008000\r\nef-111\" class=\"reference"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ef-111\" class=\"reference\"><a hre"..., 8192) = 8192
+write(4, "ef-111\" class=\"reference\"><a hre"..., 4096) = 4096
+write(4, "cts the right of employees to fo"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "er\342\200\231s resort to harassment agai"..., 8192) = 8192
+write(4, "er\342\200\231s resort to harassment agai"..., 4096) = 4096
+write(4, "<span>[</span>128<span>]</span><"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "n that he acquired by virtue of "..., 8192) = 8192
+write(4, "n that he acquired by virtue of "..., 4096) = 4096
+write(4, "itsection-bracket\">[</span><a hr"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "t not be higher than the subscri"..., 8192) = 2808
+write(4, "t not be higher than the subscri"..., 2808) = 2808
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946380})
+read(3, "pan class=\"mw-editsection\"><span"..., 5384) = 5384
+write(4, "pan class=\"mw-editsection\"><span"..., 4096) = 4096
+write(4, "/li>\n<li>in the case of agency-s"..., 1288) = 1288
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n008000\r\nill not interfere with"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "008000\r\nill not interfere with t"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ill not interfere with them, pro"..., 8192) = 8192
+write(4, "ill not interfere with them, pro"..., 4096) = 4096
+write(4, "h5>\n<p>Disputes about collective"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\" title=\"Edit section: Procedure"..., 8192) = 8192
+write(4, "\" title=\"Edit section: Procedure"..., 4096) = 4096
+write(4, "f the LRA grants unions the righ"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "wards also occupy supervisory or"..., 8192) = 8192
+write(4, "wards also occupy supervisory or"..., 4096) = 4096
+write(4, "ly registered unions which repre"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "lus one, or more, of all employe"..., 8192) = 8192
+write(4, "lus one, or more, of all employe"..., 4096) = 4096
+write(4, "=\"/w/index.php?title=Organisatio"..., 4096) = 4096
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n008000\r\noyer in a workplace, o"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999979})
+recvfrom(3, "008000\r\noyer in a workplace, or "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "oyer in a workplace, or the part"..., 8192) = 6972
+write(4, "oyer in a workplace, or the part"..., 4096) = 4096
+write(4, " the union of a dispute, if any,"..., 2876) = 2876
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949846})
+read(3, "the nature of the one or more or"..., 8192) = 1368
+write(4, "the nature of the one or more or"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "n 21 procedure runs as follows:<"..., 8192) = 1368
+write(4, "n 21 procedure runs as follows:<"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "uld allow a non-majority trade u"..., 8192) = 1368
+write(4, "uld allow a non-majority trade u"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949654})
+read(3, " id=\"cite_ref-151\" class=\"refere"..., 8192) = 1368
+write(4, " id=\"cite_ref-151\" class=\"refere"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "y, but is unsuccessful in forcin"..., 8192) = 1368
+write(4, "y, but is unsuccessful in forcin"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949648})
+read(3, "llective bargaining</span><span "..., 8192) = 1368
+write(4, "llective bargaining</span><span "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949888})
+read(3, "t only to listen to and consider"..., 8192) = 1368
+write(4, "t only to listen to and consider"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949868})
+read(3, "e are several options available "..., 8192) = 2736
+write(4, "e are several options available "..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947053})
+read(3, " legally enforceable right to ba"..., 8192) = 2736
+write(4, " legally enforceable right to ba"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, " id=\"cite_ref-155\" class=\"refere"..., 8192) = 8192
+write(4, " id=\"cite_ref-155\" class=\"refere"..., 4096) = 4096
+write(4, "s of interest in an essential se"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ng later disputes as to whether "..., 2556) = 2556
+write(4, "ng later disputes as to whether "..., 2556) = 2556
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n008000\r\nmembers of a registere"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "008000\r\nmembers of a registered "..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "members of a registered employer"..., 8192) = 5658
+write(4, "members of a registered employer"..., 4096) = 4096
+write(4, "\"><span class=\"mw-editsection-br"..., 1562) = 1562
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948987})
+read(3, "egulated by a collective agreeme"..., 8192) = 8192
+write(4, "egulated by a collective agreeme"..., 4096) = 4096
+write(4, "itsection\"><span class=\"mw-edits"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "d only as measures of last resor"..., 8192) = 8192
+write(4, "d only as measures of last resor"..., 4096) = 4096
+write(4, "out a change to an existing righ"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "/sup></p>\n<p>Although the Consti"..., 8192) = 8192
+write(4, "/sup></p>\n<p>Although the Consti"..., 4096) = 4096
+write(4, ",<sup id=\"cite_ref-197\" class=\"r"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "can give notice of the proposed "..., 2534) = 48
+write(4, "can give notice of the proposed "..., 48) = 48
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949107})
+read(3, "out).<sup id=\"cite_ref-200\" clas"..., 2486) = 2486
+write(4, "out).<sup id=\"cite_ref-200\" clas"..., 2486) = 2486
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n008000\r\ntrike);<sup id=\"cite_r"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "008000\r\ntrike);<sup id=\"cite_ref"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "trike);<sup id=\"cite_ref-207\" cl"..., 8192) = 8192
+write(4, "trike);<sup id=\"cite_ref-207\" cl"..., 4096) = 4096
+write(4, "></i> [2003] 2 BLLR 140 (LAC).</"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "s (page does not exist)\">Ouwehan"..., 8192) = 256
+write(4, "s (page does not exist)\">Ouwehan"..., 256) = 256
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949262})
+read(3, "essma Services (Pty) Ltd v Schut"..., 8192) = 2736
+write(4, "essma Services (Pty) Ltd v Schut"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "o_Ltd_v_Nissho-Iwai_Co_Ltd&amp;a"..., 8192) = 8192
+write(4, "o_Ltd_v_Nissho-Iwai_Co_Ltd&amp;a"..., 4096) = 4096
+write(4, "mw-cite-backlink\"><b><a href=\"#c"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "f-35\">^</a></b></span> <span cla"..., 8192) = 8192
+write(4, "f-35\">^</a></b></span> <span cla"..., 4096) = 4096
+write(4, "-text\">s 186(1)(b).</span></li>\n"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ive Labour Law 4.</span></li>\n<l"..., 5200) = 5200
+write(4, "ive Labour Law 4.</span></li>\n<l"..., 4096) = 4096
+write(4, "a></b></span> <span class=\"refer"..., 1104) = 1104
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n008000\r\ndeli \"Understanding\" 1"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "008000\r\ndeli \"Understanding\" 17."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "008000\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "deli \"Understanding\" 17.</span><"..., 8192) = 5766
+write(4, "deli \"Understanding\" 17.</span><"..., 4096) = 4096
+write(4, ">McGregor and Dekker <i>Labour L"..., 1670) = 1670
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947000})
+read(3, "-144\"><span class=\"mw-cite-backl"..., 8192) = 8192
+write(4, "-144\"><span class=\"mw-cite-backl"..., 4096) = 4096
+write(4, "/span></li>\n<li id=\"cite_note-16"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\"mw-cite-backlink\"><b><a href=\"#"..., 8192) = 8192
+write(4, "\"mw-cite-backlink\"><b><a href=\"#"..., 4096) = 4096
+write(4, "span></li>\n<li id=\"cite_note-197"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "x.php?title=South_African_labour"..., 8192) = 8192
+write(4, "x.php?title=South_African_labour"..., 4096) = 4096
+write(4, "\t\t<div id=\"p-personal\" role=\"nav"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "urrentevents\"><a href=\"/wiki/Por"..., 2426) = 2426
+write(4, "urrentevents\"><a href=\"/wiki/Por"..., 2426) = 2426
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n001560\r\nesskey=\"q\">Special pag"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "001560\r\nesskey=\"q\">Special pages"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "001560\r\n", 8)                = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "esskey=\"q\">Special pages</a></li"..., 5472) = 5472
+write(4, "esskey=\"q\">Special pages</a></li"..., 4096) = 4096
+write(4, "88\" height=\"31\" alt=\"Wikimedia F"..., 1376) = 1376
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 7
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 5
+read(3, "0\r\n", 3)                     = 3
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [  <=>                      "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fbc1a804000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("South_African_labour_law", [2014/06/27-13:32:04, 2014/06/10-09:44:14]) = 0
+write(2, "2014-06-27 13:32:04 (2.84 MB/s) "..., 81) = 81
+exit_group(0)                           = ?
++++ exited with 0 +++

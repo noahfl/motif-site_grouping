@@ -1,0 +1,637 @@
+execve("/usr/bin/wget", ["wget", "--user-agent", "Mozilla", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "http://www.bing.com/search?q=nyu"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x99d000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2b000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2b3db0e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3d6ad000
+mprotect(0x7f2b3d701000, 2097152, PROT_NONE) = 0
+mmap(0x7f2b3d901000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7f2b3d901000
+mmap(0x7f2b3d90a000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b3d90a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3d2d3000
+mprotect(0x7f2b3d484000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3d683000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7f2b3d683000
+mmap(0x7f2b3d6a9000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b3d6a9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db0d000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3d0ba000
+mprotect(0x7f2b3d0d2000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3d2d1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f2b3d2d1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3ce87000
+mprotect(0x7f2b3ceb8000, 2097152, PROT_NONE) = 0
+mmap(0x7f2b3d0b8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f2b3d0b8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3cc82000
+mprotect(0x7f2b3cc86000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3ce85000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f2b3ce85000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db0c000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3c8bc000
+mprotect(0x7f2b3ca78000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3cc77000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f2b3cc77000
+mmap(0x7f2b3cc7d000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b3cc7d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3c6b8000
+mprotect(0x7f2b3c6bb000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3c8ba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2b3c8ba000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db0b000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db09000
+arch_prctl(ARCH_SET_FS, 0x7f2b3db09780) = 0
+mprotect(0x7f2b3cc77000, 16384, PROT_READ) = 0
+mprotect(0x7f2b3c8ba000, 4096, PROT_READ) = 0
+mprotect(0x7f2b3ce85000, 4096, PROT_READ) = 0
+mprotect(0x7f2b3d0b8000, 4096, PROT_READ) = 0
+mprotect(0x7f2b3d2d1000, 4096, PROT_READ) = 0
+mprotect(0x7f2b3d683000, 110592, PROT_READ) = 0
+mprotect(0x7f2b3d901000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7f2b3db2d000, 4096, PROT_READ) = 0
+munmap(0x7f2b3db0e000, 115291)          = 0
+brk(0)                                  = 0x99d000
+brk(0x9be000)                           = 0x9be000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2b3c3ef000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fffcd2471d0) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f2b3c8f2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7f2b3c8f2ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f2b3c8f2ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7f2b3c8f2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f2b3c8f2ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7f2b3c8f2ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/www.bing.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271432, f_bavail=46254626, f_files=15065088, f_ffree=14790538, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/search?q=nyu", 0x7fffcd246ce0) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.bing.com/search?q=nyu", 0x7fffcd246d70) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.bing.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271431, f_bavail=46254625, f_files=15065088, f_ffree=14790538, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/search?q=nyu", 0x7fffcd246ce0) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+write(2, "--2014-06-30 11:28:24--  http://"..., 58) = 58
+stat("/home/bearface/.netrc", 0x7fffcd2467d0) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.bing.com (www.bing"..., 41) = 41
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+getpid()                                = 7872
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2b3db0e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3c1e3000
+mprotect(0x7f2b3c1ee000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3c3ed000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f2b3c3ed000
+close(3)                                = 0
+mprotect(0x7f2b3c3ed000, 4096, PROT_READ) = 0
+munmap(0x7f2b3db0e000, 115291)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2b3db0e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3bfe0000
+mprotect(0x7f2b3bfe2000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3c1e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f2b3c1e1000
+close(3)                                = 0
+mprotect(0x7f2b3c1e1000, 4096, PROT_READ) = 0
+munmap(0x7f2b3db0e000, 115291)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2b3db0e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3bdda000
+mprotect(0x7f2b3bddf000, 2093056, PROT_NONE) = 0
+mmap(0x7f2b3bfde000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f2b3bfde000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2b3bbbf000
+mprotect(0x7f2b3bbd6000, 2097152, PROT_NONE) = 0
+mmap(0x7f2b3bdd6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f2b3bdd6000
+mmap(0x7f2b3bdd8000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2b3bdd8000
+close(3)                                = 0
+mprotect(0x7f2b3bdd6000, 4096, PROT_READ) = 0
+mprotect(0x7f2b3bfde000, 4096, PROT_READ) = 0
+munmap(0x7f2b3db0e000, 115291)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db2a000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2b3db2a000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"0\t\1\0\0\1\0\0\0\0\0\0\3www\4bing\3com\0\0\1\0\1", 30}], msg_controllen=0, msg_flags=0}, 30}, {{msg_name(0)=NULL, msg_iov(1)=[{"\314\33\1\0\0\1\0\0\0\0\0\0\3www\4bing\3com\0\0\34\0\1", 30}], msg_controllen=0, msg_flags=0}, 30}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [215])               = 0
+recvfrom(3, "0\t\201\200\0\1\0\2\0\4\0\4\3www\4bing\3com\0\0\1\0\1\300\f"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 215
+poll([{fd=3, events=POLLIN}], 1, 4997)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [120])               = 0
+recvfrom(3, "\314\33\201\200\0\1\0\1\0\1\0\0\3www\4bing\3com\0\0\34\0\1\300\f"..., 1833, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 120
+close(3)                                = 0
+write(2, "204.79.197.200", 14)          = 14
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.bing.com (www."..., 64) = 64
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("204.79.197.200")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET /search?q=nyu HTTP/1.1\r\nUser"..., 108) = 108
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 917721})
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "=/\r\nSet-Cookie: MUID=06E4BFB862F"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "=/\r\nSet-Cookie: MUID=06E4BFB862F"..., 512) = 512
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "&GUID=C5B84D771A2845398657DF978B"..., 1024, MSG_PEEK, NULL, NULL) = 1024
+read(3, "&GUID=C5B84D771A2845398657DF978B"..., 588) = 588
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.bing.com/search?q=nyu", 0x7fffcd246340) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/www.bing.com", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.bing.com/search?q=nyu", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 73) = 73
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f2b3db24000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "e6f\r\n<!DOCTYPE html><html lang=\""..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "e6f\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "<!DOCTYPE html><html lang=\"en\" x"..., 3695) = 3695
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db23000
+write(4, "<!DOCTYPE html><html lang=\"en\" x"..., 3695) = 3695
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n2000\r\ning:0 0 0 15px;clear:bot"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "2000\r\ning:0 0 0 15px;clear:both}"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ing:0 0 0 15px;clear:both}#sw_ma"..., 8192) = 8192
+write(4, "ing:0 0 0 15px;clear:both}#sw_ma"..., 4096) = 4096
+write(4, "nd-image:url(/fd/s/a/sw17.png);b"..., 4096) = 4096
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n2000\r\nx;height:11px;width:14px"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "2000\r\nx;height:11px;width:14px}."..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "x;height:11px;width:14px}.sw_arw"..., 8192) = 8192
+write(4, "x;height:11px;width:14px}.sw_arw"..., 4096) = 4096
+write(4, "_att,.sn_pn{width:100%;float:lef"..., 4096) = 4096
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 977762})
+recvfrom(3, "17dd\r\nion(){_d.body.appendChild("..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "17dd\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ion(){_d.body.appendChild(u)},0)"..., 6109) = 5466
+write(4, "ion(){_d.body.appendChild(u)},0)"..., 4096) = 4096
+write(4, "w_page\"><div id=\"sw_width\"><div "..., 1370) = 1370
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "e=\"text\" value=\"nyu\" onfocus=\"do"..., 643) = 643
+write(4, "e=\"text\" value=\"nyu\" onfocus=\"do"..., 643) = 643
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 420675})
+recvfrom(3, "fc8\r\n<script type=\"text/javascri"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "fc8\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "<script type=\"text/javascript\">/"..., 4040) = 2731
+write(4, "<script type=\"text/javascript\">/"..., 2731) = 2731
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ",.cbtn:visited{margin:0;padding:"..., 1309) = 1309
+write(4, ",.cbtn:visited{margin:0;padding:"..., 1309) = 1309
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n181e\r\nc;padding:.27em .38em .2"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "181e\r\nc;padding:.27em .38em .28e"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "181e\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "c;padding:.27em .38em .28em}inpu"..., 6174) = 2730
+write(4, "c;padding:.27em .38em .28em}inpu"..., 2730) = 2730
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "c/colmod2.png) no-repeat}.tp_mhd"..., 3444) = 1368
+write(4, "c/colmod2.png) no-repeat}.tp_mhd"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949878})
+read(3, "ine-block}.qscontainer h2{color:"..., 2076) = 2076
+write(4, "ine-block}.qscontainer h2{color:"..., 2076) = 2076
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999752})
+recvfrom(3, "2000\r\n,function(t){i(n),sj_sp(t)"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ",function(t){i(n),sj_sp(t)})}fun"..., 8192) = 2730
+write(4, ",function(t){i(n),sj_sp(t)})}fun"..., 2730) = 2730
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949480})
+read(3, "th>0){h=_ge(f),h&&i.exclusive.pu"..., 5462) = 1368
+write(4, "th>0){h=_ge(f),h&&i.exclusive.pu"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\"ID=SERP,5429.1\">News</a></li><l"..., 4094) = 1368
+write(4, "\"ID=SERP,5429.1\">News</a></li><l"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949844})
+read(3, "<p>Founded in 1831 to enlarge th"..., 2726) = 1368
+write(4, "<p>Founded in 1831 to enlarge th"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "99_si\" type=\"hidden\" value=\"SERP"..., 1358) = 1358
+write(4, "99_si\" type=\"hidden\" value=\"SERP"..., 1358) = 1358
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n2000\r\n/div><a class=\"sa_cpt\"><"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "2000\r\n/div><a class=\"sa_cpt\"></a"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "/div><a class=\"sa_cpt\"></a><div "..., 8192) = 8192
+write(4, "/div><a class=\"sa_cpt\"></a><div "..., 4096) = 4096
+write(4, ":100px;height:150px;\"><a href=\"h"..., 4096) = 4096
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n2000\r\na href=\"/search?q=dakota"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "2000\r\na href=\"/search?q=dakota+f"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "a href=\"/search?q=dakota+fanning"..., 8192) = 8192
+write(4, "a href=\"/search?q=dakota+fanning"..., 4096) = 4096
+write(4, "3c-3f56-3ee2-7f6c-61601af287c0%2"..., 4096) = 4096
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n2000\r\nq=new+york+university+st"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "2000\r\nq=new+york+university+ster"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "q=new+york+university+stern+scho"..., 8192) = 2730
+write(4, "q=new+york+university+stern+scho"..., 2730) = 2730
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949187})
+read(3, ";CLCID=0409\" h=\"ID=FD,67.1\">Priv"..., 5462) = 5462
+write(4, ";CLCID=0409\" h=\"ID=FD,67.1\">Priv"..., 4096) = 4096
+write(4, "eStatic\\x2fp\\x3fck\\x3d1\\x26ex\\x3"..., 1366) = 1366
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n2000\r\nn}feedback.core.load(n)}"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "2000\r\nn}feedback.core.load(n)}()"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "n}feedback.core.load(n)}()})})(s"..., 8192) = 5466
+write(4, "n}feedback.core.load(n)}()})})(s"..., 4096) = 4096
+write(4, ".length<2||(i=n[1],i&&i.state==="..., 1370) = 1370
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 935327})
+read(3, "(t.height=\"0\",t.scrolling=t.fram"..., 2726) = 1368
+write(4, "(t.height=\"0\",t.scrolling=t.fram"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949744})
+read(3, ";return n?n.srcElement:null}};sj"..., 1358) = 1358
+write(4, ";return n?n.srcElement:null}};sj"..., 1358) = 1358
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4e2\r\n.length;i++)e=s[i],d=e.ge"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "4e2\r\n.length;i++)e=s[i],d=e.getA"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "4e2\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, ".length;i++)e=s[i],d=e.getAttrib"..., 1250) = 1250
+write(4, ".length;i++)e=s[i],d=e.getAttrib"..., 1250) = 1250
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 7
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 5
+read(3, "0\r\n", 3)                     = 3
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [  <=>                      "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7f2b3db23000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-30 11:28:25 (121 KB/s) -"..., 110) = 110
+open("/home/bearface/website_output/www.bing.com/search?q=nyu", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=78612, ...}) = 0
+mmap(NULL, 78612, PROT_READ|PROT_WRITE, MAP_PRIVATE, 4, 0) = 0x7f2b3db10000
+close(4)                                = 0
+munmap(0x7f2b3db10000, 78612)           = 0
+brk(0x9df000)                           = 0x9df000
+brk(0x9d7000)                           = 0x9d7000
+statfs("/home/bearface/website_output/www.bing.com/fd/s/a", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271332, f_bavail=46254526, f_files=15065088, f_ffree=14790537, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", {st_mode=S_IFREG|0644, st_size=4771, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", {st_mode=S_IFREG|0644, st_size=4771, ...}) = 0
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", {st_mode=S_IFREG|0644, st_size=4771, ...}) = 0
+statfs("/home/bearface/website_output/www.bing.com/fd/s/a", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271332, f_bavail=46254526, f_files=15065088, f_ffree=14790537, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", {st_mode=S_IFREG|0644, st_size=4771, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", {st_mode=S_IFREG|0644, st_size=4771, ...}) = 0
+nanosleep({1, 0}, 0x7fffcd246df0)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 11:28:26--  http://"..., 61) = 61
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("204.79.197.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 48) = 48
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999998})
+write(3, "GET /fd/s/a/sw17.png HTTP/1.1\r\nR"..., 617) = 617
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 964638})
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 217) = 217
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", {st_mode=S_IFREG|0644, st_size=4771, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "4771", 4)                     = 4
+write(2, " (4.7K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.bing.com/fd/s/a", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 76) = 76
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\2\265\0\0\0\34\10\3\0\0\0H\362\267"..., 4771) = 4771
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db23000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\2\265\0\0\0\34\10\3\0\0\0H\362\267"..., 4096) = 4096
+write(4, "\275\1|\36\364Jz\7\275\222\356A\257\17\360\326\203k\255T\274v\315\177\333J\305\376\324\366_\251"..., 675) = 675
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7f2b3db23000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.bing.com/fd/s/a/sw17.png", [2014/06/30-11:28:26, 2013/09/25-13:24:46]) = 0
+write(2, "2014-06-30 11:28:26 (36.7 MB/s) "..., 118) = 118
+statfs("/home/bearface/website_output/www.bing.com/fd/s/a", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271252, f_bavail=46254446, f_files=15065088, f_ffree=14790536, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", {st_mode=S_IFREG|0644, st_size=886, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", {st_mode=S_IFREG|0644, st_size=886, ...}) = 0
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", {st_mode=S_IFREG|0644, st_size=886, ...}) = 0
+statfs("/home/bearface/website_output/www.bing.com/fd/s/a", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271252, f_bavail=46254446, f_files=15065088, f_ffree=14790536, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", {st_mode=S_IFREG|0644, st_size=886, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", {st_mode=S_IFREG|0644, st_size=886, ...}) = 0
+nanosleep({1, 0}, 0x7fffcd246df0)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 11:28:27--  http://"..., 66) = 66
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("204.79.197.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 48) = 48
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /fd/s/a/identity6.png HTTP/1"..., 622) = 622
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 972995})
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 216) = 216
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", {st_mode=S_IFREG|0644, st_size=886, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "886", 3)                      = 3
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.bing.com/fd/s/a", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 81) = 81
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0o\0\0\0\32\10\3\0\0\0\216\364\362"..., 886) = 886
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db23000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0o\0\0\0\32\10\3\0\0\0\216\364\362"..., 886) = 886
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7f2b3db23000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.bing.com/fd/s/a/identity6.png", [2014/06/30-11:28:27, 2012/10/16-14:42:48]) = 0
+write(2, "2014-06-30 11:28:27 (6.80 MB/s) "..., 121) = 121
+statfs("/home/bearface/website_output/www.bing.com/sa/simg", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271236, f_bavail=46254430, f_files=15065088, f_ffree=14790535, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", {st_mode=S_IFREG|0644, st_size=6509, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", {st_mode=S_IFREG|0644, st_size=6509, ...}) = 0
+stat("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", {st_mode=S_IFREG|0644, st_size=6509, ...}) = 0
+statfs("/home/bearface/website_output/www.bing.com/sa/simg", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271236, f_bavail=46254430, f_files=15065088, f_ffree=14790535, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", {st_mode=S_IFREG|0644, st_size=6509, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", {st_mode=S_IFREG|0644, st_size=6509, ...}) = 0
+nanosleep({1, 0}, 0x7fffcd246df0)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 11:28:28--  http://"..., 66) = 66
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("204.79.197.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 48) = 48
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999991})
+write(3, "GET /sa/simg/sw_21_lg.png HTTP/1"..., 622) = 622
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 517213})
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 217) = 217
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", {st_mode=S_IFREG|0644, st_size=6509, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "6509", 4)                     = 4
+write(2, " (6.4K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.bing.com/sa/simg", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 81) = 81
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\3\362\0\0\0\36\10\3\0\0\0\270\322\325"..., 6509) = 6509
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db23000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\3\362\0\0\0\36\10\3\0\0\0\270\322\325"..., 4096) = 4096
+write(4, "\277\260r~\364\374\n\215\3253\344\347\346\316\217\256.\220Q`\245havt\375E\221\r\371\312\32"..., 2413) = 2413
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7f2b3db23000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.bing.com/sa/simg/sw_21_lg.png", [2014/06/30-11:28:29, 2014/03/16-23:51:59]) = 0
+write(2, "2014-06-30 11:28:29 (25.7 MB/s) "..., 123) = 123
+statfs("/home/bearface/website_output/www.bing.com/s/wpc", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271162, f_bavail=46254356, f_files=15065088, f_ffree=14790535, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+stat("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+statfs("/home/bearface/website_output/www.bing.com/s/wpc", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49271162, f_bavail=46254356, f_files=15065088, f_ffree=14790535, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+lstat("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+nanosleep({1, 0}, 0x7fffcd246df0)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 11:28:30--  http://"..., 63) = 63
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("204.79.197.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 48) = 48
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999992})
+write(3, "GET /s/wpc/colmod2.png HTTP/1.1\r"..., 619) = 619
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 972017})
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 511, MSG_PEEK, NULL, NULL) = 450
+read(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 216) = 216
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", {st_mode=S_IFREG|0644, st_size=234, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "234", 3)                      = 3
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.bing.com/s/wpc", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 78) = 78
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0008\0\0\0\26\2\3\0\0\0\350N\267"..., 234) = 234
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2b3db23000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0008\0\0\0\26\2\3\0\0\0\350N\267"..., 234) = 234
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7f2b3db23000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.bing.com/s/wpc/colmod2.png", [2014/06/30-11:28:30, 2012/11/02-18:09:36]) = 0
+write(2, "2014-06-30 11:28:30 (712 KB/s) -"..., 117) = 117
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-30 11:28:30--"..., 105) = 105
+exit_group(0)                           = ?
++++ exited with 0 +++

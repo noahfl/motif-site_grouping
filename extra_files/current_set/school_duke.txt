@@ -1,0 +1,552 @@
+execve("/usr/bin/wget", ["wget", "--user-agent", "Mozilla", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "www.duke.edu"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x950000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9d000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2dfef80000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfeb1f000
+mprotect(0x7f2dfeb73000, 2097152, PROT_NONE) = 0
+mmap(0x7f2dfed73000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7f2dfed73000
+mmap(0x7f2dfed7c000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2dfed7c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfe745000
+mprotect(0x7f2dfe8f6000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfeaf5000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7f2dfeaf5000
+mmap(0x7f2dfeb1b000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2dfeb1b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef7f000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfe52c000
+mprotect(0x7f2dfe544000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfe743000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f2dfe743000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfe2f9000
+mprotect(0x7f2dfe32a000, 2097152, PROT_NONE) = 0
+mmap(0x7f2dfe52a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f2dfe52a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfe0f4000
+mprotect(0x7f2dfe0f8000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfe2f7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f2dfe2f7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef7e000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfdd2e000
+mprotect(0x7f2dfdeea000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfe0e9000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f2dfe0e9000
+mmap(0x7f2dfe0ef000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2dfe0ef000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfdb2a000
+mprotect(0x7f2dfdb2d000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfdd2c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2dfdd2c000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef7d000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef7b000
+arch_prctl(ARCH_SET_FS, 0x7f2dfef7b780) = 0
+mprotect(0x7f2dfe0e9000, 16384, PROT_READ) = 0
+mprotect(0x7f2dfdd2c000, 4096, PROT_READ) = 0
+mprotect(0x7f2dfe2f7000, 4096, PROT_READ) = 0
+mprotect(0x7f2dfe52a000, 4096, PROT_READ) = 0
+mprotect(0x7f2dfe743000, 4096, PROT_READ) = 0
+mprotect(0x7f2dfeaf5000, 110592, PROT_READ) = 0
+mprotect(0x7f2dfed73000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7f2dfef9f000, 4096, PROT_READ) = 0
+munmap(0x7f2dfef80000, 115291)          = 0
+brk(0)                                  = 0x950000
+brk(0x971000)                           = 0x971000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2dfd861000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fff165bf550) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f2dfdd64ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7f2dfdd64ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f2dfdd64ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7f2dfdd64ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f2dfdd64ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7f2dfdd64ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/www.duke.edu", 0x7fff165bf010) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49157171, f_bavail=46140365, f_files=15065088, f_ffree=14788908, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165bf060) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165bf0f0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.duke.edu", 0x7fff165bf010) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49157170, f_bavail=46140364, f_files=15065088, f_ffree=14788908, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165bf060) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+write(2, "--2014-06-30 12:10:18--  http://"..., 46) = 46
+stat("/home/bearface/.netrc", 0x7fff165beb50) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.duke.edu (www.duke"..., 41) = 41
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+getpid()                                = 9242
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2dfef80000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfd655000
+mprotect(0x7f2dfd660000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfd85f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f2dfd85f000
+close(3)                                = 0
+mprotect(0x7f2dfd85f000, 4096, PROT_READ) = 0
+munmap(0x7f2dfef80000, 115291)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2dfef80000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfd452000
+mprotect(0x7f2dfd454000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfd653000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f2dfd653000
+close(3)                                = 0
+mprotect(0x7f2dfd653000, 4096, PROT_READ) = 0
+munmap(0x7f2dfef80000, 115291)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2dfef80000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfd24c000
+mprotect(0x7f2dfd251000, 2093056, PROT_NONE) = 0
+mmap(0x7f2dfd450000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f2dfd450000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2dfd031000
+mprotect(0x7f2dfd048000, 2097152, PROT_NONE) = 0
+mmap(0x7f2dfd248000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f2dfd248000
+mmap(0x7f2dfd24a000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2dfd24a000
+close(3)                                = 0
+mprotect(0x7f2dfd248000, 4096, PROT_READ) = 0
+mprotect(0x7f2dfd450000, 4096, PROT_READ) = 0
+munmap(0x7f2dfef80000, 115291)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\346x\1\0\0\1\0\0\0\0\0\0\3www\4duke\3edu\0\0\1\0\1", 30}], msg_controllen=0, msg_flags=0}, 30}, {{msg_name(0)=NULL, msg_iov(1)=[{"\255&\1\0\0\1\0\0\0\0\0\0\3www\4duke\3edu\0\0\34\0\1", 30}], msg_controllen=0, msg_flags=0}, 30}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [130])               = 0
+recvfrom(3, "\346x\201\200\0\1\0\2\0\2\0\0\3www\4duke\3edu\0\0\1\0\1\300\f"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+poll([{fd=3, events=POLLIN}], 1, 4982)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [57])                = 0
+recvfrom(3, "\255&\201\200\0\1\0\1\0\0\0\0\3www\4duke\3edu\0\0\34\0\1\300\f"..., 1918, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 57
+close(3)                                = 0
+write(2, "152.3.72.104", 12)            = 12
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.duke.edu (www."..., 62) = 62
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("152.3.72.104")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Mozi"..., 96) = 96
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 994182})
+recvfrom(3, "HTTP/1.1 301 Moved Permanently\r\n"..., 511, MSG_PEEK, NULL, NULL) = 424
+read(3, "HTTP/1.1 301 Moved Permanently\r\n"..., 200) = 200
+write(2, "301 Moved Permanently\n", 22) = 22
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165beb90) = -1 ENOENT (No such file or directory)
+write(2, "Location: http://duke.edu/ [foll"..., 39) = 39
+close(3)                                = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs("/home/bearface/website_output/www.duke.edu", 0x7fff165bf010) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49157168, f_bavail=46140362, f_files=15065088, f_ffree=14788908, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165bf060) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165bf0f0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.duke.edu", 0x7fff165bf010) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49157168, f_bavail=46140362, f_files=15065088, f_ffree=14788908, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165bf060) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7fff165bf170)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:10:19--  http://"..., 42) = 42
+write(2, "Resolving duke.edu (duke.edu)..."..., 33) = 33
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef9c000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2dfef9c000, 4096)            = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"O\322\1\0\0\1\0\0\0\0\0\0\4duke\3edu\0\0\1\0\1", 26}], msg_controllen=0, msg_flags=0}, 26}, {{msg_name(0)=NULL, msg_iov(1)=[{"\220\234\1\0\0\1\0\0\0\0\0\0\4duke\3edu\0\0\34\0\1", 26}], msg_controllen=0, msg_flags=0}, 26}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [130])               = 0
+recvfrom(3, "O\322\201\200\0\1\0\1\0\2\0\2\4duke\3edu\0\0\1\0\1\300\f\0\1\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 130
+poll([{fd=3, events=POLLIN}], 1, 4992)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [97])                = 0
+recvfrom(3, "\220\234\201\200\0\1\0\0\0\1\0\0\4duke\3edu\0\0\34\0\1\300\f\0\6\0\1"..., 1918, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 97
+close(3)                                = 0
+write(2, "152.3.72.104", 12)            = 12
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to duke.edu (duke.edu"..., 54) = 54
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("152.3.72.104")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Mozi"..., 92) = 92
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 993041})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 292) = 292
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.duke.edu/index.html", 0x7fff165beb90) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "166520", 6)                   = 6
+write(2, " (163K)", 7)                  = 7
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/www.duke.edu", 0x7fff165beb80) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.duke.edu", 0x7fff165beaa0) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.duke.edu", 0777) = 0
+open("/home/bearface/website_output/www.duke.edu/index.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 71) = 71
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f2dfef96000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "<!DOCTYPE html>\n  <!--[if IEMobi"..., 8192) = 4089
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2dfef95000
+write(4, "<!DOCTYPE html>\n  <!--[if IEMobi"..., 4089) = 4089
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949544})
+read(3, "h=\"128\" class=\"form-text\" />\n</d"..., 8192) = 1368
+write(4, "h=\"128\" class=\"form-text\" />\n</d"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ferstudents\"><a href=\"http://adm"..., 8192) = 2939
+write(4, "ferstudents\"><a href=\"http://adm"..., 2939) = 2939
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "u-item__financialaid\"><a href=\"h"..., 8192) = 4344
+write(4, "u-item__financialaid\"><a href=\"h"..., 4096) = 4096
+write(4, "-mlid-442 menu-item__officeofpro"..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944674})
+read(3, "lid-444 menu-item__courselisting"..., 8192) = 1368
+write(4, "lid-444 menu-item__courselisting"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "344 menu-item__arts\"><a href=\"ht"..., 8192) = 2976
+write(4, "344 menu-item__arts\"><a href=\"ht"..., 2976) = 2976
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "//global.duke.edu\" title=\"\">Glob"..., 8192) = 2896
+write(4, "//global.duke.edu\" title=\"\">Glob"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "expanded menu-mlid-342 menu-item"..., 8192) = 1448
+write(4, "expanded menu-mlid-342 menu-item"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949437})
+read(3, "dingopportunities\"><a href=\"http"..., 8192) = 1448
+write(4, "dingopportunities\"><a href=\"http"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "class=\"last leaf menu-mlid-1028 "..., 8192) = 2896
+write(4, "class=\"last leaf menu-mlid-1028 "..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "1 menu-item__johnhopefranklinhum"..., 8192) = 2896
+write(4, "1 menu-item__johnhopefranklinhum"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "m__styleguide\"><a href=\"http://s"..., 8192) = 1368
+write(4, "m__styleguide\"><a href=\"http://s"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947283})
+read(3, "edu\" title=\"\">Global</a></li>\n<l"..., 8192) = 80
+write(4, "edu\" title=\"\">Global</a></li>\n<l"..., 80) = 80
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949545})
+read(3, "em__research\"><a href=\"http://re"..., 8192) = 2896
+write(4, "em__research\"><a href=\"http://re"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "nts\">For Parents</a></div></div>"..., 8192) = 1368
+write(4, "nts\">For Parents</a></div></div>"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949786})
+read(3, "</div><div class=\"menu-item coun"..., 8192) = 80
+write(4, "</div><div class=\"menu-item coun"..., 80) = 80
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "les/flash_articles/\">School of M"..., 8192) = 2896
+write(4, "les/flash_articles/\">School of M"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "dmissions.duke.edu/education/env"..., 8192) = 4344
+write(4, "dmissions.duke.edu/education/env"..., 4096) = 4096
+write(4, "eading\"><a href=\"http://arts.duk"..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ".edu\">Nasher Museum</a></div><di"..., 8192) = 4344
+write(4, ".edu\">Nasher Museum</a></div><di"..., 4096) = 4096
+write(4, "-mega-dropdown-research\" class=\""..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949773})
+read(3, "v class=\"panel-panel panel-col\">"..., 8192) = 2896
+write(4, "v class=\"panel-panel panel-col\">"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "  <div><div class=\"panel-pane pa"..., 8192) = 4344
+write(4, "  <div><div class=\"panel-pane pa"..., 4096) = 4096
+write(4, "s=\"bigduke-top-feature__word\">\n "..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "font-weight:bold;font-size:30px;"..., 8192) = 2896
+write(4, "font-weight:bold;font-size:30px;"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ul>  <li class=\"views-row views-"..., 8192) = 1448
+write(4, "ul>  <li class=\"views-row views-"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ">\n\n      <a href=\"http://today.d"..., 8192) = 2896
+write(4, ">\n\n      <a href=\"http://today.d"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946809})
+read(3, " rel=\"bookmark\">Inviting In the "..., 8192) = 1448
+write(4, " rel=\"bookmark\">Inviting In the "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "kemedicine.org/news_and_publicat"..., 8192) = 2896
+write(4, "kemedicine.org/news_and_publicat"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "th=\"138\" /></noscript>\n    </a>\n"..., 8192) = 1448
+write(4, "th=\"138\" /></noscript>\n    </a>\n"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "e in a young girl's life</p>\n  <"..., 8192) = 2896
+write(4, "e in a young girl's life</p>\n  <"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "s/alaska138.jpg\" height=\"95\" wid"..., 8192) = 2896
+write(4, "s/alaska138.jpg\" height=\"95\" wid"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "div class=\"node__content\">\n    \n"..., 8192) = 1448
+write(4, "div class=\"node__content\">\n    \n"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949345})
+read(3, "=\"http://today.duke.edu/2014/06/"..., 8192) = 2896
+write(4, "=\"http://today.duke.edu/2014/06/"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " More Efficient</a></h3>\n       "..., 8192) = 2896
+write(4, " More Efficient</a></h3>\n       "..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "/today.duke.edu/sites/default/fi"..., 8192) = 2896
+write(4, "/today.duke.edu/sites/default/fi"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "-today-feature--full\">\n\n      <a"..., 8192) = 1448
+write(4, "-today-feature--full\">\n\n      <a"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "   <a href=\"http://www.nytimes.c"..., 8192) = 2896
+write(4, "   <a href=\"http://www.nytimes.c"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ils/soldiercollege_thumb.jpg\" he"..., 8192) = 2896
+write(4, "ils/soldiercollege_thumb.jpg\" he"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944725})
+read(3, "</p>\n  </div>\n\n    </article>\n</"..., 8192) = 2896
+write(4, "</p>\n  </div>\n\n    </article>\n</"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "=\"/sites/all/themes/bigduke/imag"..., 8192) = 8192
+write(4, "=\"/sites/all/themes/bigduke/imag"..., 4096) = 4096
+write(4, "cal-government-network/2014/jun/"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "div class=\"node__content\">\n     "..., 8192) = 3392
+write(4, "div class=\"node__content\">\n     "..., 3392) = 3392
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ":title\" datatype=\"\" class=\"node_"..., 8192) = 1448
+write(4, ":title\" datatype=\"\" class=\"node_"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949373})
+read(3, "rticle>\n</li>\n  <li class=\"views"..., 8192) = 1448
+write(4, "rticle>\n</li>\n  <li class=\"views"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "Undergraduate Research\" src=\"/si"..., 8192) = 1448
+write(4, "Undergraduate Research\" src=\"/si"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "title\" datatype=\"\" class=\"node__"..., 8192) = 2896
+write(4, "title\" datatype=\"\" class=\"node__"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ts_and_spotlight\">\n            <"..., 8192) = 1448
+write(4, "ts_and_spotlight\">\n            <"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "an>  </div>  \n          <div cla"..., 8192) = 2896
+write(4, "an>  </div>  \n          <div cla"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "4-07-02T19:00:00-04:00\">Jul</spa"..., 8192) = 1448
+write(4, "4-07-02T19:00:00-04:00\">Jul</spa"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, " class=\"view-footer\">\n      <a c"..., 8192) = 2896
+write(4, " class=\"view-footer\">\n      <a c"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "><span class=\"spotlight-on--item"..., 8192) = 1448
+write(4, "><span class=\"spotlight-on--item"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949744})
+read(3, "efault/files/duke_forward_400x40"..., 8192) = 1448
+write(4, "efault/files/duke_forward_400x40"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "span class=\"spotlight-on--item__"..., 8192) = 2896
+write(4, "span class=\"spotlight-on--item__"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ht-on-column-wrapper-2\"><div cla"..., 8192) = 2896
+write(4, "ht-on-column-wrapper-2\"><div cla"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "tem\"><span class=\"spotlight-on--"..., 8192) = 2896
+write(4, "tem\"><span class=\"spotlight-on--"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "</div>\n<div class=\"bigduke-horiz"..., 8192) = 2896
+write(4, "</div>\n<div class=\"bigduke-horiz"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "instagram-post node--full node--"..., 8192) = 2896
+write(4, "instagram-post node--full node--"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949688})
+read(3, "ass=\"horiz-media--image\" src=\"/s"..., 8192) = 1448
+write(4, "ass=\"horiz-media--image\" src=\"/s"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "rk\"></a></h3>\n        \n  \n  <div"..., 8192) = 2896
+write(4, "rk\"></a></h3>\n        \n  \n  <div"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "of=\"sioc:Item foaf:Document\" rol"..., 8192) = 1448
+write(4, "of=\"sioc:Item foaf:Document\" rol"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "/hphotos-xpa1/t51.2885-15/104750"..., 8192) = 1448
+write(4, "/hphotos-xpa1/t51.2885-15/104750"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "    \n  <div class=\"views-field v"..., 8192) = 2896
+write(4, "    \n  <div class=\"views-field v"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, " class=\"field-content social-med"..., 8192) = 2896
+write(4, " class=\"field-content social-med"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "eUniv</a></div>  </div>  \n      "..., 8192) = 2896
+write(4, "eUniv</a></div>  </div>  \n      "..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948510})
+read(3, "    <div class=\"field-content so"..., 8192) = 1448
+write(4, "    <div class=\"field-content so"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "div>  </div>  \n  <div>        <d"..., 8192) = 2896
+write(4, "div>  </div>  \n  <div>        <d"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "edia-from field--type-link-field"..., 8192) = 4344
+write(4, "edia-from field--type-link-field"..., 4096) = 4096
+write(4, " <div class=\"content\"><p>With a "..., 248) = 248
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "es of people from around the wor"..., 4636) = 4636
+write(4, "es of people from around the wor"..., 4096) = 4096
+write(4, "uke.edu/sites/default/files/js/j"..., 540) = 540
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(3)                                = 0
+close(4)                                = 0
+munmap(0x7f2dfef95000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.duke.edu/index.html", [2014/06/30-12:10:19, 2014/06/30-12:08:27]) = 0
+write(2, "2014-06-30 12:10:19 (3.06 MB/s) "..., 117) = 117
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-30 12:10:19--"..., 108) = 108
+exit_group(0)                           = ?
++++ exited with 0 +++

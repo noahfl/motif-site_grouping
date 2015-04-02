@@ -1,0 +1,1011 @@
+execve("/usr/bin/wget", ["wget", "--user-agent", "Mozilla", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "http://www.google.com/?search=wa"...], [/* 45 vars */]) = 0
+brk(0)                                  = 0x2056000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea71610000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fea715f3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea71192000
+mprotect(0x7fea711e6000, 2097152, PROT_NONE) = 0
+mmap(0x7fea713e6000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fea713e6000
+mmap(0x7fea713ef000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fea713ef000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea70db8000
+mprotect(0x7fea70f69000, 2093056, PROT_NONE) = 0
+mmap(0x7fea71168000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7fea71168000
+mmap(0x7fea7118e000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fea7118e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea715f2000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea70b9f000
+mprotect(0x7fea70bb7000, 2093056, PROT_NONE) = 0
+mmap(0x7fea70db6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fea70db6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea7096c000
+mprotect(0x7fea7099d000, 2097152, PROT_NONE) = 0
+mmap(0x7fea70b9d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fea70b9d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea70767000
+mprotect(0x7fea7076b000, 2093056, PROT_NONE) = 0
+mmap(0x7fea7096a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fea7096a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea715f1000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea703a1000
+mprotect(0x7fea7055d000, 2093056, PROT_NONE) = 0
+mmap(0x7fea7075c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fea7075c000
+mmap(0x7fea70762000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fea70762000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea7019d000
+mprotect(0x7fea701a0000, 2093056, PROT_NONE) = 0
+mmap(0x7fea7039f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fea7039f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea715f0000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea715ee000
+arch_prctl(ARCH_SET_FS, 0x7fea715ee780) = 0
+mprotect(0x7fea7075c000, 16384, PROT_READ) = 0
+mprotect(0x7fea7039f000, 4096, PROT_READ) = 0
+mprotect(0x7fea7096a000, 4096, PROT_READ) = 0
+mprotect(0x7fea70b9d000, 4096, PROT_READ) = 0
+mprotect(0x7fea70db6000, 4096, PROT_READ) = 0
+mprotect(0x7fea71168000, 110592, PROT_READ) = 0
+mprotect(0x7fea713e6000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7fea71612000, 4096, PROT_READ) = 0
+munmap(0x7fea715f3000, 115291)          = 0
+brk(0)                                  = 0x2056000
+brk(0x2077000)                          = 0x2077000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fea6fed4000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fff9b307d10) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fea703d7ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7fea703d7ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fea703d7ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7fea703d7ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fea703d7ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7fea703d7ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/www.google.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175410, f_bavail=46158604, f_files=15065088, f_ffree=14789169, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/index.html?search=wake+forest", 0x7fff9b307820) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.google.com/index.html?search=wake+forest", 0x7fff9b3078b0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.google.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175409, f_bavail=46158603, f_files=15065088, f_ffree=14789169, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/index.html?search=wake+forest", 0x7fff9b307820) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+write(2, "--2014-06-30 12:04:32--  http://"..., 67) = 67
+stat("/home/bearface/.netrc", 0x7fff9b307310) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.google.com (www.go"..., 45) = 45
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+getpid()                                = 8957
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fea715f3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea6fcc8000
+mprotect(0x7fea6fcd3000, 2093056, PROT_NONE) = 0
+mmap(0x7fea6fed2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fea6fed2000
+close(3)                                = 0
+mprotect(0x7fea6fed2000, 4096, PROT_READ) = 0
+munmap(0x7fea715f3000, 115291)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fea715f3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea6fac5000
+mprotect(0x7fea6fac7000, 2093056, PROT_NONE) = 0
+mmap(0x7fea6fcc6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fea6fcc6000
+close(3)                                = 0
+mprotect(0x7fea6fcc6000, 4096, PROT_READ) = 0
+munmap(0x7fea715f3000, 115291)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fea715f3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea6f8bf000
+mprotect(0x7fea6f8c4000, 2093056, PROT_NONE) = 0
+mmap(0x7fea6fac3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fea6fac3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fea6f6a4000
+mprotect(0x7fea6f6bb000, 2097152, PROT_NONE) = 0
+mmap(0x7fea6f8bb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fea6f8bb000
+mmap(0x7fea6f8bd000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fea6f8bd000
+close(3)                                = 0
+mprotect(0x7fea6f8bb000, 4096, PROT_READ) = 0
+mprotect(0x7fea6fac3000, 4096, PROT_READ) = 0
+munmap(0x7fea715f3000, 115291)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\303\276\1\0\0\1\0\0\0\0\0\0\3www\6google\3com\0\0\1\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}, {{msg_name(0)=NULL, msg_iov(1)=[{"\355\226\1\0\0\1\0\0\0\0\0\0\3www\6google\3com\0\0\34\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [264])               = 0
+recvfrom(3, "\303\276\201\200\0\1\0\6\0\4\0\4\3www\6google\3com\0\0\1\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 264
+poll([{fd=3, events=POLLIN}], 1, 4997)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [196])               = 0
+recvfrom(3, "\355\226\201\200\0\1\0\1\0\4\0\4\3www\6google\3com\0\0\34\0\1"..., 1784, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 196
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea7160f000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fea7160f000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=8957, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3\220\212\261S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0\220\212\261S\375\"\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 308
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\220\212\261S\375\"\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 256
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\220\212\261S\375\"\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.103")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(51748), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.104")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(47514), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.105")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(46001), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.106")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(50959), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.147")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(60790), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.99")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(45739), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+close(3)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2607:f8b0:4002:c06::68", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(3)                                = 0
+write(2, "74.125.21.103", 13)           = 13
+write(2, ", ", 2)                       = 2
+write(2, "74.125.21.104", 13)           = 13
+write(2, ", ", 2)                       = 2
+write(2, "74.125.21.105", 13)           = 13
+write(2, ", ...", 5)                    = 5
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.google.com (ww"..., 67) = 67
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999995})
+write(3, "GET /?search=wake+forest HTTP/1."..., 117) = 117
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 925552})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999993})
+recvfrom(3, "gle.com; HttpOnly\r\nP3P: CP=\"This"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "gle.com; HttpOnly\r\nP3P: CP=\"This"..., 282) = 282
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/index.html?search=wake+forest", 0x7fff9b3071c0) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/www.google.com", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/index.html?search=wake+forest", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 92) = 92
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7fea71609000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "8000\r\n<!doctype html><html items"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "<!doctype html><html itemscope=\""..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea71608000
+write(4, "<!doctype html><html itemscope=\""..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "7px 5px 0;*padding:25px 5px 0}.g"..., 8192) = 4689
+write(4, "7px 5px 0;*padding:25px 5px 0}.g"..., 4096) = 4096
+write(4, "nt;display:inline-block;font-wei"..., 593) = 593
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941875})
+read(3, ":inset 0 0 0 1px #fff,0 1px 1px "..., 8192) = 1368
+write(4, ":inset 0 0 0 1px #fff,0 1px 1px "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949862})
+read(3, "-gradient(top,#4d90fe,#357ae8);b"..., 8192) = 4104
+write(4, "-gradient(top,#4d90fe,#357ae8);b"..., 4096) = 4096
+write(4, "p(1,rgba", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "(0,0,0,.1)));background:-webkit-"..., 8192) = 6840
+write(4, "(0,0,0,.1)));background:-webkit-"..., 4096) = 4096
+write(4, "tion(a){a=a.split(\":\");for(var b"..., 2744) = 2744
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "lementById(c))&&a.push(c);return"..., 7575) = 6840
+write(4, "lementById(c))&&a.push(c);return"..., 4096) = 4096
+write(4, "000\",0),tet:k.b(\"0.5\",0)};w.wm=u"..., 2744) = 2744
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "n(){B(function(){h.spd()})};p(\"s"..., 735) = 735
+write(4, "n(){B(function(){h.spd()})};p(\"s"..., 735) = 735
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n4fba\r\nc(a))},0))},cc=function("..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "4fba\r\nc(a))},0))},cc=function(a,"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "4fba\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "c(a))},0))},cc=function(a,b,c){i"..., 8192) = 1993
+write(4, "c(a))},0))},cc=function(a,b,c){i"..., 1993) = 1993
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "[m++])&&\"m\"!=b[0]&&!b[1].auto;);"..., 8192) = 5472
+write(4, "[m++])&&\"m\"!=b[0]&&!b[1].auto;);"..., 4096) = 4096
+write(4, "id=gb_51 href=\"http://translate."..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 940956})
+read(3, "ss=gbmt>Even more &raquo;</a></l"..., 8192) = 1368
+write(4, "ss=gbmt>Even more &raquo;</a></l"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949733})
+read(3, "padding-bottom:20px;position:abs"..., 8192) = 1368
+write(4, "padding-bottom:20px;position:abs"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "dow:inset 0 1px 2px rgba(0,0,0,0"..., 8192) = 1368
+write(4, "dow:inset 0 1px 2px rgba(0,0,0,0"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948464})
+read(3, "ht=0;b.width=0;b.style.overflow="..., 8192) = 4104
+write(4, "ht=0;b.width=0;b.style.overflow="..., 4096) = 4096
+write(4, "y{if(!a.", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "i.da())google.ml(Error(\"apa\"),!1"..., 4737) = 4104
+write(4, "i.da())google.ml(Error(\"apa\"),!1"..., 4096) = 4096
+write(4, "ost\":\"go", 8)               = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948163})
+read(3, "ogle.com\",\"jam\":0,\"jsonp\":true,\""..., 633) = 633
+write(4, "ogle.com\",\"jam\":0,\"jsonp\":true,\""..., 633) = 633
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 7
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 5
+read(3, "0\r\n", 3)                     = 3
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fea71608000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-30 12:04:32 (1.69 MB/s) "..., 130) = 130
+open("/home/bearface/website_output/www.google.com/index.html?search=wake+forest", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=53178, ...}) = 0
+mmap(NULL, 53178, PROT_READ|PROT_WRITE, MAP_PRIVATE, 4, 0) = 0x7fea715fc000
+close(4)                                = 0
+munmap(0x7fea715fc000, 53178)           = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/ISO8859-1.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\5\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=10320, ...}) = 0
+mmap(NULL, 2105416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7fea6f4a1000
+mprotect(0x7fea6f4a3000, 2093056, PROT_NONE) = 0
+mmap(0x7fea6f6a2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1000) = 0x7fea6f6a2000
+close(4)                                = 0
+mprotect(0x7fea6f6a2000, 4096, PROT_READ) = 0
+statfs("/home/bearface/website_output/www.google.com/images/srpr", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175390, f_bavail=46158584, f_files=15065088, f_ffree=14789168, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", {st_mode=S_IFREG|0644, st_size=35615, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", {st_mode=S_IFREG|0644, st_size=35615, ...}) = 0
+stat("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", {st_mode=S_IFREG|0644, st_size=35615, ...}) = 0
+statfs("/home/bearface/website_output/www.google.com/images/srpr", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175390, f_bavail=46158584, f_files=15065088, f_ffree=14789168, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", {st_mode=S_IFREG|0644, st_size=35615, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", {st_mode=S_IFREG|0644, st_size=35615, ...}) = 0
+nanosleep({1, 0}, 0x7fff9b307930)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:04:33--  http://"..., 74) = 74
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 50) = 50
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999990})
+write(3, "GET /images/srpr/nav_logo80.png "..., 399) = 399
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 986856})
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 351) = 351
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", {st_mode=S_IFREG|0644, st_size=35615, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "35615", 5)                    = 5
+write(2, " (35K)", 6)                   = 6
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.google.com/images/srpr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 89) = 89
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\247\0\0\1 \10\6\0\0\0\321\324c"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea71608000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\247\0\0\1 \10\6\0\0\0\321\324c"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\344iZH\234\325\23\211\263\373 j\375,\204;X+\354\211),\234\202\220\25%Wog\227\250"..., 8192) = 8192
+write(4, "\344iZH\234\325\23\211\263\373 j\375,\204;X+\354\211),\234\202\220\25%Wog\227\250"..., 4096) = 4096
+write(4, "\224'H{\346A\312\\\322\322\3^\354\312\216,\324}\346i\31\331h;#\24Uz\321\373\321\275"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "#0\370Z\24t\237% =\353=`\2\230\352\26\332\227\352\24\251.5\212\0'\1AB`Q"..., 8192) = 3785
+write(4, "#0\370Z\24t\237% =\353=`\2\230\352\26\332\227\352\24\251.5\212\0'\1AB`Q"..., 3785) = 3785
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949497})
+read(3, "\v=o\211\1[j\233\245\21\234\352\350S\5\347\346\31.xp+\30\216\26\241pd\220\330\232\204"..., 8192) = 1368
+write(4, "\v=o\211\1[j\233\245\21\234\352\350S\5\347\346\31.xp+\30\216\26\241pd\220\330\232\204"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\305\214\325\3531}\325:L_\261\t\23\331\272w^>\371\340,\16}\352\303\271\353\tjO\272\203"..., 8192) = 1368
+write(4, "\305\214\325\3531}\325:L_\261\t\23\331\272w^>\371\340,\16}\352\303\271\353\tjO\272\203"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949931})
+read(3, "\206\20\205\230\217D\0\247\311\346\367pIo\23>\353\271\313\16_N=\222U$}\223\17g\311\301"..., 8192) = 1368
+write(4, "\206\20\205\230\217D\0\247\311\346\367pIo\23>\353\271\313\16_N=\222U$}\223\17g\311\301"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949888})
+read(3, "C}z\332\2\240\31\205\263\234\353\354\307c\245\355X,a \315e.x2\263r\24\37\0162\33"..., 8192) = 1368
+write(4, "C}z\332\2\240\31\205\263\234\353\354\307c\245\355X,a \315e.x2\263r\24\37\0162\33"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "@u\255\0\365\341\34p\265\17\203\246+\207G\fQ\17>rC u\275 v\273\34\240\323m\231"..., 8192) = 1368
+write(4, "@u\255\0\365\341\34p\265\17\203\246+\207G\fQ\17>rC u\275 v\273\34\240\323m\231"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949930})
+read(3, "B\351\353v07\337=N\237B\373}\222w_\252:\230\200\370\\\350\273gc\201M\26F\336\313"..., 8192) = 1368
+write(4, "B\351\353v07\337=N\237B\373}\222w_\252:\230\200\370\\\350\273gc\201M\26F\336\313"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "\225\333\317@\332\316\254\334\272\316Xl~L\345\360`\263)\351\34P\232L\374\347\220h>\364\313\301"..., 7238) = 1368
+write(4, "\225\333\317@\332\316\254\334\272\316Xl~L\345\360`\263)\351\34P\232L\374\347\220h>\364\313\301"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949919})
+read(3, "\302O\240 4\21u\317\250\375\22}\225Z\275\313\273\342\223yVJ\267f\320\\O\372\336pL\2"..., 5870) = 1368
+write(4, "\302O\240 4\21u\317\250\375\22}\225Z\275\313\273\342\223yVJ\267f\320\\O\372\336pL\2"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949882})
+read(3, "s\335\223\363@\234\304\340\215%\30I\310\235\v\237Y]\262\236\\2\304\22\233\245\"\26U\10\347\355"..., 4502) = 1655
+write(4, "s\335\223\363@\234\304\340\215%\30I\310\235\v\237Y]\262\236\\2\304\22\233\245\"\26U\10\347\355"..., 1655) = 1655
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942861})
+read(3, "\341|\33\224\6#\207\30\230>\212\205\375\313\4.\364\231\326\271\373\247\26\370\213\7O\306\341\247Z\276"..., 2847) = 1368
+write(4, "\341|\33\224\6#\207\30\230>\212\205\375\313\4.\364\231\326\271\373\247\26\370\213\7O\306\341\247Z\276"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949437})
+read(3, "E3\223>\244+\3777\301)\17\244\"K*\r\344?\t\246Zpj\n\250\272p\246e\344H\306"..., 1479) = 1479
+write(4, "E3\223>\244+\3777\301)\17\244\"K*\r\344?\t\246Zpj\n\250\272p\246e\344H\306"..., 1479) = 1479
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fea71608000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.google.com/images/srpr/nav_logo80.png", [2014/06/30-12:04:33, 2012/11/09-16:19:30]) = 0
+write(2, "2014-06-30 12:04:33 (2.98 MB/s) "..., 133) = 133
+statfs("/home/bearface/website_output/www.google.com/images/icons/product", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175319, f_bavail=46158513, f_files=15065088, f_ffree=14789167, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", {st_mode=S_IFREG|0644, st_size=1834, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", {st_mode=S_IFREG|0644, st_size=1834, ...}) = 0
+stat("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", {st_mode=S_IFREG|0644, st_size=1834, ...}) = 0
+statfs("/home/bearface/website_output/www.google.com/images/icons/product", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175319, f_bavail=46158513, f_files=15065088, f_ffree=14789167, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", {st_mode=S_IFREG|0644, st_size=1834, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", {st_mode=S_IFREG|0644, st_size=1834, ...}) = 0
+nanosleep({1, 0}, 0x7fff9b307930)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:04:34--  http://"..., 82) = 82
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 50) = 50
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET /images/icons/product/chrome"..., 407) = 407
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 986760})
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 350) = 350
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", {st_mode=S_IFREG|0644, st_size=1834, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "1834", 4)                     = 4
+write(2, " (1.8K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.google.com/images/icons/product", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 97) = 97
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0000\0\0\0000\10\3\0\0\0`\334\t"..., 1834) = 1834
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea71608000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0000\0\0\0000\10\3\0\0\0`\334\t"..., 1834) = 1834
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fea71608000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.google.com/images/icons/product/chrome-48.png", [2014/06/30-12:04:34, 2012/04/01-22:13:37]) = 0
+write(2, "2014-06-30 12:04:34 (5.90 MB/s) "..., 139) = 139
+statfs("/home/bearface/website_output/www.google.com/logos/doodles/2014", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175272, f_bavail=46158466, f_files=15065088, f_ffree=14789166, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", {st_mode=S_IFREG|0644, st_size=306140, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", {st_mode=S_IFREG|0644, st_size=306140, ...}) = 0
+stat("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", {st_mode=S_IFREG|0644, st_size=306140, ...}) = 0
+statfs("/home/bearface/website_output/www.google.com/logos/doodles/2014", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49175272, f_bavail=46158466, f_files=15065088, f_ffree=14789166, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", {st_mode=S_IFREG|0644, st_size=306140, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", {st_mode=S_IFREG|0644, st_size=306140, ...}) = 0
+nanosleep({1, 0}, 0x7fff9b307930)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:04:35--  http://"..., 110) = 110
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 50) = 50
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET /logos/doodles/2014/world-cu"..., 435) = 435
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 981960})
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 352) = 352
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", {st_mode=S_IFREG|0644, st_size=306140, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "306140", 6)                   = 6
+write(2, " (299K)", 7)                  = 7
+write(2, " [image/gif]\n", 13)          = 13
+stat("/home/bearface/website_output/www.google.com/logos/doodles/2014", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 125) = 125
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "GIF89a\250\2\341\0\367\377\0n\267\230\256\271qK\204=`l\245\357[3\22uF\265"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fea71608000
+write(4, "GIF89a\250\2\341\0\367\377\0n\267\230\256\271qK\204=`l\245\357[3\22uF\265"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "4\r\21&\330\311\263\247O\236\20\217 L!\223\7\321\212*B\216\341\306\264\251\323\247P\243J\235"..., 8192) = 2400
+write(4, "4\r\21&\330\311\263\247O\236\20\217 L!\223\7\321\212*B\216\341\306\264\251\323\247P\243J\235"..., 2400) = 2400
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ",P\377M\25\v\30\35\234\365\262k\333\346\366\327`\343\274!8x4\356\370\343\220G.\371\344\224"..., 8192) = 1368
+write(4, ",P\377M\25\v\30\35\234\365\262k\333\346\366\327`\343\274!8x4\356\370\343\220G.\371\344\224"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\0!\371\4\5\4\0\377\0,y\0\0\0\270\1<\0\0\10\377\0\317\10\34H\260 A\0370\22"..., 8192) = 1368
+write(4, "\0!\371\4\5\4\0\377\0,y\0\0\0\270\1<\0\0\10\377\0\317\10\34H\260 A\0370\22"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\226N\201/ryA\nfJ\323\232\326\324\245-\345\301\25p\312S\225\22\364\247\221\212\3016\206J"..., 8192) = 1368
+write(4, "\226N\201/ryA\nfJ\323\232\326\324\245-\345\301\25p\312S\225\22\364\247\221\212\3016\206J"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\245Y\2.\217,L!\363\16M\0256{\246\361\361Sl\303\273\17/\226U)\342\"F\2152="..., 8192) = 1368
+write(4, "\245Y\2.\217,L!\363\16M\0256{\246\361\361Sl\303\273\17/\226U)\342\"F\2152="..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\r.\225k\216P\303T\23\331UMx-\246^\313GU\17Y5\260\240\r-WK1\206\31\20"..., 8192) = 1368
+write(4, "\r.\225k\216P\303T\23\331UMx-\246^\313GU\17Y5\260\240\r-WK1\206\31\20"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949024})
+read(3, "\22\323\260\223R)a\215\240\224Vy\225H\t+%\211\225\\\331\225L\331\225J\351\n!a\v-"..., 8192) = 1368
+write(4, "\22\323\260\223R)a\215\240\224Vy\225H\t+%\211\225\\\331\225L\331\225J\351\n!a\v-"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\36\224Z \2567\251Ju\\\364\244@B\351\312R\242\262\233\340\fg*\307\365\240Y\306\253\217\266"..., 8192) = 1368
+write(4, "\36\224Z \2567\251Ju\\\364\244@B\351\312R\242\262\233\340\fg*\307\365\240Y\306\253\217\266"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ",70%\177U^]p\3h\230\210\25\270\210\215\350\210\343\363\206F\323}\364\366,'\225\nT"..., 8192) = 2736
+write(4, ",70%\177U^]p\3h\230\210\25\270\210\215\350\210\343\363\206F\323}\364\366,'\225\nT"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\237\314\354k_\372\36@\10\270\300\7nm\177\33\334\324\331\316n\255\277\315L\371\255\354\237\17767"..., 8192) = 2736
+write(4, "\237\314\354k_\372\36@\10\270\300\7nm\177\33\334\324\331\316n\255\277\315L\371\255\354\237\17767"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\247VR\1\36\340\3776\3609`$''\347s\306\203\210\344?\0\212\20\6$l\216\t\271\303\201"..., 8192) = 1368
+write(4, "\247VR\1\36\340\3776\3609`$''\347s\306\203\210\344?\0\212\20\6$l\216\t\271\303\201"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948178})
+read(3, "\270\201c\267}\245\323}\336\307(W\200\5X\20\v\22H~\346\207~\364\267\202\355w\f\350q\f"..., 8192) = 5760
+write(4, "\270\201c\267}\245\323}\336\307(W\200\5X\20\v\22H~\346\207~\364\267\202\355w\f\350q\f"..., 4096) = 4096
+write(4, "R\307\"u\24\2032H\203\242g\203\351\201\203#\307P?X\6<\360\203A\210\20C\330\204tX"..., 1664) = 1664
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\254\312\253,\305\221\321\10\266|\313\270\234\313\272\274\313\274\334\313\276\374\313\272l\7\2573\313\320\21\20"..., 8192) = 2736
+write(4, "\254\312\253,\305\221\321\10\266|\313\270\234\313\272\274\313\274\334\313\276\374\313\272l\7\2573\313\320\21\20"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\240\5Z\200\213\231s\0\351 \216;\300\213\232\346\213\374dY\227\265\20{@\215i`e\231(j"..., 8192) = 1368
+write(4, "\240\5Z\200\213\231s\0\351 \216;\300\213\232\346\213\374dY\227\265\20{@\215i`e\231(j"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\6a<\306p\234\27e\214\2122\213W\7\200\300\20\253\306B;cm\374\306q\374\307<\313h\21"..., 8192) = 2736
+write(4, "\6a<\306p\234\27e\214\2122\213W\7\200\300\20\253\306B;cm\374\306q\374\307<\313h\21"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\31 \200\"]p\t\314bN\212\221\nG(~I8j\23\23z\21c\201m%\205\6\261\2\265"..., 8192) = 2736
+write(4, "\31 \200\"]p\t\314bN\212\221\nG(~I8j\23\23z\21c\201m%\205\6\261\2\265"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ";b9\311t\17\5C\n\226Sk9#\234\317d\225\253\4\10\241:\vB\34 k\330\7\304\326"..., 8192) = 2736
+write(4, ";b9\311t\17\5C\n\226Sk9#\234\317d\225\253\4\10\241:\vB\34 k\330\7\304\326"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "z\227\32\213\227\17\31K\310\366w\313FM@\350\257M\347EC\300\246(\373\20\24+\257\235qF"..., 8192) = 1368
+write(4, "z\227\32\213\227\17\31K\310\366w\313FM@\350\257M\347EC\300\246(\373\20\24+\257\235qF"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943530})
+read(3, "v\202\237?\352\264a\2\372\261\200\4\231\33\234p\t0\225\305\271\344\210u\332\351T\236T9\250\5"..., 8192) = 1368
+write(4, "v\202\237?\352\264a\2\372\261\200\4\231\33\234p\t0\225\305\271\344\210u\332\351T\236T9\250\5"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949476})
+read(3, "A<\337\222\rp\304R\2362\325\252\254\342\301a9DZ\336\262sGz\330]^\366u,,b"..., 8192) = 2736
+write(4, "A<\337\222\rp\304R\2362\325\252\254\342\301a9DZ\336\262sGz\330]^\366u,,b"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949942})
+read(3, "\5\r\333\264\375\333\300=\332\266\215\333\2A\t\36\240\331\274m\317\276\35\334\314\335\334w=\334\7\221"..., 8192) = 1368
+write(4, "\5\r\333\264\375\333\300=\332\266\215\333\2A\t\36\240\331\274m\317\276\35\334\314\335\334w=\334\7\221"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949902})
+read(3, "\2103\5\302\377\311hJ3A\377\240\346\333\316@\6$`!W,\350\302\"\24\272\210z\360\346\6"..., 8192) = 1368
+write(4, "\2103\5\302\377\311hJ3A\377\240\346\333\316@\6$`!W,\350\302\"\24\272\210z\360\346\6"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948740})
+read(3, "\356\5\3\3028\20\246h\23\224\330\214\225\310\24\227\2503\353\3\206\324\323\211M5\22w\0B\332\370"..., 8192) = 1368
+write(4, "\356\5\3\3028\20\246h\23\224\330\214\225\310\24\227\2503\353\3\206\324\323\211M5\22w\0B\332\370"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949918})
+read(3, "0\305]\200\f\33\240\30:\374\275\317X\21>\\(@|FM\232\3020\0\270-7\213\201\225\304"..., 8192) = 2736
+write(4, "0\305]\200\f\33\240\30:\374\275\317X\21>\\(@|FM\232\3020\0\270-7\213\201\225\304"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "U\2\260y n\376\362F\342\214\325\10\323\371e\201\276\260t\2737\221;3Y\215{\6\245A\374"..., 8192) = 1368
+write(4, "U\2\260y n\376\362F\342\214\325\10\323\371e\201\276\260t\2737\221;3Y\215{\6\245A\374"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\352\226\34\220\241X\261\241\272\331\241\35\267\fj\240\6@:U\357\231\233\315\331\242\30\301\233\367\331\35"..., 8192) = 1368
+write(4, "\352\226\34\220\241X\261\241\272\331\241\35\267\fj\240\6@:U\357\231\233\315\331\242\30\301\233\367\331\35"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "q\245\215\323G\300\3\210\260\5\10\34\334\245\233\t\362\377\320\315^L\220\311\275\334\344=\23\315\375\227"..., 8192) = 1368
+write(4, "q\245\215\323G\300\3\210\260\5\10\34\334\245\233\t\362\377\320\315^L\220\311\275\334\344=\23\315\375\227"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "x\5+\225\320J\261\203\342\256`\2\205.\266\360\0\236\343\234\32\334AF\201\300\341\214P\300H\3"..., 8192) = 1368
+write(4, "x\5+\225\320J\261\203\342\256`\2\205.\266\360\0\236\343\234\32\334AF\201\300\341\214P\300H\3"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949949})
+read(3, "\247Mku\0G \20\371'\202gv\6\375\347\177\0\370\20H\2406\210\3012\325\226h\5\360^"..., 8192) = 1368
+write(4, "\247Mku\0G \20\371'\202gv\6\375\347\177\0\370\20H\2406\210\3012\325\226h\5\360^"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\22\3059\20&\227\215v\364E`\226y{\333\227\260{\274R!\273\275\5Or\213\273\5\261\273\223"..., 8192) = 1368
+write(4, "\22\3059\20&\227\215v\364E`\226y{\333\227\260{\274R!\273\275\5Or\213\273\5\261\273\223"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "G\246\377>\377\357<v\235\333\271{\237?X\357\v\315/\364>\375J\240\277\377\376\"\270v]U"..., 8192) = 1368
+write(4, "G\246\377>\377\357<v\235\333\271{\237?X\357\v\315/\364>\375J\240\277\377\376\"\270v]U"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949912})
+read(3, "S\357\261C\206\25V\255u8C\3\4\302\1\36Xb\253\10\336\352C\216\200\\\306\376\252\244\rf"..., 8192) = 1368
+write(4, "S\357\261C\206\25V\255u8C\3\4\302\1\36Xb\253\10\336\352C\216\200\\\306\376\252\244\rf"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "6\24\2274\311N\27\361\231\361\221\6\7!\212\r\6\3\2429%/\0\225\3770\tf\245n\0362"..., 8192) = 1368
+write(4, "6\24\2274\311N\27\361\231\361\221\6\7!\212\r\6\3\2429%/\0\225\3770\tf\245n\0362"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\323\331\252E\372\276-\35\313)\351\267O\310T\n=o\6q\212I\240\r\17!\t\22\360\17B\n"..., 8192) = 1368
+write(4, "\323\331\252E\372\276-\35\313)\351\267O\310T\n=o\6q\212I\240\r\17!\t\22\360\17B\n"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949911})
+read(3, "\256\232\357@\373b\331\257@\331\376\353\230\224\3\347\365\346@-\317\5\261\26`\302p\202\217\377\220y"..., 8192) = 1368
+write(4, "\256\232\357@\373b\331\257@\331\376\353\230\224\3\347\365\346@-\317\5\261\26`\302p\202\217\377\220y"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949094})
+read(3, "\235\316x\247i\214\204\"\23DG\347\306\17\251\225\215\20v3\362\276\270\377s\310\274{g\26\357`"..., 8192) = 2736
+write(4, "\235\316x\247i\214\204\"\23DG\347\306\17\251\225\215\20v3\362\276\270\377s\310\274{g\26\357`"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\4\375\342FN\0211>\327\222\220\1]\360\232`\314\340Q\r\242Y\32\242X\300\6\341\231\4\233\320"..., 8192) = 2736
+write(4, "\4\375\342FN\0211>\327\222\220\1]\360\232`\314\340Q\r\242Y\32\242X\300\6\341\231\4\233\320"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "7\202&x\202\n\300#(8\202\376\200p\222Gy\3176s[\267*&\264\4]uaH\3}"..., 8192) = 1368
+write(4, "7\202&x\202\n\300#(8\202\376\200p\222Gy\3176s[\267*&\264\4]uaH\3}"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949429})
+read(3, "\271\16Q\271\257[\273\370\32\3\317p\f\31\221\1\337\300\267\20\347F\241[\10l0\272,V\272\205"..., 8192) = 1368
+write(4, "\271\16Q\271\257[\273\370\32\3\317p\f\31\221\1\337\300\267\20\347F\241[\10l0\272,V\272\205"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\203\n\35J\264\250\321\236?\201\36]\312\264\251\323\247P\377%%\31\265\252\325\253X\263r\34\300\265"..., 8192) = 2736
+write(4, "\203\n\35J\264\250\321\236?\201\36]\312\264\251\323\247P\377%%\31\265\252\325\253X\263r\34\300\265"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "s\4\300\320\5\24\377\325/\5\231\27\0079P\t\251\22u\227,C8\37\7`\215\330(i>\270"..., 8192) = 1368
+write(4, "s\4\300\320\5\24\377\325/\5\231\27\0079P\t\251\22u\227,C8\37\7`\215\330(i>\270"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946923})
+read(3, "A\312xq\0027\300Y\310\360/'p\2\252\314\310.\214\21A\34\307\f\200\0\262\374q%\230k"..., 8192) = 8192
+write(4, "A\312xq\0027\300Y\310\360/'p\2\252\314\310.\214\21A\34\307\f\200\0\262\374q%\230k"..., 4096) = 4096
+write(4, "30\241\25\372\230\367\231\241\10\327I\313@\227\223\260\177\36\332\2357\332\242\30\301\242\345\341\212\3459"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "X\0\3\354\315\234\272\265\237;\301\377&\24\340\7\377e=2w\340\7?`\212$\277\361\313\347\266"..., 8192) = 1384
+write(4, "X\0\3\354\315\234\272\265\237;\301\377&\24\340\7\377e=2w\340\7?`\212$\277\361\313\347\266"..., 1384) = 1384
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948844})
+read(3, "VsA+\264\7\0017+\6\1w\300\266d\233\2\222\307\3\206\273\270`K\247\214+\266\207\20\271"..., 8192) = 1368
+write(4, "VsA+\264\7\0017+\6\1w\300\266d\233\2\222\307\3\206\273\270`K\247\214+\266\207\20\271"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949426})
+read(3, "\240\301\203\10\23*\274\300\220\241\302\207\20#J\234H\261\242\305\213\0303j\334\310\261\243\307\217 C"..., 8192) = 1368
+write(4, "\240\301\203\10\23*\274\300\220\241\302\207\20#J\234H\261\242\305\213\0303j\334\310\261\243\307\217 C"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\225\211F)\302\321a\206\360\243\347\264\347?\16\0\233\177\24\241i\rD\311\254$\320\2\t\230\264\30"..., 8192) = 2736
+write(4, "\225\211F)\302\321a\206\360\243\347\264\347?\16\0\233\177\24\241i\rD\311\254$\320\2\t\230\264\30"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\322\253\1H`\311\2\tKHp\f\233<\246v\334\305@\34\21]\205\30(L\20\36\210[\252\205"..., 8192) = 4104
+write(4, "\322\253\1H`\311\2\tKHp\f\233<\246v\334\305@\34\21]\205\30(L\20\36\210[\252\205"..., 4096) = 4096
+write(4, "\201\340\230t\315\5B?", 8)    = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "g\216\354\205b\351(_\214\20\2176y\223x\3778\217\25\321h\371\310t\3748\20\376\30\23\311("..., 8192) = 5472
+write(4, "g\216\354\205b\351(_\214\20\2176y\223x\3778\217\25\321h\371\310t\3748\20\376\30\23\311("..., 4096) = 4096
+write(4, "\216\20\303\203<\233\205\1g\310\202\236U2\2144d\372!\246\24\310\36R\220\2024\24d\320\225\325"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\215Z\300\244T\352\240\31\312\1\345\320\241\235\370\241\376\211\230:'\226$:\203'\212K\347\31%4"..., 8192) = 2736
+write(4, "\215Z\300\244T\352\240\31\312\1\345\320\241\235\370\241\376\211\230:'\226$:\203'\212K\347\31%4"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943434})
+read(3, "I\245|u\353\10\372\324\307\276\r\336\17~Y\331\r\f\356\220\2064\344\215\0%\34\306\31\322\367\301"..., 8192) = 1368
+write(4, "I\245|u\353\10\372\324\307\276\r\336\17~Y\331\r\f\356\220\2064\344\215\0%\34\306\31\322\367\301"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\2707\25?A\307/\232\332\322\266\374\305\253\247\347\7\2679BAy\2257m\325\246y\234'a\23"..., 8192) = 1368
+write(4, "\2707\25?A\307/\232\332\322\266\374\305\253\247\347\7\2679BAy\2257m\325\246y\234'a\23"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949763})
+read(3, "\34\353qZ\253\266)\260\236\210\213\270\210\20\267\214K\264\311z\266h\333\270\222;\271`;\267u\213"..., 8192) = 1368
+write(4, "\34\353qZ\253\266)\260\236\210\213\270\210\20\267\214K\264\311z\266h\333\270\222;\271`;\267u\213"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\366l\v\267x\363\352\375\30\267/\4\250\27\6\\\243[\367l\332\256{\23+^L\320\257\337\261\202"..., 8192) = 2736
+write(4, "\366l\v\267x\363\352\375\30\267/\4\250\27\6\\\243[\367l\332\256{\23+^L\320\257\337\261\202"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949870})
+read(3, "\346\6+\331\225+\331\222.yab9\226\30V\31\373\270\224\306x\223\1I\24\340\370\27\4)%"..., 8192) = 1368
+write(4, "\346\6+\331\225+\331\222.yab9\226\30V\31\373\270\224\306x\223\1I\24\340\370\27\4)%"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\314\370\t\315\6!\315\323\314\313\254Z\231\"9\314\216\361\315\342\\\317\24\221I\345\214\20\222dF\342"..., 8192) = 4104
+write(4, "\314\370\t\315\6!\315\323\314\313\254Z\231\"9\314\216\361\315\342\\\317\24\221I\345\214\20\222dF\342"..., 4096) = 4096
+write(4, "\32`\254\312\247@\372\247", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\303\21\253\264\232\255\332j\253YA\t30\3\2000G\342:\256r\324v\234y\256\350\232k\223p"..., 8192) = 2736
+write(4, "\303\21\253\264\232\255\332j\253YA\t30\3\2000G\342:\256r\324v\234y\256\350\232k\223p"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ":\251\263\315Sr\355\233\322\24gCQ\"\313Y>\244\226\201,\334\26\35\322N\237\364R \361\374"..., 8192) = 1368
+write(4, ":\251\263\315Sr\355\233\322\24gCQ\"\313Y>\244\226\201,\334\26\35\322N\237\364R \361\374"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949799})
+read(3, "\215\2346g\252\330_\363\341&K\20\214\256\30\23\261\230\216F\201\26]\320\5\332\2\2\\\3031\356"..., 8192) = 2736
+write(4, "\215\2346g\252\330_\363\341&K\20\214\256\30\23\261\230\216F\201\26]\320\5\332\2\2\\\3031\356"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\2168rD\264\256*\0+A\262\266T\34\255\23.\3$\256\241\215y\6\267my\361\345\220E\325"..., 8192) = 2736
+write(4, "\2168rD\264\256*\0+A\262\266T\34\255\23.\3$\256\241\215y\6\267my\361\345\220E\325"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "W4\332\232\310I\4Az\247x\232\247\334P\nc0\3Dj\244\306y\241J\nr\24\347bO"..., 8192) = 2736
+write(4, "W4\332\232\310I\4Az\247x\232\247\334P\nc0\3Dj\244\306y\241J\nr\24\347bO"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\224\200\1\201\fJ\34a@\265\r\330\361\222\232\304$'S\302D'F\304\217S\364H\3\316\360\205"..., 8192) = 2736
+write(4, "\224\200\1\201\fJ\34a@\265\r\330\361\222\232\304$'S\302D'F\304\217S\364H\3\316\360\205"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "H\223\325\233\227\7\21\0\352[\300\6|\300\10\34\276U\333\275G\3\277\2012M\214[\277\4q\277"..., 8192) = 2736
+write(4, "H\223\325\233\227\7\21\0\352[\300\6|\300\10\34\276U\333\275G\3\277\2012M\214[\277\4q\277"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\234w##\376\7\7J\334\221\23\247\270\270\\e\261\177U\22\343\0221\262\306\5\3011A\213U\27"..., 8192) = 2736
+write(4, "\234w##\376\7\7J\334\221\23\247\270\270\\e\261\177U\22\343\0221\262\306\5\3011A\213U\27"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "1\312\214\335\330/\220\20\3055\37\305\305\230v\235\16\226m\331[\335\330B\354\326\244\254\330\236\335\21"..., 8192) = 1368
+write(4, "1\312\214\335\330/\220\20\3055\37\305\305\230v\235\16\226m\331[\335\330B\354\326\244\254\330\236\335\21"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949761})
+read(3, "\365\214\212\204DI\26/q\213\"\304\250\v\245Sd\263j\370I\202\210\22\207\2341\n\0325\371\275"..., 8192) = 1368
+write(4, "\365\214\212\204DI\26/q\213\"\304\250\v\245Sd\263j\370I\202\210\22\207\2341\n\0325\371\275"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "f\23U\270\210'\222\201z\377\243\205\253#y\t\207EG\27\206\247\7H\2332 \ta\206\t\201"..., 8192) = 2736
+write(4, "f\23U\270\210'\222\201z\377\243\205\253#y\t\207EG\27\206\247\7H\2332 \ta\206\t\201"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\263\315V\256pg\10\3\212\267\322\375\264\237\267\\\342\371\21\310*\2517\312}\23\244Y\340\vq="..., 8192) = 1368
+write(4, "\263\315V\256pg\10\3\212\267\322\375\264\237\267\\\342\371\21\310*\2517\312}\23\244Y\340\vq="..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\35\224\300wP\2105f\367\310\372\324\303\327\5 h\1k\17?\tv\272\234t\26\2s\332|W"..., 8192) = 2736
+write(4, "\35\224\300wP\2105f\367\310\372\324\303\327\5 h\1k\17?\tv\272\234t\26\2s\332|W"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "6\t\324Mz\30\350\305po\376\207!\242W\242\305\207\201/\214\30\32RD\352\271\347%\230\2s"..., 8192) = 1368
+write(4, "6\t\324Mz\30\350\305po\376\207!\242W\242\305\207\201/\214\30\32RD\352\271\347%\230\2s"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\212e\253e\202\270\30$wHC\32n0X\7\263\265 \21*F\nR0\211\202\230Y\261\367j"..., 8192) = 2736
+write(4, "\212e\253e\202\270\30$wHC\32n0X\7\263\265 \21*F\nR0\211\202\230Y\261\367j"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\267\365\341\330c\327\272\274\34o\350\311\225/c\377nH\275\247\365\353\331\323/\256\325\305`\27\333\337"..., 8192) = 1368
+write(4, "\267\365\341\330c\327\272\274\34o\350\311\225/c\377nH\275\247\365\353\331\323/\256\325\305`\27\333\337"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949237})
+read(3, "8e\313^\366&d\204#\361m}$\"\\\310\342t\222\310\335\316aj\321>\314\36\355\264\22\301"..., 8192) = 1368
+write(4, "8e\313^\366&d\204#\361m}$\"\\\310\342t\222\310\335\316aj\321>\314\36\355\264\22\301"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\21\222@\20Y\211\207\377P\232[\351\35\204\5\2H\260\10]\0\t P\17\256\t\2M\305\0263"..., 8192) = 1368
+write(4, "\21\222@\20Y\211\207\377P\232[\351\35\204\5\2H\260\10]\0\t P\17\256\t\2M\305\0263"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "<\f\304\334R\\\ta\342\211&J@\25o?U\250\32\25z\304\230Z\2064\376c\341\31\34\n"..., 8192) = 2736
+write(4, "<\f\304\334R\\\ta\342\211&J@\25o?U\250\32\25z\304\230Z\2064\376c\341\31\34\n"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\t\3\234\331\231/\377\20\236\236\271\235\246\251\21\241\331\10'\260\236h@\232A!\206\216\240c\10!"..., 8192) = 1368
+write(4, "\t\3\234\331\231/\377\20\236\236\271\235\246\251\21\241\331\10'\260\236h@\232A!\206\216\240c\10!"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\320\325\313R\305,qjX$\240\365\326Zoys\316\227\355\334\363\317B\235\254\205\2410\234p\364"..., 8192) = 1368
+write(4, "\320\325\313R\305,qjX$\240\365\326Zoys\316\227\355\334\363\317B\235\254\205\2410\234p\364"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "@w1\256\215\234\334j\32\3739\260\00673)\256or\33{A'\253\305\357\314\225\216\312\271\255"..., 8192) = 1368
+write(4, "@w1\256\215\234\334j\32\3739\260\00673)\256or\33{A'\253\305\357\314\225\216\312\271\255"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948645})
+read(3, "p\343\3464K\367\254U\205j\331\256m!\267\257\337\277'\353\232\275\252P\257^3\200\23+^,"..., 8192) = 1368
+write(4, "p\343\3464K\367\254U\205j\331\256m!\267\257\337\277'\353\232\275\252P\257^3\200\23+^,"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949514})
+read(3, "]@\302d*eVY\246\25&l\375\7\17\5\2.\3046d\256\223D\210]%\202\327\216\352\265"..., 8192) = 2736
+write(4, "]@\302d*eVY\246\25&l\375\7\17\5\2.\3046d\256\223D\210]%\202\327\216\352\265"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949934})
+read(3, "0\20\16\370\365\257*\211+\v\306I\0v\36\340\4\200\375G\\\335j\274\305:\366\261q\335Id"..., 8192) = 1368
+write(4, "0\20\16\370\365\257*\211+\v\306I\0v\36\340\4\200\375G\\\335j\274\305:\366\261q\335Id"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "mO\335\na\360\301\6\207\333a`\225\302`\306D\361\211\240\354\274.\325{or\371\16\274\257b"..., 8192) = 2736
+write(4, "mO\335\na\360\301\6\207\333a`\225\302`\306D\361\211\240\354\274.\325{or\371\16\274\257b"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949960})
+read(3, "\260V\345\343x?\323>H\271r\213\245\263\213B\377\217N\275|\353Z]\24v\211\375\231+\201\367"..., 8192) = 1368
+write(4, "\260V\345\343x?\323>H\271r\213\245\263\213B\377\217N\275|\353Z]\24v\211\375\231+\201\367"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\305C'X\210da\314\243\311\223(S\252\\\311\262\245\313\2270]\2628@\263f\311\2308s\352"..., 8192) = 1368
+write(4, "\305C'X\210da\314\243\311\223(S\252\\\311\262\245\313\2270]\2628@\263f\311\2308s\352"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949443})
+read(3, "G\305\220x\303@&<QJ\336\314\271\263g\225L*\17\304\220\371\263\351\323\250S\33\224e\256\262"..., 8192) = 1368
+write(4, "G\305\220x\303@&<QJ\336\314\271\263g\225L*\17\304\220\371\263\351\323\250S\33\224e\256\262"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "m\2158\340?\5:\367Y\3\326\244q\305\216a\264\10\343\217@Z%c\211\205\35H\211\200gX"..., 8192) = 1368
+write(4, "m\2158\340?\5:\367Y\3\326\244q\305\216a\264\10\343\217@Z%c\211\205\35H\211\200gX"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947268})
+read(3, "\264\326j\353\255\270\346\252\353\256\274\366\352\353\257\300\6+\354\260\304\26k\354\261\310&\253\354\262\3146"..., 8192) = 1368
+write(4, "\264\326j\353\255\270\346\252\353\256\274\366\352\353\257\300\6+\354\260\304\26k\354\261\310&\253\354\262\3146"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949751})
+read(3, "\205\23\343\215\267\3648\v\3)eF\345,\365\244\7AJ\335\300\371FN\201\24\22\v\242g\216\23"..., 8192) = 2736
+write(4, "\205\23\343\215\267\3648\v\3)eF\345,\365\244\7AJ\335\300\371FN\201\24\22\v\242g\216\23"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949955})
+read(3, "\203\n\35\332\20\215\315\243,r\352,I\264\251\323\247P\243J\365\311\342\350Q\234\377\226\356\234\312\265"..., 8192) = 1368
+write(4, "\203\n\35\332\20\215\315\243,r\352,I\264\251\323\247P\243J\365\311\342\350Q\234\377\226\356\234\312\265"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\10\376\5(\340\200\4\26h\340\201\10&\250\340\202\f6\350\340\203\20F(\341\204\24Vh\341\205\30"..., 8192) = 2736
+write(4, "\10\376\5(\340\200\4\26h\340\201\10&\250\340\202\f6\350\340\203\20F(\341\204\24Vh\341\205\30"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\345\257\200\255\320`\367j\220\233A,\261\23\272\206d'K\331\202\250\301\261\332\204\354z\6\300\331\316"..., 8192) = 1368
+write(4, "\345\257\200\255\320`\367j\220\233A,\261\23\272\206d'K\331\202\250\301\261\332\204\354z\6\300\331\316"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\263\233\217-\371\271\253o\254\361\351\273\177+\374\303\313?\177\344\3027\337\276\375\244\262\357;\377u\362"..., 8192) = 2736
+write(4, "\263\233\217-\371\271\253o\254\361\351\273\177+\374\303\313?\177\344\3027\337\276\375\244\262\357;\377u\362"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\203\346\03276W00\312\313\240C\213\36\235\365\203f\306\262:\7&\315\272\265\353\327.S+>"..., 8192) = 2736
+write(4, "\203\346\03276W00\312\313\240C\213\36\235\365\203f\306\262:\7&\315\272\265\353\327.S+>"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949322})
+read(3, "X\2724\251\323\247P\243J\235J\265\252\325\253X\263j\335\312\265\253\327\257`\303\212\35K\266\254\331"..., 8192) = 1368
+write(4, "X\2724\251\323\247P\243J\235J\265\252\325\253X\263j\335\312\265\253\327\257`\303\212\35K\266\254\331"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\253M\343\332\243\220\316\317 \v\245FC\37J\326\267\362\225Ks\265(F\35*:\242Ru\257\207"..., 8192) = 2736
+write(4, "\253M\343\332\243\220\316\317 \v\245FC\37J\326\267\362\225Ks\265(F\35*:\242Ru\257\207"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "=1w\234i\202 \234\301=\0\372O\5\374C\202\375 \0\16\357\361\300\217qL\2023\304 \306"..., 8192) = 1368
+write(4, "=1w\234i\202 \234\301=\0\372O\5\374C\202\375 \0\16\357\361\300\217qL\2023\304 \306"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949714})
+read(3, "\274 \344\v>PB#T9&\251\244q;jh\332t\35\244\221\302\25T>8\242\215Kf\251"..., 8192) = 1368
+write(4, "\274 \344\v>PB#T9&\251\244q;jh\332t\35\244\221\302\25T>8\242\215Kf\251"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "M\10Z-\3403$\357\200\311\26\330A\r\303A\345 \3138\304E\266\361f'F\4*#Y\21"..., 8192) = 1368
+write(4, "M\10Z-\3403$\357\200\311\26\330A\r\303A\345 \3138\304E\266\361f'F\4*#Y\21"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\231\214)\237^\365\234\21U\237\211\242\237\377\20\236\10\341\232\376\271\1\346I\20&\321Z)\5\240~"..., 8192) = 2736
+write(4, "\231\214)\237^\365\234\21U\237\211\242\237\377\20\236\10\341\232\376\271\1\346I\20&\321Z)\5\240~"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\10\342>C.\217.L\266/\335\332a\207:\207g]k\252\343\232m\340Nq\271?\276\363\211\367"..., 8192) = 2736
+write(4, "\10\342>C.\217.L\266/\335\332a\207:\207g]k\252\343\232m\340Nq\271?\276\363\211\367"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\371N\212\35p\235\247R\340\25\7\342\2723\300\256r\262C@\24j\265\3\v\4\264r\2\330\335\31"..., 8192) = 2736
+write(4, "\371N\212\35p\235\247R\340\25\7\342\2723\300\256r\262C@\24j\265\3\v\4\264r\2\330\335\31"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949322})
+read(3, "K\267\256\335\273\6\35\201\330\313wo[\267p\237\342\35L\270\260\341\3030\231lX\314x\3\6\247"..., 8192) = 1368
+write(4, "K\267\256\335\273\6\35\201\330\313wo[\267p\237\342\35L\270\260\341\3030\231lX\314x\3\6\247"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\301\260\3Ex \217=q\300\31VI\4\3006@p\346\244\303W\223\326S\302\225U\250\214il"..., 8192) = 1368
+write(4, "\301\260\3Ex \217=q\300\31VI\4\3006@p\346\244\303W\223\326S\302\225U\250\214il"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\364\246\204\0iN\3548\224%\t\205\27\211\222V\371(+\311\223\330\340~\25\207c\330\343\v`\251"..., 8192) = 2736
+write(4, "\364\246\204\0iN\3548\224%\t\205\27\211\222V\371(+\311\223\330\340~\25\207c\330\343\v`\251"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "E$%\206\343~Y\222\205\341\20\340\302\375}/\206\305\202\317\31Ha\300\33fl\31:LQ\315"..., 8192) = 4104
+write(4, "E$%\206\343~Y\222\205\341\20\340\302\375}/\206\305\202\317\31Ha\300\33fl\31:LQ\315"..., 4096) = 4096
+write(4, "\361E\353\f\301\206V\240", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "\203\312vh*\1\374\203\t`X\243\0207P\250\273Y\243\177\rz\220\7\24\261\203\223eg\204g"..., 8192) = 2736
+write(4, "\203\312vh*\1\374\203\t`X\243\0207P\250\273Y\243\177\rz\220\7\24\261\203\223eg\204g"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\354\333\276\356\373\276\360\33\277\362;\277\364[\277\366{\277\370\233\277\372\273\277\374\333\277\376\373\277\0\34"..., 8192) = 1368
+write(4, "\354\333\276\356\373\276\360\33\277\362;\277\364[\277\366{\277\370\233\277\372\273\277\374\333\277\376\373\277\0\34"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\3i\302\35I\262\226\3\307h\342\32\5Y\f\5x\351\251vLR d\0\0321m\350\f\34."..., 8192) = 1368
+write(4, "\3i\302\35I\262\226\3\307h\342\32\5Y\f\5x\351\251vLR d\0\0321m\350\f\34."..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949544})
+read(3, "\324@Z\0Hy\242\30\207\360G\212\214\202\211fh\177\246u\202@\310p\37774\301\27\210`X"..., 8192) = 1368
+write(4, "\324@Z\0Hy\242\30\207\360G\212\214\202\211fh\177\246u\202@\310p\37774\301\27\210`X"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\233\20\372+\301\34|/A&[\343{1/\314\2767\f\35&;\20\374\233\20\231K\301\23\f\304"..., 8192) = 2736
+write(4, "\233\20\372+\301\34|/A&[\343{1/\314\2767\f\35&;\20\374\233\20\231K\301\23\f\304"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\237n\33D\344\361\f\255\16\33\342\2*\23\373\351\306\236u\312\251\316\237[7[\327\317^Q8|"..., 8192) = 2736
+write(4, "\237n\33D\344\361\f\255\16\33\342\2*\23\373\351\306\236u\312\251\316\237[7[\327\317^Q8|"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949952})
+read(3, "OB8t\301@4!\254\1.$\34s\223\233D\2228*M0\261\211Nd\2163\234\361\217E"..., 8192) = 2736
+write(4, "OB8t\301@4!\254\1.$\34s\223\233D\2228*M0\261\211Nd\2163\234\361\217E"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\227\313\334\346:\367\271\320\215\256t\247K\335\352Z\367\272\330\315\256v\267\313\335\356z\367\273\340\r\257"..., 8192) = 4104
+write(4, "\227\313\334\346:\367\271\320\215\256t\247K\335\352Z\367\272\330\315\256v\267\313\335\356z\367\273\340\r\257"..., 4096) = 4096
+write(4, "\372*\30\v\n\355jk", 8)       = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "C\270\376\303\302\256\274\32d\307(\303V\333\323\256h\10\344\330\t\t\355j\313\255\7\20\204\306\270\343"..., 8192) = 4104
+write(4, "C\270\376\303\302\256\274\32d\307(\303V\333\323\256h\10\344\330\t\t\355j\313\255\7\20\204\306\270\343"..., 4096) = 4096
+write(4, "\22\37\20\210\246AW\271", 8)  = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949595})
+read(3, "\205#K\236L\331d\3\26\2123\37z\f\270\262\347\317\240C'l\2249s#\316OE\253^\315"..., 8192) = 1368
+write(4, "\205#K\236L\331d\3\26\2123\37z\f\270\262\347\317\240C'l\2249s#\316OE\253^\315"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\351$\273\250\332\224\256\226\265\31\32\354\7v\313\333\335\276u #\f-n\323\2120\341\nd\204\303"..., 8192) = 2736
+write(4, "\351$\273\250\332\224\256\226\265\31\32\354\7v\313\333\335\276u #\f-n\323\2120\341\nd\204\303"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948486})
+read(3, "\237@(\270B\315\221\204K$\204\341\fe\370\217\370\311\241\206\230\23a\6\37758\304\3zG$"..., 8192) = 1368
+write(4, "\237@(\270B\315\221\204K$\204\341\fe\370\217\370\311\241\206\230\23a\6\37758\304\3zG$"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949668})
+read(3, "\243\231\302\375\250\346\233A~ \247\234\253\271\t\347\235x\346\251\347\236|\366\351\347\237\200\6*\350\240"..., 8192) = 2736
+write(4, "\243\231\302\375\250\346\233A~ \247\234\253\271\t\347\235x\346\251\347\236|\366\351\347\237\200\6*\350\240"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949220})
+read(3, "/\357\274\361\267?/=\204\263O/\375\360\326\367\216}\366\271o\317}\355x\177\17\276\367\342\267\356"..., 8192) = 1368
+write(4, "/\357\274\361\267?/=\204\263O/\375\360\326\367\216}\366\271o\317}\355x\177\17\276\367\342\267\356"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "(g\245\362\31-c\25\300\3143\333\32\20\0!\371\4\5\4\0\377\0,\f\1#\0/\1\267\0"..., 8192) = 4104
+write(4, "(g\245\362\31-c\25\300\3143\333\32\20\0!\371\4\5\4\0\377\0,\f\1#\0/\1\267\0"..., 4096) = 4096
+write(4, "\326h\343\2158\346\250\343", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\216<\366\350\343\217@\6)\344\220D\26i\344\221H&\251\344\222L6\351\344\223PF)\345\224T"..., 8192) = 4104
+write(4, "\216<\366\350\343\217@\6)\344\220D\26i\344\221H&\251\344\222L6\351\344\223PF)\345\224T"..., 4096) = 4096
+write(4, "o\377\375\370\347\257\377\376", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\374\367\357\377\377x\222\204\0\7X\221c\344\344\5\200\303\336\0\27(\t\207\30\20)/\310\36\3\27"..., 8192) = 2736
+write(4, "\374\367\357\377\377x\222\204\0\7X\221c\344\344\5\200\303\336\0\27(\t\207\30\20)/\310\36\3\27"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949550})
+read(3, "\375\367\340\207/\376\370\344\227o\376\371\350\247\257\376\372\354\267\357\376\373\360\307/\377\374\364\327o\377\375"..., 8192) = 2736
+write(4, "\375\367\340\207/\376\370\344\227o\376\371\350\247\257\376\372\354\267\357\376\373\360\307/\377\374\364\327o\377\375"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "w\32w\344-\370\340\204\27n\370\341\210'\256\370\342\2147\356\370\343\220G.\371\344\224Wn\371\345"..., 8192) = 4104
+write(4, "w\32w\344-\370\340\204\27n\370\341\210'\256\370\342\2147\356\370\343\220G.\371\344\224Wn\371\345"..., 4096) = 4096
+write(4, "\324n\25P\0\326Y\327", 8)     = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\302\365\330d\227m\366\331h\247\255\366\332l\267\355\366\333p\307-\367\334t\327m\367\335x\347\255\367"..., 8192) = 4104
+write(4, "\302\365\330d\227m\366\331h\247\255\366\332l\267\355\366\333p\307-\367\334t\327m\367\335x\347\255\367"..., 4096) = 4096
+write(4, "\355\3x0;G\275\17", 8)        = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\260#E\17\320\366\32\204\267o\204\360\17.\3\1 E\t\fh\333\353\276\336>\360F\270\0200\360"..., 8192) = 4104
+write(4, "\260#E\17\320\366\32\204\267o\204\360\17.\3\1 E\t\fh\333\353\276\336>\360F\270\0200\360"..., 4096) = 4096
+write(4, "\254\264\326j\353\255\270\346", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\252\353\256\274\366\352\353\257\300\6+\354\260\304\26k\354\261\310&\253\354\262\3146\353\354\263\320F+\355"..., 8192) = 1368
+write(4, "\252\353\256\274\366\352\353\257\300\6+\354\260\304\26k\354\261\310&\253\354\262\3146\353\354\263\320F+\355"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949813})
+read(3, "\256\335\273x\363\352\335\313\267\257\337\277\200\3\v\36L\270\260\341\303\210\23+^\314\270\261\343\307\220#"..., 8192) = 2736
+write(4, "\256\335\273x\363\352\335\313\267\257\337\277\200\3\v\36L\270\260\341\303\210\23+^\314\270\261\343\307\220#"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948594})
+read(3, "\332\365\347\330\267p\343\312\335\370a\203\335\273ve\21l\33q\256\337\277\200\345b\300{\227\t\323\256"..., 8192) = 1368
+write(4, "\332\365\347\330\267p\343\312\335\370a\203\335\273ve\21l\33q\256\337\277\200\345b\300{\227\t\323\256"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949707})
+read(3, ",4\307\10\370mxR\207\22\36$@8\377\24 \"J\6\34\260\320=+\266\244\201\1\231L\302"..., 8192) = 1368
+write(4, ",4\307\10\370mxR\207\22\36$@8\377\24 \"J\6\34\260\320=+\266\244\201\1\231L\302"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "@\7-\364\320D\27m\364\321H'\255\364\322L7\355\364\323PG-\365\324TWm\365\325Xg"..., 8192) = 4104
+write(4, "@\7-\364\320D\27m\364\321H'\255\364\322L7\355\364\323PG-\365\324TWm\365\325Xg"..., 4096) = 4096
+write(4, "\327l\363\3158\347\254\363", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\316<\367\354\363\317@\7-\364\320D\27m\364\321H'\255\364\322L7\355\364\323PG-\365\324T"..., 8192) = 4104
+write(4, "\316<\367\354\363\317@\7-\364\320D\27m\364\321H'\255\364\322L7\355\364\323PG-\365\324T"..., 4096) = 4096
+write(4, "\253\354\262\3146\353\354\263", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\320F+\355\264\324Vk\355\265\330f\253\355\266\334v\353\355\267\340\206+\356\270\344\226k\356\271\350\246"..., 7980) = 4104
+write(4, "\320F+\355\264\324Vk\355\265\330f\253\355\266\334v\353\355\267\340\206+\356\270\344\226k\356\271\350\246"..., 4096) = 4096
+write(4, "\0303j\334\310\261\243\307", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949640})
+read(3, "\217 C\212\34I\262\244\311\223(S\252\334x\210\305\201\227/Y\34r\330p\245\315\2338s\352\334"..., 3876) = 2736
+write(4, "\217 C\212\34I\262\244\311\223(S\252\334x\210\305\201\227/Y\34r\330p\245\315\2338s\352\334"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\20G,\361\304\24Wl\361\305\30g|oQ\215\260p\300\307,4\242\261[E\31\363\361\311\37\33"..., 1140) = 1140
+write(4, "\20G,\361\304\24Wl\361\305\30g|oQ\215\260p\300\307,4\242\261[E\31\363\361\311\37\33"..., 1140) = 1140
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fea71608000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.google.com/logos/doodles/2014/world-cup-2014-43-5484481540521984.2-hp.gif", [2014/06/30-12:04:35, 2014/06/30-11:44:20]) = 0
+write(2, "2014-06-30 12:04:35 (3.24 MB/s) "..., 171) = 171
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-30 12:04:35--"..., 107) = 107
+exit_group(0)                           = ?
++++ exited with 0 +++

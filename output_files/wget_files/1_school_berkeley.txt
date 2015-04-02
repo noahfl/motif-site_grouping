@@ -1,0 +1,1866 @@
+execve("/usr/bin/wget", ["wget", "--user-agent", "Mozilla", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "www.berkeley.edu"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x2124000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e060000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7feb0e043000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0dbe2000
+mprotect(0x7feb0dc36000, 2097152, PROT_NONE) = 0
+mmap(0x7feb0de36000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7feb0de36000
+mmap(0x7feb0de3f000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7feb0de3f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0d808000
+mprotect(0x7feb0d9b9000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0dbb8000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7feb0dbb8000
+mmap(0x7feb0dbde000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7feb0dbde000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e042000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0d5ef000
+mprotect(0x7feb0d607000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0d806000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7feb0d806000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0d3bc000
+mprotect(0x7feb0d3ed000, 2097152, PROT_NONE) = 0
+mmap(0x7feb0d5ed000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7feb0d5ed000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0d1b7000
+mprotect(0x7feb0d1bb000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0d3ba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7feb0d3ba000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e041000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0cdf1000
+mprotect(0x7feb0cfad000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0d1ac000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7feb0d1ac000
+mmap(0x7feb0d1b2000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7feb0d1b2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0cbed000
+mprotect(0x7feb0cbf0000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0cdef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7feb0cdef000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e040000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e03e000
+arch_prctl(ARCH_SET_FS, 0x7feb0e03e780) = 0
+mprotect(0x7feb0d1ac000, 16384, PROT_READ) = 0
+mprotect(0x7feb0cdef000, 4096, PROT_READ) = 0
+mprotect(0x7feb0d3ba000, 4096, PROT_READ) = 0
+mprotect(0x7feb0d5ed000, 4096, PROT_READ) = 0
+mprotect(0x7feb0d806000, 4096, PROT_READ) = 0
+mprotect(0x7feb0dbb8000, 110592, PROT_READ) = 0
+mprotect(0x7feb0de36000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7feb0e062000, 4096, PROT_READ) = 0
+munmap(0x7feb0e043000, 115291)          = 0
+brk(0)                                  = 0x2124000
+brk(0x2145000)                          = 0x2145000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7feb0c924000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7ffffe5e1b00) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7feb0ce27ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7feb0ce27ff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7feb0ce27ff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7feb0ce27ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7feb0ce27ff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7feb0ce27ff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/www.berkeley.edu", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151623, f_bavail=46134817, f_files=15065088, f_ffree=14788706, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151622, f_bavail=46134816, f_files=15065088, f_ffree=14788706, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+write(2, "--2014-06-30 12:12:45--  http://"..., 50) = 50
+stat("/home/bearface/.netrc", 0x7ffffe5e1100) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.berkeley.edu (www."..., 49) = 49
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+getpid()                                = 9325
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7feb0e043000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0c718000
+mprotect(0x7feb0c723000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0c922000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7feb0c922000
+close(3)                                = 0
+mprotect(0x7feb0c922000, 4096, PROT_READ) = 0
+munmap(0x7feb0e043000, 115291)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7feb0e043000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0c515000
+mprotect(0x7feb0c517000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0c716000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7feb0c716000
+close(3)                                = 0
+mprotect(0x7feb0c716000, 4096, PROT_READ) = 0
+munmap(0x7feb0e043000, 115291)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7feb0e043000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0c30f000
+mprotect(0x7feb0c314000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0c513000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7feb0c513000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7feb0c0f4000
+mprotect(0x7feb0c10b000, 2097152, PROT_NONE) = 0
+mmap(0x7feb0c30b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7feb0c30b000
+mmap(0x7feb0c30d000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7feb0c30d000
+close(3)                                = 0
+mprotect(0x7feb0c30b000, 4096, PROT_READ) = 0
+mprotect(0x7feb0c513000, 4096, PROT_READ) = 0
+munmap(0x7feb0e043000, 115291)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\17\236\1\0\0\1\0\0\0\0\0\0\3www\10berkeley\3edu\0\0\1"..., 34}], msg_controllen=0, msg_flags=0}, 34}, {{msg_name(0)=NULL, msg_iov(1)=[{"i\212\1\0\0\1\0\0\0\0\0\0\3www\10berkeley\3edu\0\0\34"..., 34}], msg_controllen=0, msg_flags=0}, 34}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [362])               = 0
+recvfrom(3, "\17\236\201\200\0\1\0\2\0\7\0\6\3www\10berkeley\3edu\0\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 362
+poll([{fd=3, events=POLLIN}], 1, 4920)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [374])               = 0
+recvfrom(3, "i\212\201\200\0\1\0\2\0\7\0\6\3www\10berkeley\3edu\0\0\34"..., 1686, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 374
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e05f000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7feb0e05f000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=9325, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3}\214\261S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0}\214\261Sm$\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 308
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0}\214\261Sm$\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 256
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0}\214\261Sm$\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("169.229.216.200")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(46736), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+close(3)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2607:f140:0:81::f", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(3)                                = 0
+write(2, "169.229.216.200", 15)         = 15
+write(2, ", ", 2)                       = 2
+write(2, "2607:f140:0:81::f", 17)       = 17
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.berkeley.edu ("..., 73) = 73
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999995})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Mozi"..., 100) = 100
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 921509})
+recvfrom(3, "HTTP/1.1 302 Found\r\nDate: Mon, 3"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 302 Found\r\nDate: Mon, 3"..., 345) = 345
+write(2, "302 Found\n", 10)             = 10
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Location: http://www.berkeley.ed"..., 57) = 57
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999994})
+read(3, "<!DOCTYPE HTML PUBLIC \"-//IETF//"..., 331) = 331
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs("/home/bearface/website_output/www.berkeley.edu", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151619, f_bavail=46134813, f_files=15065088, f_ffree=14788706, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151619, f_bavail=46134813, f_files=15065088, f_ffree=14788706, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:46--  http://"..., 60) = 60
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET /index.html HTTP/1.1\r\nUser-A"..., 110) = 110
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920145})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 344) = 344
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/index.html", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "32770", 5)                    = 5
+write(2, " (32K)", 6)                   = 6
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/index.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 75) = 75
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7feb0e059000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "<!DOCTYPE html PUBLIC \"-//W3C//D"..., 8192) = 5128
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "<!DOCTYPE html PUBLIC \"-//W3C//D"..., 4096) = 4096
+write(4, "el>\n\t\t\t\t\t</fieldset>   \n        "..., 1032) = 1032
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 873347})
+read(3, "\"><h4>Alumni & friends</h4></a><"..., 8192) = 1368
+write(4, "\"><h4>Alumni & friends</h4></a><"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949933})
+read(3, "rnational students &amp; scholar"..., 8192) = 4104
+write(4, "rnational students &amp; scholar"..., 4096) = 4096
+write(4, "cademics", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "/unex.shtml\">UC Extension, summe"..., 8192) = 5472
+write(4, "/unex.shtml\">UC Extension, summe"..., 4096) = 4096
+write(4, " life</h2> <!--[if IE 7]><!--></"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 871624})
+read(3, "ce\nCenter</a></li>\n\t\t\t <li><a hr"..., 8192) = 1368
+write(4, "ce\nCenter</a></li>\n\t\t\t <li><a hr"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949303})
+read(3, "us venues &amp; tickets</a></li>"..., 8192) = 1368
+write(4, "us venues &amp; tickets</a></li>"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949434})
+read(3, "f=\"/admin/hr.shtml\">Human Resour"..., 8192) = 1368
+write(4, "f=\"/admin/hr.shtml\">Human Resour"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949498})
+read(3, "re >\n          </div> \n        <"..., 8192) = 1368
+write(4, "re >\n          </div> \n        <"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949833})
+read(3, "th:732px;}\n#gate1, #gate2 {width"..., 8192) = 1368
+write(4, "th:732px;}\n#gate1, #gate2 {width"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949511})
+read(3, "Barbour transitioning to new rol"..., 8192) = 1368
+write(4, "Barbour transitioning to new rol"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "8217; light show\"><img src=\"http"..., 8192) = 1368
+write(4, "8217; light show\"><img src=\"http"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949566})
+read(3, "mate-change-like-a-flashlight-at"..., 7122) = 1368
+write(4, "mate-change-like-a-flashlight-at"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "scenter.berkeley.edu/wp-content/"..., 5754) = 1368
+write(4, "scenter.berkeley.edu/wp-content/"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "owcases emerging campus careers\""..., 4386) = 2736
+write(4, "owcases emerging campus careers\""..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949896})
+read(3, "m/#!/UCBerkeley\">Twitter</a>\n<a "..., 1650) = 1650
+write(4, "m/#!/UCBerkeley\">Twitter</a>\n<a "..., 1650) = 1650
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-30 12:12:47 (194 KB/s) -"..., 118) = 118
+open("/home/bearface/website_output/www.berkeley.edu/index.html", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=32770, ...}) = 0
+mmap(NULL, 32770, PROT_READ|PROT_WRITE, MAP_PRIVATE, 4, 0) = 0x7feb0e050000
+close(4)                                = 0
+munmap(0x7feb0e050000, 32770)           = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/ISO8859-1.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\5\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=10320, ...}) = 0
+mmap(NULL, 2105416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7feb0bef1000
+mprotect(0x7feb0bef3000, 2093056, PROT_NONE) = 0
+mmap(0x7feb0c0f2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1000) = 0x7feb0c0f2000
+close(4)                                = 0
+mprotect(0x7feb0c0f2000, 4096, PROT_READ) = 0
+statfs("/home/bearface/website_output/www.berkeley.edu/js", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151605, f_bavail=46134799, f_files=15065088, f_ffree=14788704, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/js/popup.js", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/js/popup.js", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/js", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151605, f_bavail=46134799, f_files=15065088, f_ffree=14788704, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/js/popup.js", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:48--  http://"..., 61) = 61
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET /js/popup.js HTTP/1.1\r\nRefer"..., 156) = 156
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 918060})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 373) = 373
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/js/popup.js", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "231", 3)                      = 3
+write(2, " [application/javascript]\n", 26) = 26
+stat("/home/bearface/website_output/www.berkeley.edu/js", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/js", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/js", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/js/popup.js", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 76) = 76
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "// Smaller popup window for map\n"..., 231) = 231
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "// Smaller popup window for map\n"..., 231) = 231
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/js/popup.js", [2014/06/30-12:12:48, 2008/02/04-19:16:00]) = 0
+write(2, "2014-06-30 12:12:48 (1.77 MB/s) "..., 116) = 116
+statfs("/home/bearface/website_output/www.berkeley.edu/js", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151601, f_bavail=46134795, f_files=15065088, f_ffree=14788702, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/js/getyear.js", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/js/getyear.js", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/js", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151601, f_bavail=46134795, f_files=15065088, f_ffree=14788702, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/js/getyear.js", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:49--  http://"..., 63) = 63
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999995})
+write(3, "GET /js/getyear.js HTTP/1.1\r\nRef"..., 158) = 158
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 915240})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 373) = 373
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/js/getyear.js", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "151", 3)                      = 3
+write(2, " [application/javascript]\n", 26) = 26
+stat("/home/bearface/website_output/www.berkeley.edu/js", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/js/getyear.js", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 78) = 78
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949992})
+read(3, "// Captures current year for foo"..., 151) = 151
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "// Captures current year for foo"..., 151) = 151
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/js/getyear.js", [2014/06/30-12:12:49, 2008/02/04-19:16:00]) = 0
+write(2, "2014-06-30 12:12:49 (513 KB/s) -"..., 117) = 117
+statfs("/home/bearface/website_output/www.berkeley.edu/style", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151598, f_bavail=46134792, f_files=15065088, f_ffree=14788701, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/style", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151598, f_bavail=46134792, f_files=15065088, f_ffree=14788701, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:50--  http://"..., 72) = 72
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /style/home-wide980.css HTTP"..., 167) = 167
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 900204})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 377) = 377
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "9947", 4)                     = 4
+write(2, " (9.7K)", 7)                  = 7
+write(2, " [text/css]\n", 12)           = 12
+stat("/home/bearface/website_output/www.berkeley.edu/style", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/style", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/style", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 87) = 87
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "* {\r\n\tpadding:0;\r\n\tmargin:0;\r\n}\r"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "* {\r\n\tpadding:0;\r\n\tmargin:0;\r\n}\r"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "1 {\r\npadding:4px;\r\nbackground-co"..., 1755) = 1755
+write(4, "1 {\r\npadding:4px;\r\nbackground-co"..., 1755) = 1755
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", [2014/06/30-12:12:50, 2014/06/04-13:44:36]) = 0
+write(2, "2014-06-30 12:12:50 (14.5 MB/s) "..., 129) = 129
+open("/home/bearface/website_output/www.berkeley.edu/style/home-wide980.css", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=9947, ...}) = 0
+mmap(NULL, 9947, PROT_READ|PROT_WRITE, MAP_PRIVATE, 4, 0) = 0x7feb0e056000
+close(4)                                = 0
+munmap(0x7feb0e056000, 9947)            = 0
+statfs("/home/bearface/website_output/www.berkeley.edu/img/sections", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151586, f_bavail=46134780, f_files=15065088, f_ffree=14788699, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections/berkeley-text-brand.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections/berkeley-text-brand.gif", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/sections", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151586, f_bavail=46134780, f_files=15065088, f_ffree=14788699, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections/berkeley-text-brand.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:51--  http://"..., 86) = 86
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999991})
+write(3, "GET /img/sections/berkeley-text-"..., 181) = 181
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 862004})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 367) = 367
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections/berkeley-text-brand.gif", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "10949", 5)                    = 5
+write(2, " (11K)", 6)                   = 6
+write(2, " [image/gif]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/img", 0777) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/img/sections", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/sections/berkeley-text-brand.gif", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 101) = 101
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "GIF89a\322\0F\0\346\0\0\34 E\345\345\351bd}\34\36DBEb\222\224\245r"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "GIF89a\322\0F\0\346\0\0\34 E\345\345\351bd}\34\36DBEb\222\224\245r"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\0\0.\353\221F\36\6\200\216'\262i.s\311K<\3643/z\360E}\v\341\307~\356`\260"..., 2757) = 2757
+write(4, "\0\0.\353\221F\36\6\200\216'\262i.s\311K<\3643/z\360E}\v\341\307~\356`\260"..., 2757) = 2757
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/sections/berkeley-text-brand.gif", [2014/06/30-12:12:51, 2013/10/22-18:45:06]) = 0
+write(2, "2014-06-30 12:12:51 (11.8 MB/s) "..., 145) = 145
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151577, f_bavail=46134771, f_files=15065088, f_ffree=14788696, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/bearpaw.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/bearpaw.gif", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151577, f_bavail=46134771, f_files=15065088, f_ffree=14788696, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/bearpaw.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:52--  http://"..., 65) = 65
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /img/bearpaw.gif HTTP/1.1\r\nR"..., 160) = 160
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920247})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 364) = 364
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/bearpaw.gif", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "381", 3)                      = 3
+write(2, " [image/gif]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/bearpaw.gif", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 80) = 80
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "GIF89a \0\25\0\304\0\0+/_`u\226\377\377\377Sc\210\210\230\260FR{]"..., 381) = 381
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "GIF89a \0\25\0\304\0\0+/_`u\226\377\377\377Sc\210\210\230\260FR{]"..., 381) = 381
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/bearpaw.gif", [2014/06/30-12:12:52, 2008/02/04-19:15:53]) = 0
+write(2, "2014-06-30 12:12:52 (1.40 MB/s) "..., 120) = 120
+statfs("/home/bearface/website_output/www.berkeley.edu/hero/image", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/hero", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151574, f_bavail=46134768, f_files=15065088, f_ffree=14788695, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/hero/image/Stethoscope.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/hero/image/Stethoscope.jpg", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/hero/image", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/hero", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151574, f_bavail=46134768, f_files=15065088, f_ffree=14788695, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/hero/image/Stethoscope.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:53--  http://"..., 76) = 76
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /hero/image/Stethoscope.jpg "..., 171) = 171
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920675})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 367) = 367
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/hero/image/Stethoscope.jpg", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "146368", 6)                   = 6
+write(2, " (143K)", 7)                  = 7
+write(2, " [image/jpeg]\n", 14)         = 14
+stat("/home/bearface/website_output/www.berkeley.edu/hero/image", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/hero", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/hero", 0777) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/hero/image", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/hero/image", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/hero/image/Stethoscope.jpg", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 91) = 91
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\377\330\377\341 !Exif\0\0II*\0\10\0\0\0\20\0\0\1\4\0\1\0\0\0\200\r"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\377\330\377\341 !Exif\0\0II*\0\10\0\0\0\20\0\0\1\4\0\1\0\0\0\200\r"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "N\252\265\217\37\2\244\225.\210-{\177\336\253Y\376\241[pi\20\207\350\203\336T\23#\273,A"..., 8192) = 5280
+write(4, "N\252\265\217\37\2\244\225.\210-{\177\336\253Y\376\241[pi\20\207\350\203\336T\23#\273,A"..., 4096) = 4096
+write(4, "\262\26\326\26\372\27\35\27A\27e\27\211\27\256\27\322\27\367\30\33\30@\30e\30\212\30\257\30\325\30"..., 1184) = 1184
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949374})
+read(3, "\265\3166\316\266\3177\317\270\3209\320\272\321<\321\276\322?\322\301\323D\323\306\324I\324\313\325N\325"..., 8192) = 2528
+write(4, "\265\3166\316\266\3177\317\270\3209\320\272\321<\321\276\322?\322\301\323D\323\306\324I\324\313\325N\325"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949914})
+read(3, "<\324\243C \342\217C\372qx\354.\276A\375gu\0264\26\33Z\16\330:\26?o\320c\277"..., 8192) = 1368
+write(4, "<\324\243C \342\217C\372qx\354.\276A\375gu\0264\26\33Z\16\330:\26?o\320c\277"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949916})
+read(3, "\377\0r\26\217\326.\235\326\337\323\235_H\352M\365\34\34\314\214oJ\232\33en\33]]\27\354"..., 8192) = 2736
+write(4, "\377\0r\26\217\326.\235\326\337\323\235_H\352M\365\34\34\314\214oJ\232\33en\33]]\27\354"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949880})
+read(3, "                                "..., 8192) = 1368
+write(4, "                                "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "et end=\"w\"?>\377\342\fXICC_PROFILE\0\1\1\0\0"..., 8192) = 2528
+write(4, "et end=\"w\"?>\377\342\fXICC_PROFILE\0\1\1\0\0"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949896})
+read(3, "m`m\271n\22nkn\304o\36oxo\321p+p\206p\340q:q\225q\360rKr\246"..., 8192) = 1368
+write(4, "m`m\271n\22nkn\304o\36oxo\321p+p\206p\340q:q\225q\360rKr\246"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\332\302\343f\251\234n\346wV\266N\326\356X\334\320\234J%)\312$\322\242\277,k\375\303\3332"..., 8192) = 1368
+write(4, "\332\302\343f\251\234n\346wV\266N\326\356X\334\320\234J%)\312$\322\242\277,k\375\303\3332"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "t\317\256\5\220\200\234\350$\246\0311\222\221\323\240\242\217_\237L\v#\370\":\0\272\37\227\vY"..., 8192) = 1368
+write(4, "t\317\256\5\220\200\234\350$\246\0311\222\221\323\240\242\217_\237L\v#\370\":\0\272\37\227\vY"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\31\2\240\217\210\242\303u\341[\315\251\262\213&\361\22W\232\222\334\240k\342\0061\17}g2\201\347"..., 8192) = 1368
+write(4, "\31\2\240\217\210\242\303u\341[\315\251\262\213&\361\22W\232\222\334\240k\342\0061\17}g2\201\347"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\32\343\204\201\3402\24\360\371\343\305z\251\236Y\tI%T\241\240\257zc4Y\250CS\24\232\224"..., 8192) = 1368
+write(4, "\32\343\204\201\3402\24\360\371\343\305z\251\236Y\tI%T\241\240\257zc4Y\250CS\24\232\224"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "P\362\321$S\23\22H\341u\1\34L&\225OL\300H\241)\357\362\300Rd\2516b%\350\267"..., 8192) = 2528
+write(4, "P\362\321$S\23\22H\341u\1\34L&\225OL\300H\241)\357\362\300Rd\2516b%\350\267"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943330})
+read(3, "&J8\341c1j3H5\350~8P\310M;\26\253\22\241\1\325\274\373S\v\31\25M\2342"..., 8192) = 1368
+write(4, "&J8\341c1j3H5\350~8P\310M;\26\253\22\241\1\325\274\373S\v\31\25M\2342"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947104})
+read(3, "\26\233xal\352P\r\242\231\1\360\306\305\355\257v\3631\336\1y#\315@\347\366\2642\r\2\363"..., 8192) = 8192
+write(4, "\26\233xal\352P\r\242\231\1\360\306\305\355\257v\3631\336\1y#\315@\347\366\2642\r\2\363"..., 4096) = 4096
+write(4, ",\n\367\245Yw\21\1\25\t9\3462\3742\370`r+\346\226\31\361Y\323mY\317Ek\3315"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\371\256\375o\263\332\21ut\275\31HB\243N\212u!m\221\222\205:\217\354\306\254\357\236\331\213r"..., 8192) = 8192
+write(4, "\371\256\375o\263\332\21ut\275\31HB\243N\212u!m\221\222\205:\217\354\306\254\357\236\331\213r"..., 4096) = 4096
+write(4, "\216+y\275\264\363TT[\333y\253u\262\333\r%\272\223J\1Z\345\361\305K7\265\334\16\212R"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\343Jb\301\266\3666\345\231A\34N?\5\23\237\335\2308\247\371\222\201\361S\216\327\366\203\315\333\257"..., 8192) = 8192
+write(4, "\343Jb\301\266\3666\345\231A\34N?\5\23\237\335\2308\247\371\222\201\361S\216\327\366\203\315\333\257"..., 4096) = 4096
+write(4, "\377\0\277\4\277\32\241JA\231\322\352\264\331V\355\325m\334\266y\v\37J\262\3109\270\212\215>5"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\322\302\203`\5\24\346\1\355\220\302\366\350\35\305'6PH\t\322\4\257N\322#\267\347q\332%)"..., 8192) = 3120
+write(4, "\322\302\203`\5\24\346\1\355\220\302\366\350\35\305'6PH\t\322\4\257N\322#\267\347q\332%)"..., 3120) = 3120
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, ">j\327\275s'\22\2612\241\2\3468\22j\237\355[\235\313\244\346Z\365B\226\362\322\322u\21B"..., 8192) = 2528
+write(4, ">j\327\275s'\22\2612\241\2\3468\22j\237\355[\235\313\244\346Z\365B\226\362\322\322u\21B"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\240\204\327\323:\332\233S\365\tY\364\3324\3\307,m\237o\266@\343\326\341P\25?\270\263\313B"..., 8192) = 1368
+write(4, "\240\204\327\323:\332\233S\365\tY\364\3324\3\307,m\237o\266@\343\326\341P\25?\270\263\313B"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\246\251v\244\200HM(3\7!\226<[D\353&!\5\334`\24\257V\212\225w\3\r\271\252F"..., 8192) = 3073
+write(4, "\246\251v\244\200HM(3\7!\226<[D\353&!\5\334`\24\257V\212\225w\3\r\271\252F"..., 3073) = 3073
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 887029})
+read(3, "\337\371R\245*\205@\217\210\2466\356\301\355\300\24.\n\203\272\367\235\t\272\261\333k\201\245\313\321H"..., 8192) = 1368
+write(4, "\337\371R\245*\205@\217\210\2466\356\301\355\300\24.\n\203\272\367\235\t\272\261\333k\201\245\313\321H"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\216\246+\314\252;44\0\240\321\300GUe\362\305\372?a\247\312\351\226,\306\313\23\256\10\271\375"..., 8192) = 2736
+write(4, "\216\246+\314\252;44\0\240\321\300GUe\362\305\372?a\247\312\351\226,\306\313\23\256\10\271\375"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\255\254n:\361\37\340\251}\321\333\f\313\35m\374Ao\37\205=\330\355\375\365\266\21\304\276\345a\263"..., 8192) = 1368
+write(4, "\255\254n:\361\37\340\251}\321\333\f\313\35m\374Ao\37\205=\330\355\375\365\266\21\304\276\345a\263"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "I\250\3231\2264\265U\256\253\217\207]B\207\31Iv\211\24\250\255>\312\333u\1\306V\nV\332"..., 8192) = 4104
+write(4, "I\250\3231\2264\265U\256\253\217\207]B\207\31Iv\211\24\250\255>\312\333u\1\306V\nV\332"..., 4096) = 4096
+write(4, "\v\4[\6\306\267\22\222", 8)   = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\241N\344\370\376\334B\317\230\24\244x\205\301\31@\262\241\240\tM\17CQ\343\327\21S\345\23U#"..., 8192) = 4104
+write(4, "\241N\344\370\376\334B\317\230\24\244x\205\301\31@\262\241\240\tM\17CQ\343\327\21S\345\23U#"..., 4096) = 4096
+write(4, "\316\332\32\5-\3\303\202", 8) = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949523})
+read(3, "\311\364\255:\322\333_\225]@O\366\341\2275\244x\247\3\334\36\205_\214\246\\q\t\0\202HN"..., 8192) = 2736
+write(4, "\311\364\255:\322\333_\225]@O\366\341\2275\244x\247\3\334\36\205_\214\246\\q\t\0\202HN"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\361A\200\207\256\236\202\311\31\22\241Z\250w\357\211\34>\240\225D\30\361x\353K_\224d\232\216\244"..., 8192) = 5631
+write(4, "\361A\200\207\256\236\202\311\31\22\241Z\250w\357\211\34>\240\225D\30\361x\353K_\224d\232\216\244"..., 4096) = 4096
+write(4, "9\35\323p\356F\312\362s/\263\277p<\5g\346\37q\362,\251\335s\271\206K6~>\335["..., 1535) = 1535
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\257\"\224\242\260\226\255\237\25\244!\266\30\320R4\220E2\306\264\315\337\234MIS\370\3337\n#"..., 8192) = 5472
+write(4, "\257\"\224\242\260\226\255\237\25\244!\266\30\320R4\220E2\306\264\315\337\234MIS\370\3337\n#"..., 4096) = 4096
+write(4, "\203\235z\34\374p&nk\31z\204T\0\275\366R\24m\2530>\246\222\357\242\224\247Z\313\240\327"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\25\37\221\214M\306\250v\357\266.\333\203nD\334\321#)\366\22\2050\372\22\n\212J\r\ni\237"..., 8192) = 1368
+write(4, "\25\37\221\214M\306\250v\357\266.\333\203nD\334\321#)\366\22\2050\372\22\n\212J\r\ni\237"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949498})
+read(3, "vsZ\352T\256\304\23\221\256\0302\2\352%\372t\t\206\345\35\345\266\246\336N\220\212\205\1\375\370"..., 8192) = 1368
+write(4, "vsZ\352T\256\304\23\221\256\0302\2\352%\372t\t\206\345\35\345\266\246\336N\220\212\205\1\375\370"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\333\376\346l\373\204\236\223e\350\233\213\36\v\36?\345u\n+{u^\325&/\"\242\340\306\357\215"..., 8192) = 1368
+write(4, "\333\376\346l\373\204\236\223e\350\233\213\36\v\36?\345u\n+{u^\325&/\"\242\340\306\357\215"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949506})
+read(3, "4\205z`P+\272jpL39@\356\273dL4\2\200\244+\206\21_>t*\24\360\301-"..., 8192) = 2528
+write(4, "4\205z`P+\272jpL39@\356\273dL4\2\200\244+\206\21_>t*\24\360\301-"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949210})
+read(3, "*\227d\223m\336\234\225i\265\334\v\266=\253k\\-\325vJ\225Y\177L\352Wp!d\237#"..., 8192) = 2736
+write(4, "*\227d\223m\336\234\225i\265\334\v\266=\253k\\-\325vJ\225Y\177L\352Wp!d\237#"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "P?\22]\36\341)\326\27.S\2400\345Amc=AZNc\367`y1\230\35\322\321u\353"..., 8192) = 2736
+write(4, "P?\22]\36\341)\326\27.S\2400\345Amc=AZNc\367`y1\230\35\322\321u\353"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "w5Ha\"\254,\222V\200RsH&\345\271\226g\305\371\230\232\f\215\274\200Z\243\204\203\313\367"..., 8192) = 2736
+write(4, "w5Ha\"\254,\222V\200RsH&\345\271\226g\305\371\230\232\f\215\274\200Z\243\204\203\313\367"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "IHlm\25%s\267t\367i\2717q\320s^\316}\243\373\36\343\216#\343\273\fK\226\334n"..., 8192) = 4104
+write(4, "IHlm\25%s\267t\367i\2717q\320s^\316}\243\373\36\343\216#\343\273\fK\226\334n"..., 4096) = 4096
+write(4, ":q\235\314\331~\260\377", 8)  = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\0e\273\f\255\263\366\336\366\327\36k+i\333\205\256]\344\245t\251L\213\214\207\20r=\nhF"..., 8192) = 3896
+write(4, "\0e\273\f\255\263\366\336\366\327\36k+i\333\205\256]\344\245t\251L\213\214\207\20r=\nhF"..., 3896) = 3896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949157})
+read(3, "\276\333\257\27]\177\246\327\374\373}\203j^i\256\242\324&gd\17mc\347\200p\377\0\267\255\265"..., 8192) = 2736
+write(4, "\276\333\257\27]\177\246\327\374\373}\203j^i\256\242\324&gd\17mc\347\200p\377\0\267\255\265"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\252\320%\322u\nxa\343\265\22\23fjpR\364\237\270W\26r)D\233\233MZn\340\202\\"..., 8192) = 2736
+write(4, "\252\320%\322u\nxa\343\265\22\23fjpR\364\237\270W\26r)D\233\233MZn\340\202\\"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "o\305G\322\26\372IJ}0\332\222J\265+ [\247`:\341= \336\213\3n\255P\225\313\231"..., 8192) = 4104
+write(4, "o\305G\322\26\372IJ}0\332\222J\265+ [\247`:\341= \336\213\3n\255P\225\313\231"..., 4096) = 4096
+write(4, "A\301\36=e\330\267v", 8)      = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "=xw\10\322\332w\362\311\204\343R\230P9\202\25\30\254\323\342@\303]NiJ\1\4\\\270\267"..., 8192) = 4104
+write(4, "=xw\10\322\332w\362\311\204\343R\230P9\202\25\30\254\323\342@\303]NiJ\1\4\\\270\267"..., 4096) = 4096
+write(4, "\341\242\344\250~V\32\7", 8)  = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "-K9T\344\5I\304v\343\226\350\341%\242\247\364\272\177\36 \367\200\345\"\337\\\265H\334{\246"..., 8192) = 2528
+write(4, "-K9T\344\5I\304v\343\226\350\341%\242\247\364\272\177\36 \367\200\345\"\337\\\265H\334{\246"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947964})
+read(3, "\233\f\25eD\270\245\241\320)\361\256\"\362\360\32\307T\321\25\16_U\202%\334\34a\315\242\336\25"..., 8192) = 1368
+write(4, "\233\f\25eD\270\245\241\320)\361\256\"\362\360\32\307T\321\25\16_U\202%\334\34a\315\242\336\25"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949420})
+read(3, "[\23G\322\335@\361>'\211S.\333\270Ifm\356\326\224-\270\205\2258\304\246BJ\232h\270"..., 8192) = 2736
+write(4, "[\23G\322\335@\361>'\211S.\333\270Ifm\356\326\224-\270\205\2258\304\246BJ\232h\270"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\376\345w%\272o \357\276[\215\355\373\211\255L\375T\247w\266\342\271^.\236\220\363\23!\300\224"..., 6296) = 1368
+write(4, "\376\345w%\272o \357\276[\215\355\373\211\255L\375T\247w\266\342\271^.\236\220\363\23!\300\224"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949066})
+read(3, "\200\270\4=&\345\35\230Rd7\1\251JA\221\";\216\224\240\254%\352\247\324\252\200\"\27535"..., 4928) = 4928
+write(4, "\200\270\4=&\345\35\230Rd7\1\251JA\221\";\216\224\240\254%\352\247\324\252\200\"\27535"..., 4096) = 4096
+write(4, "*\344\215h\215-k\10ueN;\346Zh\10RU\253W\217\2050\227\227\6\216\220\t\250\371,"..., 832) = 832
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/hero/image/Stethoscope.jpg", [2014/06/30-12:12:53, 2014/06/27-19:48:11]) = 0
+write(2, "2014-06-30 12:12:53 (1.43 MB/s) "..., 137) = 137
+statfs("/home/bearface/website_output/www.berkeley.edu/calendar/images", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/calendar", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151530, f_bavail=46134724, f_files=15065088, f_ffree=14788692, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/calendar/images/FlightOfButterflies060914.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/calendar/images/FlightOfButterflies060914.jpg", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/calendar/images", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/calendar", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151529, f_bavail=46134723, f_files=15065088, f_ffree=14788692, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/calendar/images/FlightOfButterflies060914.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:54--  http://"..., 95) = 95
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET /calendar/images/FlightOfBut"..., 190) = 190
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920551})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 365) = 365
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/calendar/images/FlightOfButterflies060914.jpg", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "11023", 5)                    = 5
+write(2, " (11K)", 6)                   = 6
+write(2, " [image/jpeg]\n", 14)         = 14
+stat("/home/bearface/website_output/www.berkeley.edu/calendar/images", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/calendar", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/calendar", 0777) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/calendar/images", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/calendar/images", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/calendar/images/FlightOfButterflies060914.jpg", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 110) = 110
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949992})
+read(3, "\377\330\377\341\0\30Exif\0\0II*\0\10\0\0\0\0\0\0\0\0\0\0\0\377\354\0\21"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\377\330\377\341\0\30Exif\0\0II*\0\10\0\0\0\0\0\0\0\0\0\0\0\377\354\0\21"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "W\321!\300\226\343M\266;Skfh?1QL\312\225]-\263\273\2w\353>c\207\2156\272"..., 2831) = 2831
+write(4, "W\321!\300\226\343M\266;Skfh?1QL\312\225]-\263\273\2w\353>c\207\2156\272"..., 2831) = 2831
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/calendar/images/FlightOfButterflies060914.jpg", [2014/06/30-12:12:54, 2014/06/02-14:49:12]) = 0
+write(2, "2014-06-30 12:12:54 (8.92 MB/s) "..., 154) = 154
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151522, f_bavail=46134716, f_files=15065088, f_ffree=14788689, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/twitter28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/twitter28sprite.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151522, f_bavail=46134716, f_files=15065088, f_ffree=14788689, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/twitter28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:55--  http://"..., 85) = 85
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999998})
+write(3, "GET /img/socialmedia/twitter28sp"..., 180) = 180
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 917346})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 366) = 366
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/twitter28sprite.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "4179", 4)                     = 4
+write(2, " (4.1K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/twitter28sprite.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 100) = 100
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4179) = 4179
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4096) = 4096
+write(4, "Ti*\366\200!\354I\352d\353\200\333\202\234\205\351\322>\275\370\275\330e\206\356\327&\204\273\224Z"..., 83) = 83
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/twitter28sprite.png", [2014/06/30-12:12:56, 2014/06/24-13:42:00]) = 0
+write(2, "2014-06-30 12:12:56 (26.6 MB/s) "..., 142) = 142
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151512, f_bavail=46134706, f_files=15065088, f_ffree=14788687, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/facebook28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/facebook28sprite.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151512, f_bavail=46134706, f_files=15065088, f_ffree=14788687, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/facebook28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:57--  http://"..., 86) = 86
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET /img/socialmedia/facebook28s"..., 181) = 181
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 882861})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 365) = 365
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/facebook28sprite.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "3774", 4)                     = 4
+write(2, " (3.7K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/facebook28sprite.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 101) = 101
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 3774) = 3774
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 3774) = 3774
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/facebook28sprite.png", [2014/06/30-12:12:57, 2014/06/25-17:37:18]) = 0
+write(2, "2014-06-30 12:12:57 (18.8 MB/s) "..., 143) = 143
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151509, f_bavail=46134703, f_files=15065088, f_ffree=14788686, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/instagram28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/instagram28sprite.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151509, f_bavail=46134703, f_files=15065088, f_ffree=14788686, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/instagram28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:58--  http://"..., 87) = 87
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999992})
+write(3, "GET /img/socialmedia/instagram28"..., 182) = 182
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920976})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 366) = 366
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/instagram28sprite.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "4117", 4)                     = 4
+write(2, " (4.0K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/instagram28sprite.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 102) = 102
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4117) = 4117
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4096) = 4096
+write(4, "\0\327\20\222\307\274\267\367\243\0\0\0\0IEND\256B`\202", 21) = 21
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/instagram28sprite.png", [2014/06/30-12:12:58, 2014/06/25-17:40:02]) = 0
+write(2, "2014-06-30 12:12:58 (28.9 MB/s) "..., 144) = 144
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151506, f_bavail=46134700, f_files=15065088, f_ffree=14788685, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/googleplus28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/googleplus28sprite.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151505, f_bavail=46134699, f_files=15065088, f_ffree=14788685, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/googleplus28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:12:59--  http://"..., 88) = 88
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /img/socialmedia/googleplus2"..., 183) = 183
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920109})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 366) = 366
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/googleplus28sprite.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "4248", 4)                     = 4
+write(2, " (4.1K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/googleplus28sprite.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 103) = 103
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4248) = 4248
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4096) = 4096
+write(4, "'\271\257U\211\3560\335\367\334\332k\22p&S{\260:]sQ\21[\313\200\326-\4\210B\370"..., 152) = 152
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/googleplus28sprite.png", [2014/06/30-12:12:59, 2014/06/25-17:38:26]) = 0
+write(2, "2014-06-30 12:12:59 (14.8 MB/s) "..., 145) = 145
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151502, f_bavail=46134696, f_files=15065088, f_ffree=14788684, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/youtube28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/youtube28sprite.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151502, f_bavail=46134696, f_files=15065088, f_ffree=14788684, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/youtube28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:00--  http://"..., 85) = 85
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET /img/socialmedia/youtube28sp"..., 180) = 180
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920897})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 366) = 366
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/youtube28sprite.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "4251", 4)                     = 4
+write(2, " (4.2K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/youtube28sprite.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 100) = 100
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949992})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4251) = 4251
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 4096) = 4096
+write(4, "h\321P\317u\32;\350\207\303\200}\241\277\36\366\\g]\233\22#\223\265\355P\177\347k\262x@"..., 155) = 155
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/youtube28sprite.png", [2014/06/30-12:13:00, 2014/06/25-17:41:50]) = 0
+write(2, "2014-06-30 12:13:00 (14.4 MB/s) "..., 142) = 142
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151497, f_bavail=46134691, f_files=15065088, f_ffree=14788683, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/itunes28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/itunes28sprite.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151497, f_bavail=46134691, f_files=15065088, f_ffree=14788683, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/itunes28sprite.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:01--  http://"..., 84) = 84
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /img/socialmedia/itunes28spr"..., 179) = 179
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 916087})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 365) = 365
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/itunes28sprite.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "3617", 4)                     = 4
+write(2, " (3.5K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img/socialmedia", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/itunes28sprite.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 99) = 99
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 3617) = 3617
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\34\0\0\0008\10\6\0\0\0\3560\230"..., 3617) = 3617
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/socialmedia/itunes28sprite.png", [2014/06/30-12:13:01, 2014/06/24-13:41:55]) = 0
+write(2, "2014-06-30 12:13:01 (19.5 MB/s) "..., 141) = 141
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151494, f_bavail=46134688, f_files=15065088, f_ffree=14788682, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/CampaignforBerkeley.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/CampaignforBerkeley.png", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151494, f_bavail=46134688, f_files=15065088, f_ffree=14788682, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/CampaignforBerkeley.png", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:02--  http://"..., 77) = 77
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET /img/CampaignforBerkeley.png"..., 172) = 172
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920821})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 365) = 365
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/CampaignforBerkeley.png", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "1699", 4)                     = 4
+write(2, " (1.7K)", 7)                  = 7
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/CampaignforBerkeley.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 92) = 92
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\370\0\0\0!\10\2\0\0\0{\202\361"..., 1699) = 1699
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\370\0\0\0!\10\2\0\0\0{\202\361"..., 1699) = 1699
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/CampaignforBerkeley.png", [2014/06/30-12:13:02, 2014/02/27-10:11:34]) = 0
+write(2, "2014-06-30 12:13:02 (8.14 MB/s) "..., 134) = 134
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151490, f_bavail=46134684, f_files=15065088, f_ffree=14788681, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections-bgdot.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections-bgdot.gif", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151490, f_bavail=46134684, f_files=15065088, f_ffree=14788681, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections-bgdot.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:03--  http://"..., 72) = 72
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999997})
+write(3, "GET /img/sections-bgdot.gif HTTP"..., 179) = 179
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 921123})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 410
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 362) = 362
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/sections-bgdot.gif", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "48", 2)                       = 2
+write(2, " [image/gif]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/img", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/sections-bgdot.gif", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 87) = 87
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "GIF89a\10\0\10\0\200\0\0\227\257\201\0\0\0!\371\4\0\0\0\0\0,\0\0\0\0"..., 48) = 48
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "GIF89a\10\0\10\0\200\0\0\227\257\201\0\0\0!\371\4\0\0\0\0\0,\0\0\0\0"..., 48) = 48
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/sections-bgdot.gif", [2014/06/30-12:13:03, 2008/02/04-19:15:59]) = 0
+write(2, "2014-06-30 12:13:03 (307 KB/s) -"..., 124) = 124
+statfs("/home/bearface/website_output/www.berkeley.edu/img/target", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151487, f_bavail=46134681, f_files=15065088, f_ffree=14788680, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/target/home_main_img.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/target/home_main_img.jpg", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/target", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151487, f_bavail=46134681, f_files=15065088, f_ffree=14788680, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/target/home_main_img.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:04--  http://"..., 78) = 78
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /img/target/home_main_img.jp"..., 185) = 185
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920098})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 364
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 364) = 364
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/target/home_main_img.jpg", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "61878", 5)                    = 5
+write(2, " (60K)", 6)                   = 6
+write(2, " [image/jpeg]\n", 14)         = 14
+stat("/home/bearface/website_output/www.berkeley.edu/img/target", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/target", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/img/target", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/target/home_main_img.jpg", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 93) = 93
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\377\330\377\340\0\20JFIF\0\1\2\0\0d\0d\0\0\377\341\ruhttp://n"..., 8192) = 1368
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\377\330\377\340\0\20JFIF\0\1\2\0\0d\0d\0\0\377\341\ruhttp://n"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949760})
+read(3, "               \n                "..., 8192) = 1368
+write(4, "               \n                "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949678})
+read(3, "                                "..., 8192) = 1368
+write(4, "                                "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949918})
+read(3, "\"\331~;\25\346\201P\360\265\253\22\274\251\th\272\31\325\26Np\330\206Xgm\300\37\32\215\331"..., 8192) = 1368
+write(4, "\"\331~;\25\346\201P\360\265\253\22\274\251\th\272\31\325\26Np\330\206Xgm\300\37\32\215\331"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949908})
+read(3, "\357+\4\331\3=\263\17\2425\300\275\263\342\330\27\36297\346:\316\320L\2512\20\223\21>\221\n"..., 8192) = 1368
+write(4, "\357+\4\331\3=\263\17\2425\300\275\263\342\330\27\36297\346:\316\320L\2512\20\223\21>\221\n"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "z}\235\20m\231\211\365#\366\250\264\270\310\213\261\0X\202B\207\304W%\312\300\202\335\327Q\201 "..., 8192) = 1160
+write(4, "z}\235\20m\231\211\365#\366\250\264\270\310\213\261\0X\202B\207\304W%\312\300\202\335\327Q\201 "..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\327\312\365\344\316\267\333\325{5\265\31\305\202\353\27\312\25\211W\331\362&\213)u\313@\230\310\272J"..., 8192) = 1368
+write(4, "\327\312\365\344\316\267\333\325{5\265\31\305\202\353\27\312\25\211W\331\362&\213)u\313@\230\310\272J"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\336\27^\243\217\377\0L?\204~\v\221\233\357?5\21\\v\324\262j\300e\5\322#\241\n\n\35"..., 8192) = 1368
+write(4, "\336\27^\243\217\377\0L?\204~\v\221\233\357?5\21\\v\324\262j\300e\5\322#\241\n\n\35"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "5\345\346\215\235 6\277\216\253\266\342k\224)&GRz(W\372\251\314w\351:\273|\rqp"..., 8192) = 1368
+write(4, "5\345\346\215\235 6\277\216\253\266\342k\224)&GRz(W\372\251\314w\351:\273|\rqp"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949952})
+read(3, "\363\t\223[DoT\271\221R\322J\320\302Sw\25d\365)\354;\327K\314\373\227\23\215\231\242\321"..., 8192) = 1368
+write(4, "\363\t\223[DoT\271\221R\322J\320\302Sw\25d\365)\354;\327K\314\373\227\23\215\231\242\321"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\256\215\273\277\350\353\226\262\246\320+\313\373p\340R\2436\317;\315\0271\350B\17\354L4v<\353"..., 8192) = 1368
+write(4, "\256\215\273\277\350\353\226\262\246\320+\313\373p\340R\2436\317;\315\0271\350B\17\354L4v<\353"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\330\221\245\352\305S \26T\214\232J\334\340\334fW2\224\324e\351\20m.\271\264^\336\27\353j"..., 8192) = 1160
+write(4, "\330\221\245\352\305S \26T\214\232J\334\340\334fW2\224\324e\351\20m.\271\264^\336\27\353j"..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\310/Aa\337\305\360>:\332Z)\16m\26?\33u4X\310\0\353@\5\22\223\356\f\274\254\325"..., 8192) = 1368
+write(4, "\310/Aa\337\305\360>:\332Z)\16m\26?\33u4X\310\0\353@\5\22\223\356\f\274\254\325"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\333k\275\311\321N\251\r\272(\364L\0179\310rD\312y7\214\t\334R\257\244~=\352\346o5"..., 8192) = 1368
+write(4, "\333k\275\311\321N\251\r\272(\364L\0179\310rD\312y7\214\t\334R\257\244~=\352\346o5"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949919})
+read(3, "D8\352\244\20\375(\361\224V\316\333\371\257q{\326\20\242Vj\17E`e\2461\341\ty\5J"..., 8192) = 1368
+write(4, "D8\352\244\20\375(\361\224V\316\333\371\257q{\326\20\242Vj\17E`e\2461\341\ty\5J"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949044})
+read(3, "H\21\252\244.'E'\366\317&\"f\267\253\351q@\201Y\346^g*D:\273\362\no!\27"..., 8192) = 1368
+write(4, "H\21\252\244.'E'\366\317&\"f\267\253\351q@\201Y\346^g*D:\273\362\no!\27"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949904})
+read(3, "u\315\245\321k`\335\262z+i\307K\20\220\277\245$W\244\327'\202\350\"\306N\203\344e\343\34"..., 8192) = 1368
+write(4, "u\315\245\321k`\335\262z+i\307K\20\220\277\245$W\244\327'\202\350\"\306N\203\344e\343\34"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "!\237\200a\304\210\267\302\376\222\20{\324\261\270\v\314\267\304+p\314\234\264\0\224K\201{W+\212"..., 8192) = 1160
+write(4, "!\237\200a\304\210\267\302\376\222\20{\324\261\270\v\314\267\304+p\314\234\264\0\224K\201{W+\212"..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\v\225XwV\353r\275\263\375\275\343\327\206\366\325\307\26N\351j.\221\322\327?\364W\231{\222\315"..., 8192) = 1368
+write(4, "\v\225XwV\353r\275\263\375\275\343\327\206\366\325\307\26N\351j.\221\322\327?\364W\231{\222\315"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "m\2344\304\375\302B\212\220\341\270\261\277\177\235{_\266\254\206\26)\364\240}6pVd\240f<"..., 8192) = 1368
+write(4, "m\2344\304\375\302B\212\220\341\270\261\277\177\235{_\266\254\206\26)\364\240}6pVd\240f<"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "l\2444\226\244\342?A\306P@+d\33\244\333\271\265sx\320\207\246#a2\335\334\370\254[#"..., 8192) = 1368
+write(4, "l\2444\226\244\342?A\306P@+d\33\244\333\271\265sx\320\207\246#a2\335\334\370\254[#"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\35\307\355A\311\322b]\224S#\356&c\37\230g3\305q\222\261\23\25\267\365\25\250m\300-\247"..., 8192) = 2736
+write(4, "\35\307\355A\311\322b]\224S#\356&c\37\230g3\305q\222\261\23\25\267\365\25\250m\300-\247"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949870})
+read(3, "S\256\34\251/\37\344\16\317\33N\244u\253\264VN\211\223\334d\325\275\234^\266\364\5\320~5\243"..., 8192) = 1928
+write(4, "S\256\34\251/\37\344\16\317\33N\244u\253\264VN\211\223\334d\325\275\234^\266\364\5\320~5\243"..., 1928) = 1928
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949947})
+read(3, "\332\253\372z\244\233>\341p\371*\310\216\211\231p\34^\333S\30\4\333Rd\271{\332\233`I\226"..., 8192) = 1368
+write(4, "\332\253\372z\244\233>\341p\371*\310\216\211\231p\34^\333S\30\4\333Rd\271{\332\233`I\226"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949929})
+read(3, "\235m64\222\\,\200\253RIf\320\255@\2652IT\5'\255%\25\247J\200\275\252;Bv"..., 8192) = 1368
+write(4, "\235m64\222\\,\200\253RIf\320\255@\2652IT\5'\255%\25\247J\200\275\252;Bv"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "v@\376l\276g\361M\240\311u\225\22j\330\213\25Y\226K\337%\340mz\221S\t\373\357\310j"..., 8192) = 1368
+write(4, "v@\376l\276g\361M\240\311u\225\22j\330\213\25Y\226K\337%\340mz\221S\t\373\357\310j"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949447})
+read(3, "\334\376\377\0009s\323\271\256?\t\30\237\320\336\342\300\353\340+\215\314\223\222\267!\3\264\5\346<\206"..., 8192) = 1368
+write(4, "\334\376\377\0009s\323\271\256?\t\30\237\320\336\342\300\353\340+\215\314\223\222\267!\3\264\5\346<\206"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\231(\261\336\303{r\22\310\214T\324\254\213\211\5VO\224\226\322t\32\3675\357\334?\266k\210\214"..., 8192) = 2528
+write(4, "\231(\261\336\303{r\22\310\214T\324\254\213\211\5VO\224\226\322t\32\3675\357\334?\266k\210\214"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949917})
+read(3, "\235)\224\4\241\360\35A\355uk\241\374k\240\301\274\316\21\7\266\213\33\"\200&|:\253\27\332\324"..., 8192) = 1368
+write(4, "\235)\224\4\241\360\35A\355uk\241\374k\240\301\274\316\21\7\266\213\33\"\200&|:\253\27\332\324"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "Dk.N\212^\254\256-\274\23+\310\266\35\221+Sc\242m\362\351O\221\237\352\300\1\20H\352"..., 8192) = 1368
+write(4, "Dk.N\212^\254\256-\274\23+\310\266\35\221+Sc\242m\362\351O\221\237\352\300\1\20H\352"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ".\30\250\214\314HfO\241}\337\32\350\251\273|]d\331^\322\311\304lxl\202zT\344P\231"..., 8192) = 1368
+write(4, ".\30\250\214\314HfO\241}\337\32\350\251\273|]d\331^\322\311\304lxl\202zT\344P\231"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\363/\335:\204o\217rw\262n\2103U\372\227!\267\10\326\376\7\340k\311?\270\336\306\253\222\304"..., 8192) = 2736
+write(4, "\363/\335:\204o\217rw\262n\2103U\372\227!\267\10\326\376\7\340k\311?\270\336\306\253\222\304"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\246\325\347\306\251\10\tv(\262\32\262\202sN%\226\3159f#/\323Y;\237);@?\32\354"..., 8192) = 2528
+write(4, "\246\325\347\306\251\10\tv(\262\32\262\202sN%\226\3159f#/\323Y;\237);@?\32\354"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\241\334\37T\235:\r*\340\237\304P==\22\35S\364\274\200\220\23T\fK\255\270D6\213\227\26"..., 8192) = 1368
+write(4, "\241\334\37T\235:\r*\340\237\304P==\22\35S\364\274\200\220\23T\fK\255\270D6\213\227\26"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "6\27OpO\205u\25\312\312\254\25\235D\203\374\31\\\206C\371\237TE\236c!/G\211\223\215"..., 8192) = 2736
+write(4, "6\27OpO\205u\25\312\312\254\25\235D\203\374\31\\\206C\371\237TE\236c!/G\211\223\215"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946870})
+read(3, "\352\3250\321\212\262y\24L\266'\17!\20Rv\255$\245\276\237UsS\314$\210OGO(2"..., 7638) = 2528
+write(4, "\352\3250\321\212\262y\24L\266'\17!\20Rv\255$\245\276\237UsS\314$\210OGO(2"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "J;T\331\324]<\216\324\207\254\244\266m\343j\f\214Gu1\t\36\311w\343:\22\tA\0S"..., 5110) = 2736
+write(4, "J;T\331\324]<\216\324\207\254\244\266m\343j\f\214Gu1\t\36\311w\343:\22\tA\0S"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\342\2346w,u\376y\311\342d\270\300\342R\371\316\"L\24d\230nl6=D:\343\241\fz"..., 2374) = 1368
+write(4, "\342\2346w,u\376y\311\342d\270\300\342R\371\316\"L\24d\230nl6=D:\343\241\fz"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\260\32\350*\374[n\251~\366\253\324o\375\273\\G\30\316\0\372\370\346\343%1\37O\227\324\260\363"..., 1006) = 1006
+write(4, "\260\32\350*\374[n\251~\366\253\324o\375\273\\G\30\316\0\372\370\346\343%1\37O\227\324\260\363"..., 1006) = 1006
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/target/home_main_img.jpg", [2014/06/30-12:13:04, 2014/06/30-04:10:01]) = 0
+write(2, "2014-06-30 12:13:04 (4.00 MB/s) "..., 137) = 137
+statfs("/home/bearface/website_output/www.berkeley.edu/nc2.0", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151464, f_bavail=46134658, f_files=15065088, f_ffree=14788678, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/nc2.0/p1news-bg980.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/nc2.0/p1news-bg980.gif", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/nc2.0", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151464, f_bavail=46134658, f_files=15065088, f_ffree=14788678, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/nc2.0/p1news-bg980.gif", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:05--  http://"..., 72) = 72
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /nc2.0/p1news-bg980.gif HTTP"..., 179) = 179
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920912})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 363) = 363
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/nc2.0/p1news-bg980.gif", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "875", 3)                      = 3
+write(2, " [image/gif]\n", 13)          = 13
+stat("/home/bearface/website_output/www.berkeley.edu/nc2.0", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/nc2.0", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/nc2.0", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/nc2.0/p1news-bg980.gif", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 87) = 87
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949991})
+read(3, "GIF89a\324\3\1\0\367\0\0\357\357\357\333\333\333\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 875) = 875
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "GIF89a\324\3\1\0\367\0\0\357\357\357\333\333\333\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 875) = 875
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/nc2.0/p1news-bg980.gif", [2014/06/30-12:13:05, 2014/02/07-19:35:11]) = 0
+write(2, "2014-06-30 12:13:05 (3.19 MB/s) "..., 127) = 127
+statfs("/home/bearface/website_output/www.berkeley.edu/img/dirks", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151456, f_bavail=46134650, f_files=15065088, f_ffree=14788676, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-designate.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-designate.jpg", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/dirks", 0x7ffffe5e15c0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151456, f_bavail=46134650, f_files=15065088, f_ffree=14788676, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-designate.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:06--  http://"..., 79) = 79
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /img/dirks/dirks-designate.j"..., 186) = 186
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 919849})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 366
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 366) = 366
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-designate.jpg", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "147874", 6)                   = 6
+write(2, " (144K)", 7)                  = 7
+write(2, " [image/jpeg]\n", 14)         = 14
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks", 0x7ffffe5e1130) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks", 0x7ffffe5e1050) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.berkeley.edu/img/dirks", 0777) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-designate.jpg", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 94) = 94
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949992})
+read(3, "\377\330\377\341\0\30Exif\0\0II*\0\10\0\0\0\0\0\0\0\0\0\0\0\377\354\0\21"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\377\330\377\341\0\30Exif\0\0II*\0\10\0\0\0\0\0\0\0\0\0\0\0\377\354\0\21"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "e\205\6\346\24$xj\t\350`S(\363^\346\267\20,;W\237\276\207t\365w\222F\240\200\256"..., 8192) = 3912
+write(4, "e\205\6\346\24$xj\t\350`S(\363^\346\267\20,;W\237\276\207t\365w\222F\240\200\256"..., 3912) = 3912
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949885})
+read(3, "\"4P\251F\243\226t\2510\220u\241\320\353A+\37\34\245\352\306\271\2568\220}\335\271\333\32\273"..., 8192) = 1368
+write(4, "\"4P\251F\243\226t\2510\220u\241\320\353A+\37\34\245\352\306\271\2568\220}\335\271\333\32\273"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "h%\0G\354\24+\340N\235Xt\337M7\254\274\274\273LM\260-\32U\303\21\215\222\310S:"..., 8192) = 1368
+write(4, "h%\0G\354\24+\340N\235Xt\337M7\254\274\274\273LM\260-\32U\303\21\215\222\310S:"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\0#\225\262>7\5\5\1%\332=\302\325*\331v\303\211\342\2607\274\27\5\335\316Q\335>)|"..., 8192) = 1160
+write(4, "\0#\225\262>7\5\5\1%\332=\302\325*\331v\303\211\342\2607\274\27\5\335\316Q\335>)|"..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "4\265\307\34\362\24\331\222F\204N.)\v\256\325\226Ib\5e\212\252\26\6F\333$/\22+0"..., 8192) = 1368
+write(4, "4\265\307\34\362\24\331\222F\204N.)\v\256\325\226Ib\5e\212\252\26\6F\333$/\22+0"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949648})
+read(3, "\233\16?=\243\261+5'\3447\226\347!\214\274\373p\241\340v`c\f\321\352)\326\367\321\273\30"..., 8192) = 2736
+write(4, "\233\16?=\243\261+5'\3447\226\347!\214\274\373p\241\340v`c\f\321\352)\326\367\321\273\30"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "}JF\355\256\207B\7\253\303\241\326\336\"\214\261\350\232I\244\267\321\335\210\352m\256EV\240\3732"..., 8192) = 4280
+write(4, "}JF\355\256\207B\7\253\303\241\326\336\"\214\261\350\232I\244\267\321\335\210\352m\256EV\240\3732"..., 4096) = 4096
+write(4, "u\276\4\f\23:\213:\1\245\34]\223\360\367\361\2537\34\5\313\302Y\343\365\227\221\314\262\312J\324"..., 184) = 184
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "H)\3466\370\202k\245i\177\210\224Rr\37\250\214\273\352[\ttm!\10U$\\\241\367'\177"..., 8192) = 5472
+write(4, "H)\3466\370\202k\245i\177\210\224Rr\37\250\214\273\352[\ttm!\10U$\\\241\367'\177"..., 4096) = 4096
+write(4, "\325\317G\332\35\253\4\215\272\217\244\220\240\236 \16\31sZ\31$t\316\320\\\232Ja\220\276\25\263"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "{\270\343y\21;C\332]\237\210\214\354\10LW\34\5q\235\335~\33\177\211\357'?\306\337d\33"..., 8192) = 1368
+write(4, "{\270\343y\21;C\332]\237\210\214\354\10LW\34\5q\235\335~\33\177\211\357'?\306\337d\33"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\332kM\t\6\236=Fy\1M\311LN4a\\\360\340\0gm\327\230\31U[\345\311\262W\33"..., 8192) = 2912
+write(4, "\332kM\t\6\236=Fy\1M\311LN4a\\\360\340\0gm\327\230\31U[\345\311\262W\33"..., 2912) = 2912
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949286})
+read(3, "~U\374:^\332\342\t\354\243pY!\25\240\363\362\350\222\226\335\365\342\356\335v0 P}G\366"..., 8192) = 2736
+write(4, "~U\374:^\332\342\t\354\243pY!\25\240\363\362\350\222\226\335\365\342\356\335v0 P}G\366"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949944})
+read(3, "\213\273\210\272e\301jE\260\334\330\333\35*\257ej@\324*\260\266ON\331\1\"\245|<O\327"..., 8192) = 1368
+write(4, "\213\273\210\272e\301jE\260\334\330\333\35*\257ej@\324*\260\266ON\331\1\"\245|<O\327"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "@d\274\306\336&6\346\30q\360\311=\335\256J\375&\263\263\261\264VE\270 \\+\313{=\354"..., 8192) = 1368
+write(4, "@d\274\306\336&6\346\30q\360\311=\335\256J\375&\263\263\261\264VE\270 \\+\313{=\354"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "Z1\352^\337l&%\257\0\20\210\tK\360\303>T\217\231\215O-\340\273\3\304w\340\264O\271"..., 8192) = 1160
+write(4, "Z1\352^\337l&%\257\0\20\210\tK\360\303>T\217\231\215O-\340\273\3\304w\340\264O\271"..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "-\303\267*\3733@\322\3478\223\"\336\326L\220\3462\251_\262>\315\315\200O\344\211\306\221B\314"..., 8192) = 2736
+write(4, "-\303\267*\3733@\322\3478\223\"\336\326L\220\3462\251_\262>\315\315\200O\344\211\306\221B\314"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "s\234\3668<\264\21\251\326\260'\16=\224E\262+\35\225\224\310\345\221\354\255\16\324 \251S\4t"..., 8192) = 2736
+write(4, "s\234\3668<\264\21\251\326\260'\16=\224E\262+\35\225\224\310\345\221\354\255\16\324 \251S\4t"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949964})
+read(3, "W=\275\344\370o\366\365\207\23\311\\\332\341\362\260K\313m\363\226\261\\\254r\335Zr.\33\315\342"..., 8192) = 1368
+write(4, "W=\275\344\370o\366\365\207\23\311\\\332\341\362\260K\313m\363\226\261\\\254r\335Zr.\33\315\342"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\246\251\255u:\353\347\370y\nu\30\251u\350I\6\355\254\0334\375\237\277\353\247J)\253\233\223z"..., 8192) = 1160
+write(4, "\246\251\255u:\353\347\370y\nu\30\251u\350I\6\355\254\0334\375\237\277\353\247J)\253\233\223z"..., 1160) = 1160
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\36\337\362\213,\204}\215\345]\231\303\311\361\335\356I\260\205\237\203\331\233\316h\320]{\361\334\f\307"..., 8192) = 2736
+write(4, "\36\337\362\213,\204}\215\345]\231\303\311\361\335\356I\260\205\237\203\331\233\316h\320]{\361\334\f\307"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949194})
+read(3, "\31Az\364\177\17\372t\3404\311\306\275\306J\265\177\273J\237\356\362\350\201Z[\213\232%\25\300\250"..., 8192) = 2736
+write(4, "\31Az\364\177\17\372t\3404\311\306\275\306J\265\177\273J\237\356\362\350\201Z[\213\232%\25\300\250"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949956})
+read(3, "\5\262A\251\217\16B\345$\22I\0169\33XX\334\334\24\250\333\355\243\366;\257,\200\320p^\313"..., 8192) = 1368
+write(4, "\5\262A\251\217\16B\345$\22I\0169\33XX\334\334\24\250\333\355\243\366;\257,\200\320p^\313"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "Vk\33\213\213\200D\245H?\303\342\10\36^$u\26F\264\324\370fq\372\2604\207#\202\226\344"..., 8192) = 1544
+write(4, "Vk\33\213\213\200D\245H?\303\342\10\36^$u\26F\264\324\370fq\372\2604\207#\202\226\344"..., 1544) = 1544
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\235\346\340E\n\22\245\304<\340\256k\10\324\365\301\v\32\7\351%o\333n\261\7Mq\213g\26\343"..., 8192) = 1368
+write(4, "\235\346\340E\n\22\245\304<\340\256k\10\324\365\301\v\32\7\351%o\333n\261\7Mq\213g\26\343"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\247\23\346\25B\321 \5\315\30\206\26\202\246\346t\356\247%N\r\311;5\334\233\34\235\376{\5\233"..., 8192) = 2736
+write(4, "\247\23\346\25B\321 \5\315\30\206\26\202\246\346t\356\247%N\r\311;5\334\233\34\235\376{\5\233"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "Q\302\366\32\201\370\212\206\375\223\34\206Ghx\347\226d\flr\306\250Oy \311\376\236\\\363\204"..., 8192) = 1368
+write(4, "Q\302\366\32\201\370\212\206\375\223\34\206Ghx\347\226d\flr\306\250Oy \311\376\236\\\363\204"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "Ml\257\270\235\337\303]r.-\332^{\306\232\356\16o\227\345W*/\2\337\344\362\34w\17\177"..., 8192) = 2528
+write(4, "Ml\257\270\235\337\303]r.-\332^{\306\232\356\16o\227\345W*/\2\337\344\362\34w\17\177"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949936})
+read(3, "E<[\351\347\334A\324DM\216G\375L\222'8\265\222\245\237\3461\316\21Ic\346\3\21h."..., 8192) = 1368
+write(4, "E<[\351\347\334A\324DM\216G\375L\222'8\265\222\245\237\3461\316\21Ic\346\3\21h."..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "+\343\205\261\355\330\367\265\315cL\222F\327\r,s\265\260x\232^\1hR\243\275\276\21\332.-"..., 8192) = 1368
+write(4, "+\343\205\261\355\330\367\265\315cL\222F\327\r,s\265\260x\232^\1hR\243\275\276\21\332.-"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\0233x\320yTW\302\204\237/.\210^\204\255\0243I\267\324\336^^:\377\0\217K\312\272\201"..., 8192) = 1368
+write(4, "\0233x\320yTW\302\204\237/.\210^\204\255\0243I\267\324\336^^:\377\0\217K\312\272\201"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949233})
+read(3, "\257\27\303r\256e\217\340_#\360X;(\214\330\234a\3459\30\3558\207s\177\244\333\256\310\356."..., 8192) = 1368
+write(4, "\257\27\303r\256e\217\340_#\360X;(\214\330\234a\3459\30\3558\207s\177\244\333\256\310\356."..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\33`\31\221\342\301c\255#\226\30\f;\243\360\0-\24i\321\2729w3\227NK\347\3\27\22\342"..., 8192) = 1368
+write(4, "\33`\31\221\342\301c\255#\226\30\f;\243\360\0-\24i\321\2729w3\227NK\347\3\27\22\342"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "&\325\300-\250\f\267dICV\326\237\362\32j\7M\223\\\r\353\244>r\240d\354\303$*L"..., 8192) = 2912
+write(4, "&\325\300-\250\f\267dICV\326\237\362\32j\7M\223\\\r\353\244>r\240d\354\303$*L"..., 2912) = 2912
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949898})
+read(3, "\322\336\300\243s\271t\257\r\5tj\1\216hp\36-.\4\203\210\255\250\366G\260\375\204\354W\32"..., 8192) = 1368
+write(4, "\322\336\300\243s\271t\257\r\5tj\1\216hp\36-.\4\203\210\255\250\366G\260\375\204\354W\32"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947582})
+read(3, "\2475\234\333\2\371\370\2?/\246\237\362\350QjK\\\32\23:)\357)S\371P~?\237D\334"..., 8192) = 1368
+write(4, "\2475\234\333\2\371\370\2?/\246\237\362\350QjK\\\32\23:)\357)S\371P~?\237D\334"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\274\214\266\30\233kd\270\234*\244q\227\f`\267\2128\23l1F\213\235\352\233\375\306\356m[\271"..., 8192) = 8192
+write(4, "\274\214\266\30\233kd\270\234*\244q\227\f`\267\2128\23l1F\213\235\352\233\375\306\356m[\271"..., 4096) = 4096
+write(4, "\345HN\332\230~1|\202\343}\335\340\34\263\271\230\256\31\335^?\7n\371\0273\343\374\243\205r"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\0055\343\206s\316\366\177\373a\374\323\342\337\35\370\277cy\306G5\222\354\365\266B\367\270\35\354\312"..., 8192) = 6440
+write(4, "\0055\343\206s\316\366\177\373a\374\323\342\337\35\370\277cy\306G5\222\354\365\266B\367\270\35\354\312"..., 4096) = 4096
+write(4, "\27\331N%\335\214/f3\374\363\31\206\356\1770\373F\343\\2\346\34\261\312g\"\276\270\216\332\335"..., 2344) = 2344
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\244/\32\271h\366\6\r\22\355Gd\221\fu\204\235\360\3178Z\177-u\333RI\"\205\r\215\270"..., 8192) = 4104
+write(4, "\244/\32\271h\366\6\r\22\355Gd\221\fu\204\235\360\3178Z\177-u\333RI\"\205\r\215\270"..., 4096) = 4096
+write(4, "\244\311TRk\307\21\331", 8)   = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\235\17T@\251%\230Q#\312V\256\262\326\tQ\234\372\rh\227\16@1\250\2405%\206\332\364J"..., 8192) = 1928
+write(4, "\235\17T@\251%\230Q#\312V\256\262\326\tQ\234\372\rh\227\16@1\250\2405%\206\332\364J"..., 1928) = 1928
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\360\222[\2125J\270\261l\27\27 CuZv]\206\315\342X\237\3\36f`\22+B\2746\303"..., 8192) = 2736
+write(4, "\360\222[\2125J\270\261l\27\27 CuZv]\206\315\342X\237\3\36f`\22+B\2746\303"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949280})
+read(3, "D[\312\232P\r5\374\377\0gD\35\356\241,8\212Cz\204F~\242\277\347O\317\240y\244G"..., 8192) = 1368
+write(4, "D[\312\232P\r5\374\377\0gD\35\356\241,8\212Cz\204F~\242\277\347O\317\240y\244G"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\370\31/m.\344?y%\272\30m.Y\"oy\330\31c\237\335\265uu\267(\265u,Aq"..., 8192) = 3896
+write(4, "\370\31/m.\344?y%\272\30m.Y\"oy\330\31c\237\335\265uu\267(\265u,Aq"..., 3896) = 3896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "i\336c\216\222\232\205\212\333\17\306\215\301e\34/o\32G4^\336\375\344\332\230\226\t\332\17\342I"..., 8192) = 2736
+write(4, "i\336c\216\222\232\205\212\333\17\306\215\301e\34/o\32G4^\336\375\344\332\230\226\t\332\17\342I"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "YwR\10J\371C+#Fw\30\240\316\243O\272\333\355 \363\\\355Nr 7q\3\25K\213"..., 8192) = 2736
+write(4, "YwR\10J\371C+#Fw\30\240\316\243O\272\333\355 \363\\\355Nr 7q\3\25K\213"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\272m\4\227\255\301nF\300\360\265XD\355\346\313\375\277v\315\306\346yw\33g\271\355\221\372\230\\"..., 8192) = 2720
+write(4, "\272m\4\227\255\301nF\300\360\265XD\355\346\313\375\277v\315\306\346yw\33g\271\355\221\372\230\\"..., 2720) = 2720
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ">\226\211\6tAM@\37_\257\323\307\366\364\270\321\1{aY\275\225 P\232\203QBh\177g"..., 8192) = 2736
+write(4, ">\226\211\6tAM@\37_\257\323\307\366\364\270\321\1{aY\275\225 P\232\203QBh\177g"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "l\326\304\260\226K\333\333\251\214p*\224\4\235\347d@\370\203@jb;\251\210\333\300\300\262\27*"..., 8192) = 1368
+write(4, "l\326\304\260\226K\333\333\251\214p*\224\4\235\347d@\370\203@jb;\251\210\333\300\300\262\27*"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949313})
+read(3, "%\255\357\243\26\220G!\2O:\n\217\357\360\351u\335\1\242\20\264\205\"\364\366\306\332\333E\vh"..., 8192) = 1368
+write(4, "%\255\357\243\26\220G!\2O:\n\217\357\360\351u\335\1\242\20\264\205\"\364\366\306\332\333E\vh"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\3478w\343|\277\205\363N;\366\243-\307yF-\247\277\267\217'\35\216F\322\345$\266\270\270\267"..., 8192) = 2528
+write(4, "\3478w\343|\277\205\363N;\366\243-\307yF-\247\277\267\217'\35\216F\322\345$\266\270\270\267"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "'u**\3327\216\272\17\317M:\353\n%\275\36\261\271\231%U2\22\204Si\361\257\231:x"..., 8192) = 5472
+write(4, "'u**\3327\216\272\17\317M:\353\n%\275\36\261\271\231%U2\22\204Si\361\257\231:x"..., 4096) = 4096
+write(4, "\37\342 \nSS\341\370\365\305H\251\1\311\2064\341\266\234\310\200\3Mu?\336\177\177\370t$\6"..., 1376) = 1376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\355\335\247\375\314\307v\370\256B]*\r\227\26\273\377\0v\344\3\n1dk\f\34\201\200\33\2104"..., 8192) = 4472
+write(4, "\355\335\247\375\314\307v\370\256B]*\r\227\26\273\377\0v\344\3\n1dk\f\34\201\200\33\2104"..., 4096) = 4096
+write(4, "\10\351\321\20\34\217,\211\305\324\2^\325\360\227\266\177\270\303\316/R8\222[\201\233\315Gv\221G"..., 376) = 376
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "\362\302\262\241\"\2644\352\204(\26\250\1\347\3\205\37o\213\235\231\307\311\r\272p\tmC{W\262"..., 8192) = 2736
+write(4, "\362\302\262\241\"\2644\352\204(\26\250\1\347\3\205\37o\213\235\231\307\311\r\272p\tmC{W\262"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949423})
+read(3, "\340\2\204\n\271T\35\246\331\273\231\207\230|\r\v\247\211\312\374(\227{\376i|T\354.\23?q"..., 8192) = 1368
+write(4, "\340\2\204\n\271T\35\246\331\273\231\207\230|\r\v\247\211\312\374(\227{\376i|T\354.\23?q"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "%\305\316^|\f\366\326\327\363\332\315i?\334>\36i\5\254\370\253IZ\33\210\257,\356\fO-"..., 8192) = 2528
+write(4, "%\305\316^|\f\366\326\327\363\332\315i?\334>\36i\5\254\370\253IZ\33\210\257,\356\fO-"..., 2528) = 2528
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "9\236\317\230a\270\347)\205\24\253\3458_%\312\330c3\226r\262\262<\353\215G\216\372%-\377"..., 8192) = 4104
+write(4, "9\236\317\230a\270\347)\205\24\253\3458_%\312\330c3\226r\262\262<\353\215G\216\372%-\377"..., 4096) = 4096
+write(4, "I,n'\36'\347U", 8)            = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "#\341ov\370g\5\371\27\214\356\37s\263\313\207\262lO-\373\354\304\226\271l\3136K7a5"..., 4698) = 2736
+write(4, "#\341ov\370g\5\371\27\214\356\37s\263\313\207\262lO-\373\354\304\226\271l\3136K7a5"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 434696})
+read(3, "q\330\333\353\234vJ\332\313\210Exc\307<s\3402\31[\t\205\3141\274\216\"\221\235}\300\256"..., 1962) = 1368
+write(4, "q\330\333\353\234vJ\332\313\210Exc\307<s\3402\31[\t\205\3141\274\216\"\221\235}\300\256"..., 1368) = 1368
+write(2, "\r", 1)                       = 1
+write(2, "99% [==========================="..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 873421})
+read(3, "\321\300-S\327\244\354?\3700\360\362Y\376\221Y\351\277\353?\206\263\363\247\315\320j\25\225\351\26\361"..., 594) = 594
+write(4, "\321\300-S\327\244\354?\3700\360\362Y\376\221Y\351\277\353?\206\263\363\247\315\320j\25\225\351\26\361"..., 594) = 594
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-designate.jpg", [2014/06/30-12:13:07, 2012/11/20-19:07:55]) = 0
+write(2, "2014-06-30 12:13:07 (232 KB/s) -"..., 139) = 139
+statfs("/home/bearface/website_output/www.berkeley.edu/img/dirks", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151412, f_bavail=46134606, f_files=15065088, f_ffree=14788674, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-next-chan.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-next-chan.jpg", 0x7ffffe5e16a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.berkeley.edu/img/dirks", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49151412, f_bavail=46134606, f_files=15065088, f_ffree=14788674, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-next-chan.jpg", 0x7ffffe5e1610) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7ffffe5e1720)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:13:08--  http://"..., 79) = 79
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("169.229.216.200")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 52) = 52
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999993})
+write(3, "GET /img/dirks/dirks-next-chan.j"..., 186) = 186
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 920386})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 366
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 366) = 366
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-next-chan.jpg", 0x7ffffe5e1140) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "66118", 5)                    = 5
+write(2, " (65K)", 6)                   = 6
+write(2, " [image/jpeg]\n", 14)         = 14
+stat("/home/bearface/website_output/www.berkeley.edu/img/dirks", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-next-chan.jpg", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 94) = 94
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949992})
+read(3, "\377\330\377\341\0\30Exif\0\0II*\0\10\0\0\0\0\0\0\0\0\0\0\0\377\354\0\21"..., 8192) = 3738
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb0e058000
+write(4, "\377\330\377\341\0\30Exif\0\0II*\0\10\0\0\0\0\0\0\0\0\0\0\0\377\354\0\21"..., 3738) = 3738
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 872674})
+read(3, "\211\17\363\256\244Z\37N0\331W\251\2\213\202\332\177S\4$\2425.\215\227\217\256\311e?1\347"..., 8192) = 1734
+write(4, "\211\17\363\256\244Z\37N0\331W\251\2\213\202\332\177S\4$\2425.\215\227\217\256\311e?1\347"..., 1734) = 1734
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948414})
+read(3, "\265\332\310\200\35293!o\363\36\370\213\266\235V\253\364\7\3675\253\206\372_\212,^=\312\26\33"..., 8192) = 3738
+write(4, "\265\332\310\200\35293!o\363\36\370\213\266\235V\253\364\7\3675\253\206\372_\212,^=\312\26\33"..., 3738) = 3738
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 874097})
+read(3, ":\370\223\350\257\2221_[?0iKV\243\307,F\311\344x\217\360\324{\340621\326\221\267"..., 8192) = 1368
+write(4, ":\370\223\350\257\2221_[?0iKV\243\307,F\311\344x\217\360\324{\340621\326\221\267"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949159})
+read(3, "\32\232L\304\245hK\256#\364\242\365\30\205V\310\275NG\307\25\332\205\352\372\17\33s\346\242_\247"..., 8192) = 1734
+write(4, "\32\232L\304\245hK\256#\364\242\365\30\205V\310\275NG\307\25\332\205\352\372\17\33s\346\242_\247"..., 1734) = 1734
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "Hf\255\237\216!\5+\\\0223\343\364\342\0\fF^O\226\24'K&p\274hi\2\205N\221"..., 8192) = 2736
+write(4, "Hf\255\237\216!\5+\\\0223\343\364\342\0\fF^O\226\24'K&p\274hi\2\205N\221"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\203\243\26\257|m\253|\212d\32\262QK\222J\251\316\271|\351\362\355\207S\304\t\310]\222\203J"..., 8192) = 1002
+write(4, "\203\243\26\257|m\253|\212d\32\262QK\222J\251\316\271|\351\362\355\207S\304\t\310]\222\203J"..., 1002) = 1002
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 875863})
+read(3, "\27;\225^\261\260L~z\22X\236\254\3355\21\225\0'\3\251\255\303Xh\36b\31\250\245XP"..., 8192) = 1368
+write(4, "\27;\225^\261\260L~z\22X\236\254\3355\21\225\0'\3\251\255\303Xh\36b\31\250\245XP"..., 1368) = 1368
+write(2, "\r", 1)                       = 1
+write(2, "26% [=========>                 "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948297})
+read(3, "\376\222\327\343\220\307[\33\372\27\2221\351,DK\231\25\250\355\200\330\325\324\16\344\372\200w\370\234 "..., 8192) = 1368
+write(4, "\376\222\327\343\220\307[\33\372\27\2221\351,DK\231\25\250\355\200\330\325\324\16\344\372\200w\370\234 "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949808})
+read(3, "\252\214\253\341\341\372`\244\326\343\312{j\20nB\303\v\251\252\264i\220\360\240\351\216\235\34\325y#"..., 8192) = 1734
+write(4, "\252\214\253\341\341\372`\244\326\343\312{j\20nB\303\v\251\252\264i\220\360\240\351\216\235\34\325y#"..., 1734) = 1734
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\34\21\307lA\244:<\300\256 V\242\372k@\7\\\24F,\"\312\264\303\v\2\207\351>8\214"..., 8192) = 1368
+write(4, "\34\21\307lA\244:<\300\256 V\242\372k@\7\\\24F,\"\312\264\303\v\2\207\351>8\214"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949336})
+read(3, "\361mDumhrkz\226\374\356\327w[\221[\255\303t\220\311\270L\256=6\360e\t\345j"..., 8192) = 2370
+write(4, "\361mDumhrkz\226\374\356\327w[\221[\255\303t\220\311\270L\256=6\360e\t\345j"..., 2370) = 2370
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 876715})
+read(3, "v\227\327\261\315\36\261\34(\305ZU^\265J\365\35:\342\214\251ie\272gs\374yS&g\212"..., 8192) = 1368
+write(4, "v\227\327\261\315\36\261\34(\305ZU^\265J\365\35:\342\214\251ie\272gs\374yS&g\212"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946611})
+read(3, "\2DvbC\232\345\212\310\r\2533\200\21X\344\241\7\270\351\202\220\30\361\25\313Qhr\305\210\22"..., 8192) = 1368
+write(4, "\2DvbC\232\345\212\310\r\2533\200\21X\344\241\7\270\351\202\220\30\361\25\313Qhr\305\210\22"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949901})
+read(3, "\335M,w)\10u\202\31\321\210\226\326\356\316RZ\331\243pCS,f\265o]\364\366\366\333B"..., 8192) = 1368
+write(4, "\335M,w)\10u\202\31\321\210\226\326\356\316RZ\331\243pCS,f\265o]\364\366\366\333B"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\357\335\255\362\312\307\213\354P\321\347\222;9\226Y\247AZ\242+\5]g!\2319\fw;7l"..., 8192) = 1734
+write(4, "\357\335\255\362\312\307\213\354P\321\347\222;9\226Y\247AZ\242+\5]g!\2319\fw;7l"..., 1734) = 1734
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949346})
+read(3, "\301\226\177\376\267\374\220\231}\357\367\7\222\334X\330{k\354\216\341\267]\3577+e\267\357\\\326t"..., 8192) = 1368
+write(4, "\301\226\177\376\267\374\220\231}\357\367\7\222\334X\330{k\354\216\341\267]\3577+e\267\357\\\326t"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949915})
+read(3, "\214\2725\205!\212\326\2645\303,Na\246\17\315D\247\251G\231\"\262\345\374Rm\3418\304<\253"..., 8192) = 1368
+write(4, "\214\2725\205!\212\326\2645\303,Na\246\17\315D\247\251G\231\"\262\345\374Rm\3418\304<\253"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949912})
+read(3, "\356m\237\270\352z?\326u\371lj\305\356\344\372\337I\26\345\311iYG~\247H\30\352\244p-"..., 8192) = 1002
+write(4, "\356m\237\270\352z?\326u\371lj\305\356\344\372\337I\26\345\311iYG~\247H\30\352\244p-"..., 1002) = 1002
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 878004})
+read(3, "\36#\266m\267\374C\232\373c\270r_w!\336\367\235\322\340\\\361\273\273\257\275\232]\316\342[M"..., 8192) = 1368
+write(4, "\36#\266m\267\374C\232\373c\270r_w!\336\367\235\322\340\\\361\273\273\257\275\232]\316\342[M"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 945673})
+read(3, "*\334\226i\354V\233\204:\235\334\20NU\356+\343\375\330\27133\250\3232F\350\331Q\224\0k"..., 8192) = 1368
+write(4, "*\334\226i\354V\233\204:\235\334\20NU\356+\343\375\330\27133\250\3232F\350\331Q\224\0k"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\367\375\346n\327\33\276\33:\271JW'3\372\34A\334y\0375\347\273\213\362>{\311\367\16]\276"..., 8192) = 2736
+write(4, "\367\375\346n\327\33\276\33:\271JW'3\372\34A\334y\0375\347\273\213\362>{\311\367\16]\276"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947388})
+read(3, "\244\215ASVr\313\206\255\235\365M'\357\5\222\242TuvQ\341\375\3\255\270\317.\341\337\212\267"..., 8192) = 3102
+write(4, "\244\215ASVr\313\206\255\235\365M'\357\5\222\242TuvQ\341\375\3\255\270\317.\341\337\212\267"..., 3102) = 3102
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "\327\24Y\2662\320\262\376\376ke\266\266@\36\336=%\230\220\37U+\245\274(qm,\322\330\257"..., 8192) = 2370
+write(4, "\327\24Y\2662\320\262\376\376ke\266\266@\36\336=%\230\220\37U+\245\274(qm,\322\330\257"..., 2370) = 2370
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 881875})
+read(3, "\330\260@VZ\23\226!\f\16\242r\7\20\206b&\241\313,B\3\10|\372\210\350r\302\204q\200"..., 8192) = 1368
+write(4, "\330\260@VZ\23\226!\f\16\242r\7\20\206b&\241\313,B\3\10|\372\210\350r\302\204q\200"..., 1368) = 1368
+write(2, "\r", 1)                       = 1
+write(2, "69% [==========================>"..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 943482})
+read(3, "\355\202\3\301PFXt+\t\212J\20>=\360A#\324/\220\30\203\205\227\1~x\201\221\266\341"..., 8192) = 1368
+write(4, "\355\202\3\301PFXt+\t\212J\20>=\360A#\324/\220\30\203\205\227\1~x\201\221\266\341"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947752})
+read(3, "\6\203}\354\23\377\0\270\34\234\207\251F\314\347\330g\360\30\371\2268\352\235\217w\227Se e\26"..., 8192) = 1368
+write(4, "\6\203}\354\23\377\0\270\34\234\207\251F\314\347\330g\360\30\371\2268\352\235\217w\227Se e\26"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, "-\177\202\257\272\374\244\344{v\377\0\303v\215\353\332\206\342v\34\242\357\216\3116\367\272\357V\362E"..., 8192) = 2736
+write(4, "-\177\202\257\272\374\244\344{v\377\0\303v\215\353\332\206\342v\34\242\357\216\3116\367\272\357V\362E"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949255})
+read(3, "o\234\276\206\231\313B+\374\265'He4\372\217l\260\257]P\370\223L\244\377\0\"}\315^\35"..., 8192) = 3102
+write(4, "o\234\276\206\231\313B+\374\265'He4\372\217l\260\257]P\370\223L\244\377\0\"}\315^\35"..., 3102) = 3102
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "\272\271\270\216\35\20j\231\313SH\257\307\277\351\204v\252\324\2356\235\nGz\346\212$i\2112\302"..., 8192) = 2370
+write(4, "\272\271\270\216\35\20j\231\313SH\257\307\277\351\204v\252\324\2356\235\nGz\346\212$i\2112\302"..., 2370) = 2370
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 884692})
+read(3, "\230\03529\255\2\n\322\276\0031\210A\372\333v\272\265f\230\211\"E'\325\231\n\325Q|\2544"..., 8192) = 1368
+write(4, "\230\03529\255\2\n\322\276\0031\210A\372\333v\272\265f\230\211\"E'\325\231\n\325Q|\2544"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 941722})
+read(3, "$\373\377\0k8&\227i8\362\261b\332.\36\342\341[\371\203\314\24\372\247H\246 d\326.A"..., 7660) = 1368
+write(4, "$\373\377\0k8&\227i8\362\261b\332.\36\342\341[\371\203\314\24\372\247H\246 d\326.A"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948173})
+read(3, "<\2302\343\307\371m\225\255'\217\303r\356\336\277\237'\343\245u9\233\357\327\271[\177*\347Q\334"..., 6292) = 1368
+write(4, "<\2302\343\307\371m\225\255'\217\303r\356\336\277\237'\343\245u9\233\357\327\271[\177*\347Q\334"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949305})
+read(3, "{^\317n\3677S\271\37J\212\320\3O3t\3\271\306xvp\226\246\232\325%/Nc\377\0"..., 4924) = 1368
+write(4, "{^\317n\3677S\271\37J\212\320\3O3t\3\271\306xvp\226\246\232\325%/Nc\377\0"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "\327\20\206\352\361g\17\304\370\271\17\255\233h\263:\224\352R}\4\350h*>'\35\214_b\362F"..., 3556) = 1368
+write(4, "\327\20\206\352\361g\17\304\370\271\17\255\233h\263:\224\352R}\4\350h*>'\35\214_b\362F"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949197})
+read(3, "\366\214j}\256\\\266O3\321p\2k\201Q\373-\313\266]\213\334k^E\311\357\305\234\6\v\277"..., 2188) = 1368
+write(4, "\366\214j}\256\\\266O3\321p\2k\201Q\373-\313\266]\213\334k^E\311\357\305\234\6\v\277"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949509})
+read(3, ":\270\225b\252t\235\177ruvO\251\345Q\243-4\247Ly\2670}\37\274\377\0\271\341\244y"..., 820) = 820
+write(4, ":\270\225b\252t\235\177ruvO\251\345Q\243-4\247Ly\2670}\37\274\377\0\271\341\244y"..., 820) = 820
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7feb0e058000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.berkeley.edu/img/dirks/dirks-next-chan.jpg", [2014/06/30-12:13:09, 2012/11/27-13:18:25]) = 0
+write(2, "2014-06-30 12:13:09 (115 KB/s) -"..., 137) = 137
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-30 12:13:09--"..., 106) = 106
+exit_group(0)                           = ?
++++ exited with 0 +++

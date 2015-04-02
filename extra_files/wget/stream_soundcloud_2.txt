@@ -1,0 +1,590 @@
+execve("/usr/bin/wget", ["wget", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "https://soundcloud.com/favelamus"...], [/* 45 vars */]) = 0
+brk(0)                                  = 0x1e2a000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b7000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f35df79b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35df339000
+mprotect(0x7f35df38d000, 2097152, PROT_NONE) = 0
+mmap(0x7f35df58d000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7f35df58d000
+mmap(0x7f35df596000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35df596000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35def5f000
+mprotect(0x7f35df110000, 2093056, PROT_NONE) = 0
+mmap(0x7f35df30f000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7f35df30f000
+mmap(0x7f35df335000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35df335000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df79a000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35ded46000
+mprotect(0x7f35ded5e000, 2093056, PROT_NONE) = 0
+mmap(0x7f35def5d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f35def5d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35deb13000
+mprotect(0x7f35deb44000, 2097152, PROT_NONE) = 0
+mmap(0x7f35ded44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f35ded44000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35de90e000
+mprotect(0x7f35de912000, 2093056, PROT_NONE) = 0
+mmap(0x7f35deb11000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f35deb11000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df799000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35de548000
+mprotect(0x7f35de704000, 2093056, PROT_NONE) = 0
+mmap(0x7f35de903000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7f35de903000
+mmap(0x7f35de909000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35de909000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35de344000
+mprotect(0x7f35de347000, 2093056, PROT_NONE) = 0
+mmap(0x7f35de546000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f35de546000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df798000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df796000
+arch_prctl(ARCH_SET_FS, 0x7f35df796780) = 0
+mprotect(0x7f35de903000, 16384, PROT_READ) = 0
+mprotect(0x7f35de546000, 4096, PROT_READ) = 0
+mprotect(0x7f35deb11000, 4096, PROT_READ) = 0
+mprotect(0x7f35ded44000, 4096, PROT_READ) = 0
+mprotect(0x7f35def5d000, 4096, PROT_READ) = 0
+mprotect(0x7f35df30f000, 110592, PROT_READ) = 0
+mprotect(0x7f35df58d000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7f35df7b9000, 4096, PROT_READ) = 0
+munmap(0x7f35df79b000, 111089)          = 0
+brk(0)                                  = 0x1e2a000
+brk(0x1e4b000)                          = 0x1e4b000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f35de07b000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fffed6ccb50) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/soundcloud.com/favelamusic", 0x7fffed6cc610) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/soundcloud.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=50485719, f_bavail=47468913, f_files=15065088, f_ffree=14837644, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc660) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc6f0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/soundcloud.com/favelamusic", 0x7fffed6cc610) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/soundcloud.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=50485718, f_bavail=47468912, f_files=15065088, f_ffree=14837644, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc660) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+write(2, "--2014-06-27 14:50:05--  https:/"..., 70) = 70
+getpid()                                = 24324
+open("/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK) = 3
+fstat(3, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+poll([{fd=3, events=POLLIN}], 1, 10)    = 1 ([{fd=3, revents=POLLIN}])
+read(3, "\217ew\340.\35\373\227V\326\213R\337\25>\2273\224\361\230W\243\244<\210\177|\34\346?\36\33", 32) = 32
+close(3)                                = 0
+getuid()                                = 1000
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/libc.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+brk(0x1e6c000)                          = 0x1e6c000
+open("/usr/lib/ssl/cert.pem", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/.netrc", 0x7fffed6cc150) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving soundcloud.com (soundc"..., 45) = 45
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f35df79b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35dde6f000
+mprotect(0x7f35dde7a000, 2093056, PROT_NONE) = 0
+mmap(0x7f35de079000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f35de079000
+close(3)                                = 0
+mprotect(0x7f35de079000, 4096, PROT_READ) = 0
+munmap(0x7f35df79b000, 111089)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f35df79b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35ddc6c000
+mprotect(0x7f35ddc6e000, 2093056, PROT_NONE) = 0
+mmap(0x7f35dde6d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f35dde6d000
+close(3)                                = 0
+mprotect(0x7f35dde6d000, 4096, PROT_READ) = 0
+munmap(0x7f35df79b000, 111089)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=111089, ...}) = 0
+mmap(NULL, 111089, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f35df79b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35dda66000
+mprotect(0x7f35dda6b000, 2093056, PROT_NONE) = 0
+mmap(0x7f35ddc6a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f35ddc6a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35dd84b000
+mprotect(0x7f35dd862000, 2097152, PROT_NONE) = 0
+mmap(0x7f35dda62000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f35dda62000
+mmap(0x7f35dda64000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35dda64000
+close(3)                                = 0
+mprotect(0x7f35dda62000, 4096, PROT_READ) = 0
+mprotect(0x7f35ddc6a000, 4096, PROT_READ) = 0
+munmap(0x7f35df79b000, 111089)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\304\250\1\0\0\1\0\0\0\0\0\0\nsoundcloud\3com\0\0\1\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}, {{msg_name(0)=NULL, msg_iov(1)=[{"\200(\1\0\0\1\0\0\0\0\0\0\nsoundcloud\3com\0\0\34\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [198])               = 0
+recvfrom(3, "\304\250\201\200\0\1\0\1\0\4\0\4\nsoundcloud\3com\0\0\1\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 198
+poll([{fd=3, events=POLLIN}], 1, 4997)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [97])                = 0
+recvfrom(3, "\200(\201\200\0\1\0\0\0\1\0\0\nsoundcloud\3com\0\0\34\0\1"..., 1850, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 97
+close(3)                                = 0
+write(2, "178.249.136.150", 15)         = 15
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to soundcloud.com (so"..., 70) = 70
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(443), sin_addr=inet_addr("178.249.136.150")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+write(3, "\26\3\1\1O\1\0\1K\3\3\205 \262*\232\277(6\330C\252Q\277\261\241*!\1\252.\35"..., 340) = 340
+read(3, "\26\3\1\0005\2\0", 7)          = 7
+read(3, "\0001\3\1S\255\274\337\325\305\4\275\23C'\246v5\220\216\324\227\0337\300\24jp\374\206V\242"..., 51) = 51
+read(3, "\26\3\1\f\362", 5)             = 5
+read(3, "\v\0\f\356\0\f\353\0\5\0020\202\4\3760\202\3\346\240\3\2\1\2\2\22\21!m\261\203\336_"..., 3314) = 3314
+stat("/usr/lib/ssl/certs/5ad8a5d6.0", {st_mode=S_IFREG|0644, st_size=1261, ...}) = 0
+open("/usr/lib/ssl/certs/5ad8a5d6.0", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=1261, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7b6000
+read(4, "-----BEGIN CERTIFICATE-----\nMIID"..., 4096) = 1261
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f35df7b6000, 4096)            = 0
+stat("/usr/lib/ssl/certs/5ad8a5d6.1", 0x7fffed6cbbd0) = -1 ENOENT (No such file or directory)
+read(3, "\26\3\1\1K", 5)                = 5
+read(3, "\f\0\1G\3\0\27A\4\202`\230\224\271nC\300$\270\326\265H\35\353\335>x\21N\303mt"..., 331) = 331
+read(3, "\26\3\1\0\4", 5)               = 5
+read(3, "\16\0\0\0", 4)                 = 4
+write(3, "\26\3\1\0F\20\0\0BA\4\324\202c\26\316\27Q\262\225\244\2714\240\277X9(qN\2661"..., 122) = 122
+read(3, "\26\3\1\0\272", 5)             = 5
+read(3, "\4\0\0\266\0\0\0\0\0\260\203\214\344\244\242E\7\275KCpI\372\3631+\325m\262(\352\263"..., 186) = 186
+read(3, "\24\3\1\0\1", 5)               = 5
+read(3, "\1", 1)                        = 1
+read(3, "\26\3\1\0$", 5)                = 5
+read(3, "i\32=\2549F\207p/\346\311\236zQ\311J$\224r\26eZ\335\223s\313B7\224\345;g"..., 36) = 36
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, 8) = 0
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "\27\3\1\0\231\331x\31\314\217\21\244\3259\306\221\361\245(\356d&H\216T\302\204$T\17v\32"..., 158) = 158
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 890647})
+read(3, "\27\3\1\2'", 5)                = 5
+read(3, "\300\203\311\2679Yk\225\246k}\32\316\337*\320,>\210xT\271`\301\242~\272U{\260E\272"..., 551) = 551
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, 8) = 0
+write(2, "302 Moved Temporarily\n", 22) = 22
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc190) = -1 ENOENT (No such file or directory)
+write(2, "Location: http://soundcloud.com/"..., 66) = 66
+rt_sigaction(SIGALRM, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={900, 0}}, NULL) = 0
+setitimer(ITIMER_REAL, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGALRM, {SIG_DFL, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, {0x42c180, [ALRM], SA_RESTORER|SA_RESTART, 0x7f35de57eff0}, 8) = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs("/home/bearface/website_output/soundcloud.com/favelamusic", 0x7fffed6cc610) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/soundcloud.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=50485712, f_bavail=47468906, f_files=15065088, f_ffree=14837644, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc660) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc6f0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/soundcloud.com/favelamusic", 0x7fffed6cc610) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/soundcloud.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=50485712, f_bavail=47468906, f_files=15065088, f_ffree=14837644, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc660) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7fffed6cc770)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-27 14:50:07--  http://"..., 69) = 69
+write(2, "Connecting to soundcloud.com (so"..., 69) = 69
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("178.249.136.150")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(5, NULL, [4], NULL, {900, 0})    = 1 (out [4], left {899, 999988})
+write(4, "GET /favelamusic/easy-yoke HTTP/"..., 133) = 133
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 580218})
+recvfrom(4, "HTTP/1.1 200 OK\r\nServer: nginx\r\n"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(4, "HTTP/1.1 200 OK\r\nServer: nginx\r\n"..., 511) = 511
+select(5, [4], NULL, NULL, {900, 0})    = 1 (in [4], left {899, 999994})
+recvfrom(4, "djZGU%3D--9119fd9610f7c8bac682de"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(4, "djZGU%3D--9119fd9610f7c8bac682de"..., 240) = 240
+write(2, "200 OK\n", 7)                 = 7
+write(3, "\25\3\1\0\26:R\366\31\36\221\210\376\214\26\352\326(\365\2174\206z{\204=j", 27) = 27
+close(3)                                = 0
+stat("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", 0x7fffed6cc080) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "224081", 6)                   = 6
+write(2, " (219K)", 7)                  = 7
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/soundcloud.com/favelamusic", 0x7fffed6cc070) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/soundcloud.com", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/soundcloud.com/favelamusic", 0x7fffed6cbf90) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/soundcloud.com/favelamusic", 0777) = 0
+open("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 84) = 84
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7f35df7b0000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+read(4, "<!DOCTYPE html>\n<!--[if IE]>\n<!["..., 8192) = 8192
+fstat(3, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f35df7af000
+write(3, "<!DOCTYPE html>\n<!--[if IE]>\n<!["..., 8192) = 8192
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "top\"><div id=\"sc-info\"><a href=\""..., 8192) = 4737
+write(3, "top\"><div id=\"sc-info\"><a href=\""..., 4096) = 4096
+write(3, "ta-sc-cnt=\"comments\"><a href=\"/y"..., 641) = 641
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 852691})
+read(4, "menu-button-people\"><a href=\"/pe"..., 8192) = 2736
+write(3, "menu-button-people\"><a href=\"/pe"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+read(4, "ny\"><a href=\"/favelamusic\" class"..., 8192) = 1368
+write(3, "ny\"><a href=\"/favelamusic\" class"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949411})
+read(4, "%2F123422730&amp;show_artwork=tr"..., 8192) = 2736
+write(3, "%2F123422730&amp;show_artwork=tr"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+read(4, "dude</a></div></li>\n<li class=\"t"..., 8192) = 1368
+write(3, "dude</a></div></li>\n<li class=\"t"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+read(4, "arker\" style=\"width: 1px\"><a hre"..., 8192) = 2736
+write(3, "arker\" style=\"width: 1px\"><a hre"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+read(4, "class=\"user-image-tiny\" style=\"b"..., 8192) = 1368
+write(3, "class=\"user-image-tiny\" style=\"b"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+read(4, "\n<li class=\"timestamped-comment\""..., 8192) = 2736
+write(3, "\n<li class=\"timestamped-comment\""..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+read(4, "rker\" style=\"width: 1px\"><a href"..., 8192) = 1368
+write(3, "rker\" style=\"width: 1px\"><a href"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+read(4, "ss=\"timestamped-comment\" data-sc"..., 8192) = 2736
+write(3, "ss=\"timestamped-comment\" data-sc"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+read(4, "amped-comment\" data-sc-comment-t"..., 8192) = 1368
+write(3, "amped-comment\" data-sc-comment-t"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+read(4, ": 1px\"><a href=\"/boulou_jb\" clas"..., 8192) = 2736
+write(3, ": 1px\"><a href=\"/boulou_jb\" clas"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949998})
+read(4, "\"><a href=\"/mondosoundsofficial\""..., 8192) = 1368
+write(3, "\"><a href=\"/mondosoundsofficial\""..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949102})
+read(4, "p://i1.sndcdn.com/avatars-000062"..., 8192) = 1368
+write(3, "p://i1.sndcdn.com/avatars-000062"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949941})
+read(4, "mped-comment\" data-sc-comment-ti"..., 8192) = 1368
+write(3, "mped-comment\" data-sc-comment-ti"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 850416})
+read(4, "1px\"><a href=\"/lyrically-real\" c"..., 8192) = 1368
+write(3, "1px\"><a href=\"/lyrically-real\" c"..., 1368) = 1368
+write(2, "\r", 1)                       = 1
+write(2, "18% [======>                    "..., 79) = 79
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+read(4, "//i1.sndcdn.com/avatars-00006340"..., 8192) = 1368
+write(3, "//i1.sndcdn.com/avatars-00006340"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949469})
+read(4, " data-sc-comment-timestamp=\"7709"..., 8192) = 8192
+write(3, " data-sc-comment-timestamp=\"7709"..., 4096) = 4096
+write(3, "tiny\" style=\"background-image: u"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+read(4, "s=\"marker\" style=\"width: 1px\"><a"..., 8192) = 8192
+write(3, "s=\"marker\" style=\"width: 1px\"><a"..., 4096) = 4096
+write(3, "px\"><a href=\"/gabe-syhalath\" cla"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "y\" style=\"background-image: url("..., 8192) = 6872
+write(3, "y\" style=\"background-image: url("..., 4096) = 4096
+write(3, "avatars-000089931187-r6l3dq-tiny"..., 2776) = 2776
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "/li>\n<li class=\"timestamped-comm"..., 8192) = 4104
+write(3, "/li>\n<li class=\"timestamped-comm"..., 4096) = 4096
+write(3, "eft: 82.", 8)                 = 8
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "2646040827859%;\"><div class=\"mar"..., 8192) = 2736
+write(3, "2646040827859%;\"><div class=\"mar"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949169})
+read(4, "/a></div></li>\n<li class=\"timest"..., 8192) = 2736
+write(3, "/a></div></li>\n<li class=\"timest"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+read(4, "stamped-comment\" data-sc-comment"..., 8192) = 1368
+write(3, "stamped-comment\" data-sc-comment"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "dth: 1px\"><a href=\"/beatrice-leb"..., 8192) = 2736
+write(3, "dth: 1px\"><a href=\"/beatrice-leb"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 948205})
+read(4, "estamp\":1980,\"track_id\":12342273"..., 8192) = 8192
+write(3, "estamp\":1980,\"track_id\":12342273"..., 4096) = 4096
+write(3, "7,\"trackOwnerId\":2574971,\"create"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "ri\":\"/simon-roth\",\"userId\":10707"..., 8192) = 5488
+write(3, "ri\":\"/simon-roth\",\"userId\":10707"..., 4096) = 4096
+write(3, "lt;3\\u003C/p\\u003E\",\"timestamp\":"..., 1392) = 1392
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+read(4, "\",\"userPermalink\":\"alexblack60\","..., 8192) = 1368
+write(3, "\",\"userPermalink\":\"alexblack60\","..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 858661})
+read(4, "Cp\\u003EJust cant stop listening"..., 8192) = 2736
+write(3, "Cp\\u003EJust cant stop listening"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 945860})
+read(4, "wnerId\":2574971,\"created_at\":\"20"..., 8192) = 5472
+write(3, "wnerId\":2574971,\"created_at\":\"20"..., 4096) = 4096
+write(3, ",\"timestamp\":53989,\"track_id\":12"..., 1376) = 1376
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+read(4, "kqbfn-tiny.jpg?2aaad5e\",\"name\":\""..., 8192) = 6840
+write(3, "kqbfn-tiny.jpg?2aaad5e\",\"name\":\""..., 4096) = 4096
+write(3, "//i1.sndcdn.com/avatars-00006277"..., 2744) = 2744
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+read(4, ".G)\",\"userPermalink\":\"jayy02\",\"u"..., 8192) = 8192
+write(3, ".G)\",\"userPermalink\":\"jayy02\",\"u"..., 4096) = 4096
+write(3, "//i1.sndcdn.com/avatars-00008916"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "d_at\":\"2014/01/04 21:43:04 +0000"..., 8192) = 8192
+write(3, "d_at\":\"2014/01/04 21:43:04 +0000"..., 4096) = 4096
+write(3, "379,\"uri\":\"/favelamusic/easy-yok"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+read(4, "\"/favelamusic/easy-yoke/comments"..., 8192) = 5504
+write(3, "\"/favelamusic/easy-yoke/comments"..., 4096) = 4096
+write(3, "23422730},{\"id\":162956425,\"uri\":"..., 1408) = 1408
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 947751})
+read(4, "Id\":3766182,\"trackOwnerId\":25749"..., 8192) = 1368
+write(3, "Id\":3766182,\"trackOwnerId\":25749"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 946779})
+read(4, "h\\u003C/a\\u003E: perfect vibe\\u0"..., 8192) = 8192
+write(3, "h\\u003C/a\\u003E: perfect vibe\\u0"..., 4096) = 4096
+write(3, "favelamusic/easy-yoke/comments/1"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949995})
+read(4, ":\"lilywayne\",\"userUri\":\"/lilyway"..., 8192) = 8192
+write(3, ":\"lilywayne\",\"userUri\":\"/lilyway"..., 4096) = 4096
+write(3, "serId\":29213473,\"trackOwnerId\":2"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, ",\"userId\":14632771,\"trackOwnerId"..., 8192) = 8192
+write(3, ",\"userId\":14632771,\"trackOwnerId"..., 4096) = 4096
+write(3, "03Cp\\u003Enice\\u003C/p\\u003E\",\"t"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, ":\"\\u003Cp\\u003EBeautiful song wi"..., 8192) = 8192
+write(3, ":\"\\u003Cp\\u003EBeautiful song wi"..., 4096) = 4096
+write(3, "],\"122751\":[154228116],\"125643\":"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949997})
+read(4, "/div></div>\n</li>\n<li class=\"set"..., 8192) = 1432
+write(3, "/div></div>\n</li>\n<li class=\"set"..., 1432) = 1432
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 947433})
+read(4, "iv><span></span></div></div>\n<ol"..., 8192) = 8192
+write(3, "iv><span></span></div></div>\n<ol"..., 4096) = 4096
+write(3, "ound-image: url(http://i1.sndcdn"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "ne/comments/\",\"streamUrl\":\"http:"..., 8192) = 4120
+write(3, "ne/comments/\",\"streamUrl\":\"http:"..., 4096) = 4096
+write(3, ".sndcdn.com/avatars-0000", 24) = 24
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949996})
+read(4, "36055126-plkazr-tiny.jpg?2aaad5e"..., 8192) = 4104
+write(3, "36055126-plkazr-tiny.jpg?2aaad5e"..., 4096) = 4096
+write(3, "mment-id", 8)                 = 8
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 948874})
+read(4, "=\"184379545\" rel=\"nofollow\">Repl"..., 8192) = 4104
+write(3, "=\"184379545\" rel=\"nofollow\">Repl"..., 4096) = 4096
+write(3, "mment-18", 8)                 = 8
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 928148})
+read(4, "0767437?fragment=reply\" class=\"r"..., 8192) = 8192
+write(3, "0767437?fragment=reply\" class=\"r"..., 4096) = 4096
+write(3, "id=\"179392860\" id=\"comment-17939"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+read(4, "ent last\" data-sc-comment-id=\"17"..., 8192) = 4120
+write(3, "ent last\" data-sc-comment-id=\"17"..., 4096) = 4096
+write(3, "er-image-badge\" style=\"b", 24) = 24
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 891914})
+read(4, "ackground-image: url(http://i1.s"..., 8192) = 1368
+write(3, "ackground-image: url(http://i1.s"..., 1368) = 1368
+write(2, "\r", 1)                       = 1
+write(2, "90% [==========================="..., 79) = 79
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949993})
+read(4, ">\n<a class=\"go-to-comment\" href="..., 8192) = 8192
+write(3, ">\n<a class=\"go-to-comment\" href="..., 4096) = 4096
+write(3, ">\n\n<span class=\"time\">at\n2.42</s"..., 4096) = 4096
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+read(4, "name\">EMBRZ</a>\n<span class=\"use"..., 8192) = 2752
+write(3, "name\">EMBRZ</a>\n<span class=\"use"..., 2752) = 2752
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949759})
+read(4, "st\" data-sc-comment-id=\"17109303"..., 8192) = 2736
+write(3, "st\" data-sc-comment-id=\"17109303"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+read(4, "com\">Get Started</a></li>\n<li><a"..., 8192) = 1368
+write(3, "com\">Get Started</a></li>\n<li><a"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949060})
+read(4, "ss=\"header\"><a class=\"close\" hre"..., 7320) = 1368
+write(3, "ss=\"header\"><a class=\"close\" hre"..., 1368) = 1368
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949784})
+read(4, "//schemas.google.com/AddActivity"..., 5952) = 2736
+write(3, "//schemas.google.com/AddActivity"..., 2736) = 2736
+select(5, [4], NULL, NULL, {0, 950000}) = 1 (in [4], left {0, 949994})
+read(4, " Help Center</a>.</p>\n<a href=\"/"..., 3216) = 3216
+write(3, " Help Center</a>.</p>\n<a href=\"/"..., 3216) = 3216
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(3)                                = 0
+munmap(0x7f35df7af000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-27 14:50:07 (522 KB/s) -"..., 129) = 129
+open("/home/bearface/website_output/soundcloud.com/favelamusic/easy-yoke", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=224081, ...}) = 0
+mmap(NULL, 224081, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x7f35df75f000
+close(3)                                = 0
+brk(0x1e8d000)                          = 0x1e8d000
+brk(0x1eae000)                          = 0x1eae000
+brk(0x1ecf000)                          = 0x1ecf000
+munmap(0x7f35df75f000, 224081)          = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-27 14:50:07--"..., 106) = 106
+exit_group(0)                           = ?
++++ exited with 0 +++

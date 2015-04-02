@@ -1,0 +1,793 @@
+execve("/usr/bin/wget", ["wget", "--user-agent", "Mozilla", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "http://www.google.com/search?q=l"...], [/* 45 vars */]) = 0
+brk(0)                                  = 0x23d8000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf4000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc21fdd7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21f976000
+mprotect(0x7fc21f9ca000, 2097152, PROT_NONE) = 0
+mmap(0x7fc21fbca000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7fc21fbca000
+mmap(0x7fc21fbd3000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc21fbd3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21f59c000
+mprotect(0x7fc21f74d000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21f94c000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7fc21f94c000
+mmap(0x7fc21f972000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc21f972000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdd6000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21f383000
+mprotect(0x7fc21f39b000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21f59a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fc21f59a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21f150000
+mprotect(0x7fc21f181000, 2097152, PROT_NONE) = 0
+mmap(0x7fc21f381000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7fc21f381000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21ef4b000
+mprotect(0x7fc21ef4f000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21f14e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7fc21f14e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdd5000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21eb85000
+mprotect(0x7fc21ed41000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21ef40000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7fc21ef40000
+mmap(0x7fc21ef46000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc21ef46000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21e981000
+mprotect(0x7fc21e984000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21eb83000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc21eb83000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdd4000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdd2000
+arch_prctl(ARCH_SET_FS, 0x7fc21fdd2780) = 0
+mprotect(0x7fc21ef40000, 16384, PROT_READ) = 0
+mprotect(0x7fc21eb83000, 4096, PROT_READ) = 0
+mprotect(0x7fc21f14e000, 4096, PROT_READ) = 0
+mprotect(0x7fc21f381000, 4096, PROT_READ) = 0
+mprotect(0x7fc21f59a000, 4096, PROT_READ) = 0
+mprotect(0x7fc21f94c000, 110592, PROT_READ) = 0
+mprotect(0x7fc21fbca000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7fc21fdf6000, 4096, PROT_READ) = 0
+munmap(0x7fc21fdd7000, 115291)          = 0
+brk(0)                                  = 0x23d8000
+brk(0x23f9000)                          = 0x23f9000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc21e6b8000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fff5c229a00) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fc21ebbbff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7fc21ebbbff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7fc21ebbbff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7fc21ebbbff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7fc21ebbbff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7fc21ebbbff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/www.google.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49179156, f_bavail=46162350, f_files=15065088, f_ffree=14789224, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/search?q=linux", 0x7fff5c229510) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.google.com/search?q=linux", 0x7fff5c2295a0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.google.com", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49179155, f_bavail=46162349, f_files=15065088, f_ffree=14789224, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/search?q=linux", 0x7fff5c229510) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+write(2, "--2014-06-30 12:03:30--  http://"..., 62) = 62
+stat("/home/bearface/.netrc", 0x7fff5c229000) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.google.com (www.go"..., 45) = 45
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+getpid()                                = 8909
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc21fdd7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21e4ac000
+mprotect(0x7fc21e4b7000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21e6b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7fc21e6b6000
+close(3)                                = 0
+mprotect(0x7fc21e6b6000, 4096, PROT_READ) = 0
+munmap(0x7fc21fdd7000, 115291)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc21fdd7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21e2a9000
+mprotect(0x7fc21e2ab000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21e4aa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc21e4aa000
+close(3)                                = 0
+mprotect(0x7fc21e4aa000, 4096, PROT_READ) = 0
+munmap(0x7fc21fdd7000, 115291)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc21fdd7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21e0a3000
+mprotect(0x7fc21e0a8000, 2093056, PROT_NONE) = 0
+mmap(0x7fc21e2a7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc21e2a7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc21de88000
+mprotect(0x7fc21de9f000, 2097152, PROT_NONE) = 0
+mmap(0x7fc21e09f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fc21e09f000
+mmap(0x7fc21e0a1000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc21e0a1000
+close(3)                                = 0
+mprotect(0x7fc21e09f000, 4096, PROT_READ) = 0
+mprotect(0x7fc21e2a7000, 4096, PROT_READ) = 0
+munmap(0x7fc21fdd7000, 115291)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"\245\220\1\0\0\1\0\0\0\0\0\0\3www\6google\3com\0\0\1\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}, {{msg_name(0)=NULL, msg_iov(1)=[{"S=\1\0\0\1\0\0\0\0\0\0\3www\6google\3com\0\0\34\0\1", 32}], msg_controllen=0, msg_flags=0}, 32}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [264])               = 0
+recvfrom(3, "\245\220\201\200\0\1\0\6\0\4\0\4\3www\6google\3com\0\0\1\0\1"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 264
+poll([{fd=3, events=POLLIN}], 1, 4997)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [196])               = 0
+recvfrom(3, "S=\201\200\0\1\0\1\0\4\0\4\3www\6google\3com\0\0\34\0\1"..., 1784, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 196
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdf3000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fc21fdf3000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=8909, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3R\212\261S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0R\212\261S\315\"\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 308
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0R\212\261S\315\"\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 256
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0R\212\261S\315\"\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.103")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(52816), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.104")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(54031), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.105")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(40495), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.106")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(35826), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.147")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(44419), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+connect(3, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("74.125.21.99")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(39768), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+close(3)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2607:f8b0:4002:c06::93", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(3)                                = 0
+write(2, "74.125.21.103", 13)           = 13
+write(2, ", ", 2)                       = 2
+write(2, "74.125.21.104", 13)           = 13
+write(2, ", ", 2)                       = 2
+write(2, "74.125.21.105", 13)           = 13
+write(2, ", ...", 5)                    = 5
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.google.com (ww"..., 67) = 67
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999994})
+write(3, "GET /search?q=linux HTTP/1.1\r\nUs"..., 112) = 112
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 940126})
+recvfrom(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nDate: Mon, 30 J"..., 511) = 511
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "gle.com; HttpOnly\r\nP3P: CP=\"This"..., 512, MSG_PEEK, NULL, NULL) = 512
+read(3, "gle.com; HttpOnly\r\nP3P: CP=\"This"..., 282) = 282
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/search?q=linux", 0x7fff5c228eb0) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/www.google.com", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/search?q=linux", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 77) = 77
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7fc21fded000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "8000\r\n<!doctype html><html items"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "<!doctype html><html itemscope=\""..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdec000
+write(4, "<!doctype html><html itemscope=\""..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ion:none !important;-moz-user-se"..., 8192) = 4689
+write(4, "ion:none !important;-moz-user-se"..., 4096) = 4096
+write(4, "8f8f8);background-image:-o-linea"..., 593) = 593
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 938467})
+read(3, "(0,0,0,.1)}#gbmpas{max-height:22"..., 8192) = 1368
+write(4, "(0,0,0,.1)}#gbmpas{max-height:22"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947441})
+read(3, "ear-gradient(bottom,rgba(0,0,0,."..., 8192) = 2736
+write(4, "ear-gradient(bottom,rgba(0,0,0,."..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "20px 24px}.lrob_bk{color:#212121"..., 8192) = 2736
+write(4, "20px 24px}.lrob_bk{color:#212121"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "lg>td{padding-right:1px;padding-"..., 8192) = 2736
+write(4, "lg>td{padding-right:1px;padding-"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "text{color:#333}.sfbgg{backgroun"..., 8192) = 2736
+write(4, "text{color:#333}.sfbgg{backgroun"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949986})
+read(3, "|-1!=g.search(\"&ei=\")||(k=\"&ei=\""..., 7575) = 2736
+write(4, "|-1!=g.search(\"&ei=\")||(k=\"&ei=\""..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "bs)&&!d.l&&d.i&&wa(g)&&d.i()}h.d"..., 4839) = 2736
+write(4, "bs)&&!d.l&&d.i&&wa(g)&&d.i()}h.d"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "{},Q=void 0,Ya=function(a,b){try"..., 2103) = 2103
+write(4, "{},Q=void 0,Ya=function(a,b){try"..., 2103) = 2103
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n38a1\r\n]=[]);N[a].push(b)},ib=f"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "38a1\r\n]=[]);N[a].push(b)},ib=fun"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "38a1\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "]=[]);N[a].push(b)},ib=function("..., 8192) = 625
+write(4, "]=[]);N[a].push(b)},ib=function("..., 625) = 625
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949694})
+read(3, "&b){var d=Va(a);if(d){if(c){d.in"..., 8192) = 1368
+write(4, "&b){var d=Va(a);if(d){if(c){d.in"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\"googleapis.client:plusone:gapi."..., 8192) = 1368
+write(4, "\"googleapis.client:plusone:gapi."..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "0140619.0_p0\";h.rp?(f=h.rp(),f=\""..., 8192) = 2736
+write(4, "0140619.0_p0\";h.rp?(f=h.rp(),f=\""..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949909})
+read(3, "unction(a,b,c,d){try{fc(document"..., 8192) = 1368
+write(4, "unction(a,b,c,d){try{fc(document"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942093})
+read(3, "0):a()}var c=k.a(\"1\"),d=k.a(\"\"),"..., 7032) = 1368
+write(4, "0):a()}var c=k.a(\"1\"),d=k.a(\"\"),"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948614})
+read(3, "\"_sn\":\"cfg.init\"});}})(); </scri"..., 5664) = 1368
+write(4, "\"_sn\":\"cfg.init\"});}})(); </scri"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948816})
+read(3, "=gbts>Maps</span></a></li><li cl"..., 4296) = 1368
+write(4, "=gbts>Maps</span></a></li><li cl"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949753})
+read(3, "cc gbsbic\"><li class=gbmtc><a on"..., 2928) = 1368
+write(4, "cc gbsbic\"><li class=gbmtc><a on"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "t:31}); class=gbmt id=gb_31 href"..., 1560) = 1368
+write(4, "t:31}); class=gbmt id=gb_31 href"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "href=\"/preferences?hl=en\">Search"..., 192) = 192
+write(4, "href=\"/preferences?hl=en\">Search"..., 192) = 192
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n5d3\r\nistory</a></li></ol></div"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "5d3\r\nistory</a></li></ol></div><"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "5d3\r\n", 5)                   = 5
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949999})
+read(3, "istory</a></li></ol></div></div>"..., 1491) = 1491
+write(4, "istory</a></li></ol></div></div>"..., 1491) = 1491
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999999})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 761298})
+recvfrom(3, "71f4\r\n<style data-jiis=\"uc\" id=\""..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "71f4\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "<style data-jiis=\"uc\" id=\"_css0\""..., 8192) = 8192
+write(4, "<style data-jiis=\"uc\" id=\"_css0\""..., 4096) = 4096
+write(4, "KYqvsASG54HwDg&amp;ved=0CBcQIDAA"..., 4096) = 4096
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949994})
+read(3, ";usg=AFQjCNEgktd9aCSlemvSClzgx_t"..., 8192) = 8192
+write(4, ";usg=AFQjCNEgktd9aCSlemvSClzgx_t"..., 4096) = 4096
+write(4, "rch%3Fq%3Dcache:AOnE5nbJ6gIJ:htt"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "ux%26hl%3Den%26%26ct%3Dclnk&amp;"..., 8192) = 8192
+write(4, "ux%26hl%3Den%26%26ct%3Dclnk&amp;"..., 4096) = 4096
+write(4, "</li><li class=\"am-dropdown-menu"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ";q=linux+commands&amp;revid=1822"..., 4596) = 4596
+write(4, ";q=linux+commands&amp;revid=1822"..., 4096) = 4096
+write(4, "irloom-serp\",\"dh\":true,\"ds\":\"\",\""..., 500) = 500
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 7
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 5
+read(3, "0\r\n", 3)                     = 3
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [  <=>                      "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fc21fdec000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-30 12:03:30 (275 KB/s) -"..., 114) = 114
+open("/home/bearface/website_output/www.google.com/search?q=linux", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=77928, ...}) = 0
+mmap(NULL, 77928, PROT_READ|PROT_WRITE, MAP_PRIVATE, 4, 0) = 0x7fc21fdd9000
+close(4)                                = 0
+munmap(0x7fc21fdd9000, 77928)           = 0
+statfs("/home/bearface/website_output/www.google.com/images", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49179085, f_bavail=46162279, f_files=15065088, f_ffree=14789223, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/images/nav_logo176.png", {st_mode=S_IFREG|0644, st_size=14160, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/images/nav_logo176.png", {st_mode=S_IFREG|0644, st_size=14160, ...}) = 0
+stat("/home/bearface/website_output/www.google.com/images/nav_logo176.png", {st_mode=S_IFREG|0644, st_size=14160, ...}) = 0
+statfs("/home/bearface/website_output/www.google.com/images", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49179084, f_bavail=46162278, f_files=15065088, f_ffree=14789223, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/images/nav_logo176.png", {st_mode=S_IFREG|0644, st_size=14160, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/images/nav_logo176.png", {st_mode=S_IFREG|0644, st_size=14160, ...}) = 0
+nanosleep({1, 0}, 0x7fff5c229620)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:03:31--  http://"..., 70) = 70
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 50) = 50
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999995})
+write(3, "GET /images/nav_logo176.png HTTP"..., 390) = 390
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 985056})
+recvfrom(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nContent-Type: i"..., 341) = 341
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/images/nav_logo176.png", {st_mode=S_IFREG|0644, st_size=14160, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "14160", 5)                    = 5
+write(2, " (14K)", 6)                   = 6
+write(2, " [image/png]\n", 13)          = 13
+stat("/home/bearface/website_output/www.google.com/images", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/images/nav_logo176.png", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 85) = 85
+brk(0x241b000)                          = 0x241b000
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\247\0\0\0011\10\6\0\0\0\31^\262"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdec000
+write(4, "\211PNG\r\n\32\n\0\0\0\rIHDR\0\0\0\247\0\0\0011\10\6\0\0\0\31^\262"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\n\323\345\231O\363\2TN\37\303n\\k\325&\204\6\345i\246\215f7\f\337)\362\323\201\211r"..., 5968) = 3779
+write(4, "\n\323\345\231O\363\2TN\37\303n\\k\325&\204\6\345i\246\215f7\f\337)\362\323\201\211r"..., 3779) = 3779
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "\354\356BS_1\362n-\10\27G=\224\355\236\271\21\316\220=\363hp\362/\276t\211\333o8"..., 2189) = 2189
+write(4, "\354\356BS_1\362n-\10\27G=\224\355\236\271\21\316\220=\363hp\362/\276t\211\333o8"..., 2189) = 2189
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+brk(0x2419000)                          = 0x2419000
+close(4)                                = 0
+munmap(0x7fc21fdec000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.google.com/images/nav_logo176.png", [2014/06/30-12:03:32, 2013/11/11-12:33:19]) = 0
+write(2, "2014-06-30 12:03:32 (22.7 MB/s) "..., 129) = 129
+statfs("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49179009, f_bavail=46162203, f_files=15065088, f_ffree=14789222, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", {st_mode=S_IFREG|0644, st_size=147254, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", {st_mode=S_IFREG|0644, st_size=147254, ...}) = 0
+stat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", {st_mode=S_IFREG|0644, st_size=147254, ...}) = 0
+statfs("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49179008, f_bavail=46162202, f_files=15065088, f_ffree=14789222, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", {st_mode=S_IFREG|0644, st_size=147254, ...}) = 0
+lstat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", {st_mode=S_IFREG|0644, st_size=147254, ...}) = 0
+nanosleep({1, 0}, 0x7fff5c229620)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:03:33--  http://"..., 151) = 151
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("74.125.21.103")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 50) = 50
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999995})
+write(3, "GET /xjs/_/js/k=xjs.hp.en_US.Q3I"..., 471) = 471
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 986371})
+recvfrom(3, "HTTP/1.1 200 OK\r\nVary: Accept-En"..., 511, MSG_PEEK, NULL, NULL) = 511
+read(3, "HTTP/1.1 200 OK\r\nVary: Accept-En"..., 402) = 402
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", {st_mode=S_IFREG|0644, st_size=147254, ...}) = 0
+write(2, "Length: ", 8)                 = 8
+write(2, "unspecified", 11)             = 11
+write(2, " [text/javascript]\n", 19)    = 19
+stat("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 166) = 166
+write(2, "\n", 1)                       = 1
+write(2, "\r", 1)                       = 1
+write(2, "    [<=>                        "..., 79) = 79
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "8000\r\nthis._=this._||{};(functio"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "this._=this._||{};(function(_){v"..., 8192) = 8192
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc21fdec000
+write(4, "this._=this._||{};(function(_){v"..., 8192) = 8192
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949993})
+read(3, "ion(){var a=_.r.document;return "..., 8192) = 8192
+write(4, "ion(){var a=_.r.document;return "..., 4096) = 4096
+write(4, "e:0);this.ctrlKey=\na.ctrlKey;thi"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "=new _.kc(e,d);else if(e instanc"..., 8192) = 8192
+write(4, "=new _.kc(e,d);else if(e instanc"..., 4096) = 4096
+write(4, "pend\",bd);var cd=0,dd=[];var mb;"..., 4096) = 4096
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "n\"function\"==typeof a.Aa?a.Aa():"..., 8192) = 6480
+write(4, "n\"function\"==typeof a.Aa?a.Aa():"..., 4096) = 4096
+write(4, "!=b.readyState&&4!=b.readyState&"..., 2384) = 2384
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949562})
+read(3, "Xd);var fe;var le;var ke;var he;"..., 1712) = 1712
+write(4, "Xd);var fe;var le;var ke;var he;"..., 1712) = 1712
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999995})
+recvfrom(3, "\r\n8000\r\non(a){if(a)for(var b=0,c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "8000\r\non(a){if(a)for(var b=0,c;c"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "on(a){if(a)for(var b=0,c;c=a[b++"..., 8192) = 6834
+write(4, "on(a){if(a)for(var b=0,c;c=a[b++"..., 4096) = 4096
+write(4, "var d=c.readyState;\"loaded\"!=d&&"..., 2738) = 2738
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 942527})
+read(3, "_.pb);var Ke=[];Je.prototype.lis"..., 8192) = 1368
+write(4, "_.pb);var Ke=[];Je.prototype.lis"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947036})
+read(3, "eURIComponent)(a)};_.Se=function"..., 8192) = 1368
+write(4, "eURIComponent)(a)};_.Se=function"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949814})
+read(3, "={};if(d)for(var f=0,g;g=d[f++];"..., 8192) = 1368
+write(4, "={};if(d)for(var f=0,g;g=d[f++];"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "]=c.xc;c.tc=f;oe(a.k,g,h,d,c);a."..., 8192) = 2736
+write(4, "]=c.xc;c.tc=f;oe(a.k,g,h,d,c);a."..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "Lb:!!a,oc:b||5,lc:!!c}};\n_.k.La="..., 8192) = 2736
+write(4, "Lb:!!a,oc:b||5,lc:!!c}};\n_.k.La="..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "]:null},wf=function(a,b){var c=a"..., 8192) = 2736
+write(4, "]:null},wf=function(a,b){var c=a"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948893})
+read(3, "&\"hidden\"!=xf(b,\"visibility\",!0)"..., 8192) = 2736
+write(4, "&\"hidden\"!=xf(b,\"visibility\",!0)"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "if(!f){n=a.wsrt;f=[];if(m=window"..., 8192) = 2736
+write(4, "if(!f){n=a.wsrt;f=[];if(m=window"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949916})
+read(3, "ials\"in this.k&&(this.k.withCred"..., 8150) = 1368
+write(4, "ials\"in this.k&&(this.k.withCred"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, " t;default:d=!1}if(!(c=d)){var e"..., 6782) = 1368
+write(4, " t;default:d=!1}if(!(c=d)){var e"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "!1);this.port1={};this.port2={po"..., 5414) = 1368
+write(4, "!1);this.port1={};this.port2={po"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "cancel=function(a){0==this.o&&ng"..., 4046) = 1368
+write(4, "cancel=function(a){0==this.o&&ng"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "(a,b,c,d){if(2==c)b.Ne(d);else{f"..., 2678) = 1368
+write(4, "(a,b,c,d){if(2==c)b.Ne(d);else{f"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "a,function(){return b})};V.proto"..., 1310) = 1310
+write(4, "a,function(){return b})};V.proto"..., 1310) = 1310
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n8000\r\n:\"cb\",dj:\"t\",Zi:\"rs\",$h:"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "8000\r\n:\"cb\",dj:\"t\",Zi:\"rs\",$h:\"d"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ":\"cb\",dj:\"t\",Zi:\"rs\",$h:\"dk\",ij:"..., 8192) = 4154
+write(4, ":\"cb\",dj:\"t\",Zi:\"rs\",$h:\"dk\",ij:"..., 4096) = 4096
+write(4, "_.ch.oa();a.C&&a.C.getId();a.C=n"..., 58) = 58
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "ction(a,b,c){this.Rb++;this.A=a;"..., 8192) = 2736
+write(4, "ction(a,b,c){this.Rb++;this.A=a;"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949309})
+read(3, "[];this.o=[];this.fa=new wh;this"..., 8192) = 2736
+write(4, "[];this.o=[];this.fa=new wh;this"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "648*Math.random()).toString(36)+"..., 8192) = 1368
+write(4, "648*Math.random()).toString(36)+"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947332})
+read(3, "b||Ha(b,\"/\")?b+=d:b+=\"/\"+d}retur"..., 8192) = 1368
+write(4, "b||Ha(b,\"/\")?b+=d:b+=\"/\"+d}retur"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949773})
+read(3, "y)(this.T,this,b,!0),(0,_.y)(thi"..., 8192) = 1368
+write(4, "y)(this.T,this,b,!0),(0,_.y)(thi"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949996})
+read(3, "hp/csi/csies/jsa/pcc/sb_he/fdm',"..., 8192) = 2736
+write(4, "hp/csi/csies/jsa/pcc/sb_he/fdm',"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "unction(a,\nb){return a&&(-1<a.in"..., 8192) = 2736
+write(4, "unction(a,\nb){return a&&(-1<a.in"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946380})
+read(3, "lse if(a.createTextRange){var c="..., 8192) = 1368
+write(4, "lse if(a.createTextRange){var c="..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949385})
+read(3, "=b.document;var c=b.innerWidth,b"..., 8192) = 1368
+write(4, "=b.document;var c=b.innerWidth,b"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949935})
+read(3, "col,p=a.host,q=a.wc,x=a.gf,w=\"ht"..., 8192) = 1368
+write(4, "col,p=a.host,q=a.wc,x=a.gf,w=\"ht"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ction(){var a={};wl(this.D,13,a)"..., 8192) = 1368
+write(4, "ction(){var a={};wl(this.D,13,a)"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 947849})
+read(3, "ion(){return this.o.Fa()};_.k.cb"..., 8094) = 1368
+write(4, "ion(){return this.o.Fa()};_.k.cb"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949218})
+read(3, "l.test(m)&&(Kl.test(m)?h=!0:g=!0"..., 6726) = 1368
+write(4, "l.test(m)&&(Kl.test(m)?h=!0:g=!0"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949919})
+read(3, ".C=Ib.A;F()}function va(){null!="..., 5358) = 1368
+write(4, ".C=Ib.A;F()}function va(){null!="..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "x,vb:w,se:E,Ja:v,yb:B,yh:u,show:"..., 3990) = 1368
+write(4, "x,vb:w,se:E,Ja:v,yb:B,yh:u,show:"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ";\nvar Pl=function(a,b,c,d,e,f){f"..., 2622) = 2622
+write(4, ";\nvar Pl=function(a,b,c,d,e,f){f"..., 2622) = 2622
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n8000\r\n},Tl=function(a,b){for(v"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999998})
+recvfrom(3, "8000\r\n},Tl=function(a,b){for(var"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "8000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "},Tl=function(a,b){for(var c=0,d"..., 8192) = 2842
+write(4, "},Tl=function(a,b){for(var c=0,d"..., 2842) = 2842
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946190})
+read(3, ";b=\"\";if(m){c=m.length;for(g=f=a"..., 8192) = 1368
+write(4, ";b=\"\";if(m){c=m.length;for(g=f=a"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "(this)};_.k.ub=function(a){retur"..., 8192) = 2736
+write(4, "(this)};_.k.ub=function(a){retur"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949887})
+read(3, "parse(m));g[l]=m}var n=m=!1,h=!1"..., 8192) = 1368
+write(4, "parse(m));g[l]=m}var n=m=!1,h=!1"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "rCase(),e=c.na().toLowerCase();d"..., 8192) = 1368
+write(4, "rCase(),e=c.na().toLowerCase();d"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "0,0,0,0,0,0,0,0,0,0,0,0,0,63,0,0"..., 8192) = 1368
+write(4, "0,0,0,0,0,0,0,0,0,0,0,0,0,63,0,0"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "=1732584193;a.Y[1]=4023233417;a."..., 8192) = 1368
+write(4, "=1732584193;a.Y[1]=4023233417;a."..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "):g&&(h=e)):-1<h&&(c.push({s:h,e"..., 8192) = 1368
+write(4, "):g&&(h=e)):-1<h&&(c.push({s:h,e"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "e!important\")};\n_.k.P=function(a"..., 8192) = 1368
+write(4, "e!important\")};\n_.k.P=function(a"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "(this.I,!1);Lm(this.B,!1);var a="..., 8192) = 1368
+write(4, "(this.I,!1);Lm(this.B,!1);var a="..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "th=b+\"px\"):a.style.width=b},Lm=f"..., 8192) = 1368
+write(4, "th=b+\"px\"):a.style.width=b},Lm=f"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, ",Gl(A)&&D&&(La=D.ga(),Da=La.pare"..., 8192) = 1368
+write(4, ",Gl(A)&&D&&(La=D.ga(),Da=La.pare"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "y)}));if(c||d||e||Wa)a.nc=!0}fun"..., 8192) = 2736
+write(4, "y)}));if(c||d||e||Wa)a.nc=!0}fun"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949298})
+read(3, "l,cf:m,Ed:n,select:p,refresh:q,f"..., 8192) = 1368
+write(4, "l,cf:m,Ed:n,select:p,refresh:q,f"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "[]),b.push(c),a=c.ga(),a.parentN"..., 8192) = 1368
+write(4, "[]),b.push(c),a=c.ga(),a.parentN"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949377})
+read(3, ",F,S,aa,va,H,ma={},Va=[],na=[],N"..., 8038) = 1368
+write(4, ",F,S,aa,va,H,ma={},Va=[],na=[],N"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "ar Qm=function(){};(0,_.L)(Qm,Z)"..., 6670) = 1368
+write(4, "ar Qm=function(){};(0,_.L)(Qm,Z)"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "&b&&(a=a[c])&&b.Df(a[0]||a,d)};v"..., 5302) = 1368
+write(4, "&b&&(a=a[c])&&b.Df(a[0]||a,d)};v"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ".Z=function(){this.k=!1};_.k.wa="..., 3934) = 2736
+write(4, ".Z=function(){this.k=!1};_.k.wa="..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949932})
+read(3, "dth=\"100%\";this.C=$(\"span\");c.ap"..., 1198) = 1198
+write(4, "dth=\"100%\";this.C=$(\"span\");c.ap"..., 1198) = 1198
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n1000\r\nndChild(a);this.B=a.inse"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "1000\r\nndChild(a);this.B=a.insert"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "1000\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "ndChild(a);this.B=a.insertRow(-1"..., 4096) = 1530
+write(4, "ndChild(a);this.B=a.insertRow(-1"..., 1530) = 1530
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949936})
+read(3, ".ob:\"\"}function b(a){return new "..., 2566) = 1368
+write(4, ".ob:\"\"}function b(a){return new "..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949151})
+read(3, "4,this);this.A=a.get(123,this);t"..., 1198) = 1198
+write(4, "4,this);this.A=a.get(123,this);t"..., 1198) = 1198
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "\r\n2f36\r\n!0}function e(){return 1"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999997})
+recvfrom(3, "2f36\r\n!0}function e(){return 19}"..., 127, MSG_PEEK, NULL, NULL) = 127
+read(3, "2f36\r\n", 6)                  = 6
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "!0}function e(){return 19}var f="..., 8192) = 1530
+write(4, "!0}function e(){return 19}var f="..., 1530) = 1530
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, ":(this.k.style.display=\"none\",th"..., 8192) = 1368
+write(4, ":(this.k.style.display=\"none\",th"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 877744})
+read(3, ".G=function(){return 0};\nvn.prot"..., 8192) = 4104
+write(4, ".G=function(){return 0};\nvn.prot"..., 4096) = 4096
+write(4, "r c=b.di", 8)                 = 8
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, "r;if(c)return c}return\"ltr\"}func"..., 5084) = 2736
+write(4, "r;if(c)return c}return\"ltr\"}func"..., 2736) = 2736
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949995})
+read(3, ";B=zn(c);return D};\n(0,_.ge)(\"sb"..., 2348) = 2348
+write(4, ";B=zn(c);return D};\n(0,_.ge)(\"sb"..., 2348) = 2348
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 7
+read(3, "\r\n", 2)                      = 2
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "0\r\n\r\n", 127, MSG_PEEK, NULL, NULL) = 5
+read(3, "0\r\n", 3)                     = 3
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 999996})
+recvfrom(3, "\r\n", 127, MSG_PEEK, NULL, NULL) = 2
+read(3, "\r\n", 2)                      = 2
+write(2, "\r", 1)                       = 1
+write(2, "    [ <=>                       "..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7fc21fdec000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+utime("/home/bearface/website_output/www.google.com/xjs/_/js/k=xjs.hp.en_US.Q3IGP-S0ao4.O/m=sb_he,pcc/rt=j/d=1/t=zcms/rs=AItRSTMuyB324R4pDCTvlk_TibOuORRj1Q", [2014/06/30-12:03:33, 2014/06/25-13:12:39]) = 0
+write(2, "2014-06-30 12:03:33 (1.15 MB/s) "..., 205) = 205
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-30 12:03:33--"..., 106) = 106
+exit_group(0)                           = ?
++++ exited with 0 +++

@@ -1,0 +1,474 @@
+execve("/usr/bin/wget", ["wget", "--user-agent", "Mozilla", "-P", "/home/bearface/website_output/", "-e", "robots=off", "--wait", "1", "--page-requisites", "www.unc.edu"], [/* 45 vars */]) = 0
+brk(0)                                  = 0x229d000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a75000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff2d5a58000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20.\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=382984, ...}) = 0
+mmap(NULL, 2478288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d55f7000
+mprotect(0x7ff2d564b000, 2097152, PROT_NONE) = 0
+mmap(0x7ff2d584b000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x54000) = 0x7ff2d584b000
+mmap(0x7ff2d5854000, 208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5854000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\355\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1926432, ...}) = 0
+mmap(NULL, 4036760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d521d000
+mprotect(0x7ff2d53ce000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d55cd000, 155648, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7ff2d55cd000
+mmap(0x7ff2d55f3000, 14488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2d55f3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100728, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a57000
+mmap(NULL, 2195784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d5004000
+mprotect(0x7ff2d501c000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d521b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7ff2d521b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libidn.so.11", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=207128, ...}) = 0
+mmap(NULL, 2302208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d4dd1000
+mprotect(0x7ff2d4e02000, 2097152, PROT_NONE) = 0
+mmap(0x7ff2d5002000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7ff2d5002000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18936, ...}) = 0
+mmap(NULL, 2113968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d4bcc000
+mprotect(0x7ff2d4bd0000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d4dcf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7ff2d4dcf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1845024, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a56000
+mmap(NULL, 3953344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d4806000
+mprotect(0x7ff2d49c2000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d4bc1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bb000) = 0x7ff2d4bc1000
+mmap(0x7ff2d4bc7000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2d4bc7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d4602000
+mprotect(0x7ff2d4605000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d4804000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff2d4804000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a55000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a53000
+arch_prctl(ARCH_SET_FS, 0x7ff2d5a53780) = 0
+mprotect(0x7ff2d4bc1000, 16384, PROT_READ) = 0
+mprotect(0x7ff2d4804000, 4096, PROT_READ) = 0
+mprotect(0x7ff2d4dcf000, 4096, PROT_READ) = 0
+mprotect(0x7ff2d5002000, 4096, PROT_READ) = 0
+mprotect(0x7ff2d521b000, 4096, PROT_READ) = 0
+mprotect(0x7ff2d55cd000, 110592, PROT_READ) = 0
+mprotect(0x7ff2d584b000, 12288, PROT_READ) = 0
+mprotect(0x65e000, 4096, PROT_READ)     = 0
+mprotect(0x7ff2d5a77000, 4096, PROT_READ) = 0
+munmap(0x7ff2d5a58000, 115291)          = 0
+brk(0)                                  = 0x229d000
+brk(0x22be000)                          = 0x22be000
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2919792, ...}) = 0
+mmap(NULL, 2919792, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff2d4339000
+close(3)                                = 0
+stat("/etc/wgetrc", {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+open("/etc/wgetrc", O_RDONLY)           = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4812, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "###\n### Sample Wget initializati"..., 4096) = 4096
+read(3, "by setting this to on.\n#recursiv"..., 4096) = 716
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+stat("/home/bearface/.wgetrc", 0x7fffc9612a10) = -1 ENOENT (No such file or directory)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGHUP, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7ff2d483cff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x421350, [HUP], SA_RESTORER|SA_RESTART, 0x7ff2d483cff0}, {SIG_IGN, [HUP], SA_RESTORER|SA_RESTART, 0x7ff2d483cff0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x421350, [USR1], SA_RESTORER|SA_RESTART, 0x7ff2d483cff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7ff2d483cff0}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x422a80, [WINCH], SA_RESTORER|SA_RESTART, 0x7ff2d483cff0}, {SIG_DFL, [], 0}, 8) = 0
+statfs("/home/bearface/website_output/www.unc.edu", 0x7fffc96124d0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49156278, f_bavail=46139472, f_files=15065088, f_ffree=14788891, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc9612520) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc96125b0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.unc.edu", 0x7fffc96124d0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49156277, f_bavail=46139471, f_files=15065088, f_ffree=14788891, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc9612520) = -1 ENOENT (No such file or directory)
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\0"..., 4096) = 3519
+lseek(3, -2252, SEEK_CUR)               = 1267
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 2252
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+write(2, "--2014-06-30 12:10:35--  http://"..., 45) = 45
+stat("/home/bearface/.netrc", 0x7fffc9612010) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2570
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/wget.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+write(2, "Resolving www.unc.edu (www.unc.e"..., 39) = 39
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+open("/etc/host.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=92, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "# The \"order\" line is only used "..., 4096) = 92
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+getpid()                                = 9269
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff2d5a58000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47712, ...}) = 0
+mmap(NULL, 2144392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d412d000
+mprotect(0x7ff2d4138000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d4337000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7ff2d4337000
+close(3)                                = 0
+mprotect(0x7ff2d4337000, 4096, PROT_READ) = 0
+munmap(0x7ff2d5a58000, 115291)          = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff2d5a58000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10432, ...}) = 0
+mmap(NULL, 2105560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d3f2a000
+mprotect(0x7ff2d3f2c000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d412b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7ff2d412b000
+close(3)                                = 0
+mprotect(0x7ff2d412b000, 4096, PROT_READ) = 0
+munmap(0x7ff2d5a58000, 115291)          = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=115291, ...}) = 0
+mmap(NULL, 115291, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff2d5a58000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_dns.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22952, ...}) = 0
+mmap(NULL, 2117896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d3d24000
+mprotect(0x7ff2d3d29000, 2093056, PROT_NONE) = 0
+mmap(0x7ff2d3f28000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7ff2d3f28000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320:\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=101240, ...}) = 0
+mmap(NULL, 2206376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff2d3b09000
+mprotect(0x7ff2d3b20000, 2097152, PROT_NONE) = 0
+mmap(0x7ff2d3d20000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7ff2d3d20000
+mmap(0x7ff2d3d22000, 6824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7ff2d3d22000
+close(3)                                = 0
+mprotect(0x7ff2d3d20000, 4096, PROT_READ) = 0
+mprotect(0x7ff2d3f28000, 4096, PROT_READ) = 0
+munmap(0x7ff2d5a58000, 115291)          = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "# Dynamic resolv.conf(5) file fo"..., 4096) = 187
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendmmsg(3, {{{msg_name(0)=NULL, msg_iov(1)=[{"/4\1\0\0\1\0\0\0\0\0\0\3www\3unc\3edu\0\0\1\0\1", 29}], msg_controllen=0, msg_flags=0}, 29}, {{msg_name(0)=NULL, msg_iov(1)=[{"q\227\1\0\0\1\0\0\0\0\0\0\3www\3unc\3edu\0\0\34\0\1", 29}], msg_controllen=0, msg_flags=0}, 29}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=3, events=POLLIN}], 1, 5000)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [382])               = 0
+recvfrom(3, "/4\201\200\0\1\0\1\0\5\0\n\3www\3unc\3edu\0\0\1\0\1\300\f\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 382
+poll([{fd=3, events=POLLIN}], 1, 4996)  = 1 ([{fd=3, revents=POLLIN}])
+ioctl(3, FIONREAD, [394])               = 0
+recvfrom(3, "q\227\201\200\0\1\0\1\0\5\0\n\3www\3unc\3edu\0\0\34\0\1\300\f\0"..., 1666, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 394
+close(3)                                = 0
+open("/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(3, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 3
+bind(3, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, pid=9269, groups=00000000}, [12]) = 0
+sendto(3, "\24\0\0\0\26\0\1\3\373\213\261S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0\373\213\261S5$\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 308
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\373\213\261S5$\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 256
+recvmsg(3, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\373\213\261S5$\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(3)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("152.19.230.139")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(42880), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+close(3)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2610:28:3090:3010::13", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(3)                                = 0
+write(2, "152.19.230.139", 14)          = 14
+write(2, ", ", 2)                       = 2
+write(2, "2610:28:3090:3010::13", 21)   = 21
+write(2, "\n", 1)                       = 1
+write(2, "Connecting to www.unc.edu (www.u"..., 62) = 62
+socket(PF_INET, SOCK_STREAM, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("152.19.230.139")}, 16) = 0
+write(2, "connected.\n", 11)            = 11
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999996})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Mozi"..., 95) = 95
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 989988})
+recvfrom(3, "HTTP/1.1 301 Moved Permanently\r\n"..., 511, MSG_PEEK, NULL, NULL) = 383
+read(3, "HTTP/1.1 301 Moved Permanently\r\n"..., 383) = 383
+write(2, "301 Moved Permanently\n", 22) = 22
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc9611ff0) = -1 ENOENT (No such file or directory)
+write(2, "Location: http://unc.edu/ [follo"..., 38) = 38
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+statfs("/home/bearface/website_output/www.unc.edu", 0x7fffc96124d0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49156274, f_bavail=46139468, f_files=15065088, f_ffree=14788891, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc9612520) = -1 ENOENT (No such file or directory)
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc96125b0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output/www.unc.edu", 0x7fffc96124d0) = -1 ENOENT (No such file or directory)
+statfs("/home/bearface/website_output", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=59275954, f_bfree=49156274, f_bavail=46139468, f_files=15065088, f_ffree=14788891, f_fsid={533008265, 2108930253}, f_namelen=255, f_frsize=4096}) = 0
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc9612520) = -1 ENOENT (No such file or directory)
+nanosleep({1, 0}, 0x7fffc9612630)       = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "--2014-06-30 12:10:36--  http://"..., 41) = 41
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("152.19.230.139")}, [16]) = 0
+write(2, "Resolving unc.edu (unc.edu)... ", 31) = 31
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+open("/etc/hosts", O_RDONLY|O_CLOEXEC)  = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=219, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a74000
+read(4, "127.0.0.1\tlocalhost\n127.0.1.1\tdo"..., 4096) = 219
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7ff2d5a74000, 4096)            = 0
+stat("/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=187, ...}) = 0
+socket(PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, 16) = 0
+poll([{fd=4, events=POLLOUT}], 1, 0)    = 1 ([{fd=4, revents=POLLOUT}])
+sendmmsg(4, {{{msg_name(0)=NULL, msg_iov(1)=[{"C\371\1\0\0\1\0\0\0\0\0\0\3unc\3edu\0\0\1\0\1", 25}], msg_controllen=0, msg_flags=MSG_PEEK|MSG_FASTOPEN|0x15000000}, 25}, {{msg_name(0)=NULL, msg_iov(1)=[{"Ij\1\0\0\1\0\0\0\0\0\0\3unc\3edu\0\0\34\0\1", 25}], msg_controllen=0, msg_flags=MSG_TRUNC|MSG_WAITALL|MSG_SYN|MSG_WAITFORONE|MSG_CMSG_CLOEXEC|0x89600000}, 25}}, 2, MSG_NOSIGNAL) = 2
+poll([{fd=4, events=POLLIN}], 1, 5000)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [378])               = 0
+recvfrom(4, "C\371\201\200\0\1\0\1\0\5\0\n\3unc\3edu\0\0\1\0\1\300\f\0\1\0\1\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 378
+poll([{fd=4, events=POLLIN}], 1, 4991)  = 1 ([{fd=4, revents=POLLIN}])
+ioctl(4, FIONREAD, [390])               = 0
+recvfrom(4, "Ij\201\200\0\1\0\1\0\5\0\n\3unc\3edu\0\0\34\0\1\300\f\0\34\0\1\0"..., 1670, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.1.1")}, [16]) = 390
+close(4)                                = 0
+socket(PF_NETLINK, SOCK_RAW, 0)         = 4
+bind(4, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 0
+getsockname(4, {sa_family=AF_NETLINK, pid=9269, groups=00000000}, [12]) = 0
+sendto(4, "\24\0\0\0\26\0\1\3\374\213\261S\0\0\0\0\0\0\0\0", 20, 0, {sa_family=AF_NETLINK, pid=0, groups=00000000}, 12) = 20
+recvmsg(4, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"D\0\0\0\24\0\2\0\374\213\261S5$\0\0\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 308
+recvmsg(4, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"@\0\0\0\24\0\2\0\374\213\261S5$\0\0\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0"..., 4096}], msg_controllen=0, msg_flags=0}, 0) = 256
+recvmsg(4, {msg_name(12)={sa_family=AF_NETLINK, pid=0, groups=00000000}, msg_iov(1)=[{"\24\0\0\0\3\0\2\0\374\213\261S5$\0\0\0\0\0\0", 4096}], msg_controllen=0, msg_flags=0}, 0) = 20
+close(4)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("152.19.230.139")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(59620), sin_addr=inet_addr("10.203.96.17")}, [16]) = 0
+close(4)                                = 0
+socket(PF_INET6, SOCK_DGRAM, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "2610:28:3090:3010::13", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+close(4)                                = 0
+write(2, "152.19.230.139", 14)          = 14
+write(2, ", ", 2)                       = 2
+write(2, "2610:28:3090:3010::13", 21)   = 21
+write(2, "\n", 1)                       = 1
+select(4, [3], NULL, NULL, {0, 1})      = 0 (Timeout)
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("152.19.230.139")}, [16]) = 0
+write(2, "Reusing existing connection to w"..., 47) = 47
+select(4, NULL, [3], NULL, {900, 0})    = 1 (out [3], left {899, 999998})
+write(3, "GET / HTTP/1.1\r\nUser-Agent: Mozi"..., 91) = 91
+write(2, "HTTP request sent, awaiting resp"..., 40) = 40
+select(4, [3], NULL, NULL, {900, 0})    = 1 (in [3], left {899, 992138})
+recvfrom(3, "HTTP/1.1 200 OK\r\nX-Pingback: htt"..., 511, MSG_PEEK, NULL, NULL) = 266
+read(3, "HTTP/1.1 200 OK\r\nX-Pingback: htt"..., 266) = 266
+write(2, "200 OK\n", 7)                 = 7
+stat("/home/bearface/website_output/www.unc.edu/index.html", 0x7fffc9612050) = -1 ENOENT (No such file or directory)
+write(2, "Length: ", 8)                 = 8
+write(2, "38637", 5)                    = 5
+write(2, " (38K)", 6)                   = 6
+write(2, " [text/html]\n", 13)          = 13
+stat("/home/bearface/website_output/www.unc.edu", 0x7fffc9612040) = -1 ENOENT (No such file or directory)
+stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bearface/website_output/www.unc.edu", 0x7fffc9611f60) = -1 ENOENT (No such file or directory)
+mkdir("/home/bearface/website_output/www.unc.edu", 0777) = 0
+open("/home/bearface/website_output/www.unc.edu/index.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 4
+open("/usr/lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+write(2, "Saving to: \342\200\230/home/bearface/web"..., 70) = 70
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\n", 1)                       = 1
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 5, 0) = 0x7ff2d5a6e000
+close(5)                                = 0
+write(2, "\r", 1)                       = 1
+write(2, " 0% [                           "..., 79) = 79
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "<!DOCTYPE html>\n<html lang=\"en-U"..., 8192) = 4498
+fstat(4, {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff2d5a6d000
+write(4, "<!DOCTYPE html>\n<html lang=\"en-U"..., 4096) = 4096
+write(4, " \t\t\t\tvar s = document.getElement"..., 402) = 402
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 944705})
+read(3, "c=g;m.parentNode.insertBefore(a,"..., 8192) = 532
+write(4, "c=g;m.parentNode.insertBefore(a,"..., 532) = 532
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949351})
+read(3, "am .description .image {\r\n  back"..., 8192) = 496
+write(4, "am .description .image {\r\n  back"..., 496) = 496
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949528})
+read(3, "px; display:block;}\r\n\r\n.slb_data"..., 8192) = 1448
+write(4, "px; display:block;}\r\n\r\n.slb_data"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949293})
+read(3, "bg-minify\">-</div>\n\t<div id=\"abo"..., 8192) = 2896
+write(4, "bg-minify\">-</div>\n\t<div id=\"abo"..., 2896) = 2896
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "maps/?q=\">\n\t\t\t\t\t\t\t\t\t\tPlaces </la"..., 8192) = 1448
+write(4, "maps/?q=\">\n\t\t\t\t\t\t\t\t\t\tPlaces </la"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949378})
+read(3, "v> <!-- #header-top -->\n\n\t\t<nav "..., 8192) = 1448
+write(4, "v> <!-- #header-top -->\n\n\t\t<nav "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 946731})
+read(3, "930\" class=\"menu-item menu-item-"..., 8192) = 1368
+write(4, "930\" class=\"menu-item menu-item-"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949285})
+read(3, "rent Students</a></li>\n<li id=\"m"..., 8192) = 80
+write(4, "rent Students</a></li>\n<li id=\"m"..., 80) = 80
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949301})
+read(3, "post_type menu-item-object-page "..., 8192) = 1448
+write(4, "post_type menu-item-object-page "..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949929})
+read(3, "em-34573\" class=\"menu-item menu-"..., 8192) = 1448
+write(4, "em-34573\" class=\"menu-item menu-"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949538})
+read(3, " menu-item-object-custom\"><a hre"..., 8192) = 1448
+write(4, " menu-item-object-custom\"><a hre"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949896})
+read(3, "nu-item-object-custom menu-item-"..., 8192) = 1448
+write(4, "nu-item-object-custom menu-item-"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949255})
+read(3, "\t\t\t\t\t\t\t<div class=\"slide-graphic"..., 8192) = 1448
+write(4, "\t\t\t\t\t\t\t<div class=\"slide-graphic"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949997})
+read(3, "40\" height=\"248\" src=\"http://www"..., 8192) = 1448
+write(4, "40\" height=\"248\" src=\"http://www"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949929})
+read(3, "\t\t\t\t\t\t\t<h1 class=\"title\"><a href"..., 8192) = 1448
+write(4, "\t\t\t\t\t\t\t<h1 class=\"title\"><a href"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "lide-pager-wrapper -->\n\t\t\t\t\t\t<di"..., 8192) = 1448
+write(4, "lide-pager-wrapper -->\n\t\t\t\t\t\t<di"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "g-pros-cons/\">READ MORE >></a></"..., 8192) = 1448
+write(4, "g-pros-cons/\">READ MORE >></a></"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948964})
+read(3, "le/\">Ackland summer exhibition c"..., 8192) = 1448
+write(4, "le/\">Ackland summer exhibition c"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949998})
+read(3, "excerpt\">\n\t\t\t\t\t\t\t\t\t\t\t<h3><a href"..., 8192) = 1368
+write(4, "excerpt\">\n\t\t\t\t\t\t\t\t\t\t\t<h3><a href"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949492})
+read(3, "\">Campus Updates ARCHIVE &raquo;"..., 8192) = 80
+write(4, "\">Campus Updates ARCHIVE &raquo;"..., 80) = 80
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949525})
+read(3, "eam\">\n\t\t\t\t\t\t\t<h2>Photo Stream\n\t\t"..., 8192) = 1448
+write(4, "eam\">\n\t\t\t\t\t\t\t<h2>Photo Stream\n\t\t"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949294})
+read(3, "s=\"clear\"></div>\n\t\t\t\t\t</div><!--"..., 7047) = 1368
+write(4, "s=\"clear\"></div>\n\t\t\t\t\t</div><!--"..., 1368) = 1368
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 948787})
+read(3, "nt\">\n\t\t\t\t\t<div class=\"date\">\n\t\t\t"..., 5679) = 80
+write(4, "nt\">\n\t\t\t\t\t<div class=\"date\">\n\t\t\t"..., 80) = 80
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949529})
+read(3, "-for-undergraduate-students-to-d"..., 5599) = 1448
+write(4, "-for-undergraduate-students-to-d"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949900})
+read(3, "du\">Read More &#187;</a></div>\n\t"..., 4151) = 1448
+write(4, "du\">Read More &#187;</a></div>\n\t"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949271})
+read(3, "lina\">Alert Carolina</a></li>\n\t\t"..., 2703) = 1448
+write(4, "lina\">Alert Carolina</a></li>\n\t\t"..., 1448) = 1448
+select(4, [3], NULL, NULL, {0, 950000}) = 1 (in [3], left {0, 949930})
+read(3, "ipt type=\"text/javascript\">\n\tjQu"..., 1255) = 1255
+write(4, "ipt type=\"text/javascript\">\n\tjQu"..., 1255) = 1255
+write(2, "\r", 1)                       = 1
+write(2, "100%[==========================="..., 79) = 79
+write(2, "\n\n", 2)                     = 2
+close(4)                                = 0
+munmap(0x7ff2d5a6d000, 4096)            = 0
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "2014-06-30 12:10:36 (1.49 MB/s) "..., 114) = 114
+stat("/etc/localtime", {st_mode=S_IFREG|0644, st_size=3519, ...}) = 0
+write(2, "FINISHED --2014-06-30 12:10:36--"..., 107) = 107
+exit_group(0)                           = ?
++++ exited with 0 +++
